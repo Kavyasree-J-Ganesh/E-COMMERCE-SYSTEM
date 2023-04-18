@@ -1,0 +1,652 @@
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-17T12:13:14.067Z"}
+info: Connected to the database. {"timestamp":"2023-04-17T12:13:14.093Z"}
+error: 
+    status - 500 
+    message - ValidationError: "name" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-17T12:13:38.442Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-17T12:14:20.447Z"}
+info: Connected to the database. {"timestamp":"2023-04-17T12:14:20.478Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-17T12:14:45.847Z"}
+info: Connected to the database. {"timestamp":"2023-04-17T12:14:45.878Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-17T12:15:13.992Z"}
+info: Connected to the database. {"timestamp":"2023-04-17T12:15:14.027Z"}
+error: 
+    status - 500 
+    message - ValidationError: "name" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-17T12:15:28.438Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-17T12:16:57.603Z"}
+info: Connected to the database. {"timestamp":"2023-04-17T12:16:57.632Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-17T12:17:08.671Z"}
+info: Connected to the database. {"timestamp":"2023-04-17T12:17:08.704Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-17T12:17:19.425Z"}
+info: Connected to the database. {"timestamp":"2023-04-17T12:17:19.459Z"}
+error: 
+    status - 500 
+    message - TypeError: _joi.default.integer is not a function
+    at newUserValidator (D:\Backend\E-Commerce\e-commerce_Backend\src\validators\/user.validator.js:6:22)
+    at Layer.handle [as handle_request] (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:280:10)
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\raw-body\index.js:231:16)
+    at done (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-17T12:17:25.523Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-17T12:17:39.325Z"}
+info: Connected to the database. {"timestamp":"2023-04-17T12:17:39.353Z"}
+error: 
+    status - 500 
+    message - ValidationError: "phonenumber" must be a number 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-17T12:17:42.766Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: e-commerce.users index: email_1 dup key: { email: "shashank60@gmail.com" } 
+      url - /api/v1/users 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-04-17T12:19:39.097Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:399:5)
+    at ServerResponse.writeHead (node:_http_server:344:11)
+    at ServerResponse.writeHead (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:335:8)
+    at write_ (node:_http_outgoing:908:9)
+    at ServerResponse.end (node:_http_outgoing:1016:5)
+    at ServerResponse.send (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (D:\Backend\E-Commerce\e-commerce_Backend\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:326:13)
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:478:21) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-17T12:19:39.115Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: e-commerce.users index: email_1 dup key: { email: "shashank60@gmail.com" } 
+      url - /api/v1/users 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-04-17T12:19:48.516Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:399:5)
+    at ServerResponse.writeHead (node:_http_server:344:11)
+    at ServerResponse.writeHead (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:335:8)
+    at write_ (node:_http_outgoing:908:9)
+    at ServerResponse.end (node:_http_outgoing:1016:5)
+    at ServerResponse.send (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (D:\Backend\E-Commerce\e-commerce_Backend\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:326:13)
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:478:21) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-17T12:19:48.521Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: e-commerce.users index: email_1 dup key: { email: "shashank60@gmail.com" } 
+      url - /api/v1/users 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-04-17T12:19:52.893Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:399:5)
+    at ServerResponse.writeHead (node:_http_server:344:11)
+    at ServerResponse.writeHead (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:335:8)
+    at write_ (node:_http_outgoing:908:9)
+    at ServerResponse.end (node:_http_outgoing:1016:5)
+    at ServerResponse.send (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (D:\Backend\E-Commerce\e-commerce_Backend\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:326:13)
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:478:21) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-17T12:19:52.896Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: e-commerce.users index: email_1 dup key: { email: "shashank606@gmail.com" } 
+      url - /api/v1/users 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-04-17T12:21:03.498Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:399:5)
+    at ServerResponse.writeHead (node:_http_server:344:11)
+    at ServerResponse.writeHead (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:335:8)
+    at write_ (node:_http_outgoing:908:9)
+    at ServerResponse.end (node:_http_outgoing:1016:5)
+    at ServerResponse.send (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (D:\Backend\E-Commerce\e-commerce_Backend\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:326:13)
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:478:21) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-17T12:21:03.502Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-17T12:26:10.713Z"}
+info: Connected to the database. {"timestamp":"2023-04-17T12:26:10.745Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-17T12:26:28.309Z"}
+info: Connected to the database. {"timestamp":"2023-04-17T12:26:28.346Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-17T12:30:56.833Z"}
+info: Connected to the database. {"timestamp":"2023-04-17T12:30:56.893Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-17T12:31:13.683Z"}
+info: Connected to the database. {"timestamp":"2023-04-17T12:31:13.718Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-17T12:32:40.726Z"}
+info: Connected to the database. {"timestamp":"2023-04-17T12:32:40.750Z"}
+error: 
+    status - 500 
+    message - Error: ReferenceError: bcrypt is not defined
+    at _callee2$ (D:\Backend\E-Commerce\e-commerce_Backend\src\services\/user.service.js:24:11)
+    at tryCatch (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-17T12:33:26.547Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-17T12:34:57.724Z"}
+info: Connected to the database. {"timestamp":"2023-04-17T12:34:57.756Z"}
+error: 
+    status - 500 
+    message - ValidationError: "fullname" is required 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-17T12:35:05.574Z"}
+error: 
+    status - 500 
+    message - Error: ReferenceError: bcrypt is not defined
+    at _callee2$ (D:\Backend\E-Commerce\e-commerce_Backend\src\services\/user.service.js:24:11)
+    at tryCatch (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-17T12:35:11.277Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-17T12:36:31.629Z"}
+info: Connected to the database. {"timestamp":"2023-04-17T12:36:31.658Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-17T12:36:55.774Z"}
+info: Connected to the database. {"timestamp":"2023-04-17T12:36:55.808Z"}
+error: 
+    status - 500 
+    message - Error: ReferenceError: bcrypt is not defined
+    at _callee2$ (D:\Backend\E-Commerce\e-commerce_Backend\src\services\/user.service.js:24:11)
+    at tryCatch (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-17T12:37:17.881Z"}
+error: 
+    status - 500 
+    message - Error: ReferenceError: bcrypt is not defined
+    at _callee2$ (D:\Backend\E-Commerce\e-commerce_Backend\src\services\/user.service.js:24:11)
+    at tryCatch (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-17T12:37:19.265Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-17T12:38:22.085Z"}
+info: Connected to the database. {"timestamp":"2023-04-17T12:38:22.126Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-17T12:38:31.172Z"}
+info: Connected to the database. {"timestamp":"2023-04-17T12:38:31.206Z"}
+error: 
+    status - 500 
+    message - Error: ReferenceError: bcrypt is not defined
+    at _callee2$ (D:\Backend\E-Commerce\e-commerce_Backend\src\services\/user.service.js:24:11)
+    at tryCatch (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-17T12:39:02.727Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: e-commerce.users index: email_1 dup key: { email: "shashank606@gmail.com" } 
+      url - /api/v1/users/ 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-04-17T12:39:09.620Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:399:5)
+    at ServerResponse.writeHead (node:_http_server:344:11)
+    at ServerResponse.writeHead (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:335:8)
+    at write_ (node:_http_outgoing:908:9)
+    at ServerResponse.end (node:_http_outgoing:1016:5)
+    at ServerResponse.send (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (D:\Backend\E-Commerce\e-commerce_Backend\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:326:13)
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:478:21) 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-17T12:39:09.641Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: e-commerce.users index: email_1 dup key: { email: "shashank606@gmail.com" } 
+      url - /api/v1/users/ 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-04-17T12:39:14.737Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:399:5)
+    at ServerResponse.writeHead (node:_http_server:344:11)
+    at ServerResponse.writeHead (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:335:8)
+    at write_ (node:_http_outgoing:908:9)
+    at ServerResponse.end (node:_http_outgoing:1016:5)
+    at ServerResponse.send (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (D:\Backend\E-Commerce\e-commerce_Backend\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:326:13)
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:478:21) 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-17T12:39:14.744Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: e-commerce.users index: email_1 dup key: { email: "shashank606@gmail.com" } 
+      url - /api/v1/users/ 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-04-17T12:39:15.888Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:399:5)
+    at ServerResponse.writeHead (node:_http_server:344:11)
+    at ServerResponse.writeHead (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:335:8)
+    at write_ (node:_http_outgoing:908:9)
+    at ServerResponse.end (node:_http_outgoing:1016:5)
+    at ServerResponse.send (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (D:\Backend\E-Commerce\e-commerce_Backend\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:326:13)
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:478:21) 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-17T12:39:15.893Z"}
+error: 
+    status - 500 
+    message - Error: ReferenceError: bcrypt is not defined
+    at _callee2$ (D:\Backend\E-Commerce\e-commerce_Backend\src\services\/user.service.js:24:11)
+    at tryCatch (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-17T12:39:27.292Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-17T12:41:24.083Z"}
+info: Connected to the database. {"timestamp":"2023-04-17T12:41:24.129Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-17T12:44:15.161Z"}
+info: Connected to the database. {"timestamp":"2023-04-17T12:44:15.185Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-17T12:44:26.717Z"}
+info: Connected to the database. {"timestamp":"2023-04-17T12:44:26.750Z"}
+error: 
+    status - 500 
+    message - Error: ReferenceError: bcrypt is not defined
+    at _callee2$ (D:\Backend\E-Commerce\e-commerce_Backend\src\services\/user.service.js:24:11)
+    at tryCatch (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-17T12:47:23.457Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-17T12:48:14.699Z"}
+info: Connected to the database. {"timestamp":"2023-04-17T12:48:14.745Z"}
+error: 
+    status - 500 
+    message - Error: ReferenceError: bcrypt is not defined
+    at _callee2$ (D:\Backend\E-Commerce\e-commerce_Backend\src\services\/user.service.js:24:11)
+    at tryCatch (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-17T12:48:18.781Z"}
+error: 
+    status - 500 
+    message - Error: ReferenceError: bcrypt is not defined
+    at _callee2$ (D:\Backend\E-Commerce\e-commerce_Backend\src\services\/user.service.js:24:11)
+    at tryCatch (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-17T12:48:55.659Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-17T12:50:31.614Z"}
+info: Connected to the database. {"timestamp":"2023-04-17T12:50:31.637Z"}
+error: 
+    status - 500 
+    message - Error: Error: Invalid Password
+    at _callee2$ (D:\Backend\E-Commerce\e-commerce_Backend\src\services\/user.service.js:25:11)
+    at tryCatch (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-17T12:50:37.694Z"}
+error: 
+    status - 500 
+    message - Error: Error: Invalid Password
+    at _callee2$ (D:\Backend\E-Commerce\e-commerce_Backend\src\services\/user.service.js:25:11)
+    at tryCatch (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-17T12:50:45.225Z"}
+error: 
+    status - 500 
+    message - Error: Error: Invalid Password
+    at _callee2$ (D:\Backend\E-Commerce\e-commerce_Backend\src\services\/user.service.js:25:11)
+    at tryCatch (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-17T12:51:13.015Z"}
+error: 
+    status - 500 
+    message - Error: Error: Invalid Password
+    at _callee2$ (D:\Backend\E-Commerce\e-commerce_Backend\src\services\/user.service.js:25:11)
+    at tryCatch (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-17T12:51:33.798Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-17T12:52:38.239Z"}
+info: Connected to the database. {"timestamp":"2023-04-17T12:52:38.269Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-17T12:52:51.385Z"}
+info: Connected to the database. {"timestamp":"2023-04-17T12:52:51.411Z"}
+error: 
+    status - 500 
+    message - Error: Error: Invalid Email
+    at _callee2$ (D:\Backend\E-Commerce\e-commerce_Backend\src\services\/user.service.js:23:11)
+    at tryCatch (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-17T12:52:58.841Z"}
+error: 
+    status - 500 
+    message - ValidationError: "fullname" is required 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-17T12:55:47.887Z"}
+error: 
+    status - 500 
+    message - Error: Error: Invalid Password
+    at _callee2$ (D:\Backend\E-Commerce\e-commerce_Backend\src\services\/user.service.js:23:11)
+    at tryCatch (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-17T12:55:57.109Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-17T13:03:07.915Z"}
+info: Connected to the database. {"timestamp":"2023-04-17T13:03:07.949Z"}
+error: 
+    status - 500 
+    message - Error: Error: Invalid Password
+    at _callee2$ (D:\Backend\E-Commerce\e-commerce_Backend\src\services\/user.service.js:23:11)
+    at tryCatch (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-17T13:03:48.877Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-17T13:04:40.374Z"}
+info: Connected to the database. {"timestamp":"2023-04-17T13:04:40.397Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-17T13:05:01.460Z"}
+info: Connected to the database. {"timestamp":"2023-04-17T13:05:01.495Z"}
+error: 
+    status - 500 
+    message - Error: ReferenceError: Jwt is not defined
+    at _callee2$ (D:\Backend\E-Commerce\e-commerce_Backend\src\services\/user.service.js:34:11)
+    at tryCatch (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-17T13:05:44.668Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-17T13:06:39.195Z"}
+info: Connected to the database. {"timestamp":"2023-04-17T13:06:39.240Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-17T13:06:48.363Z"}
+info: Connected to the database. {"timestamp":"2023-04-17T13:06:48.387Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-17T13:07:10.613Z"}
+info: Connected to the database. {"timestamp":"2023-04-17T13:07:10.646Z"}
+error: 
+    status - 500 
+    message - Error: Error: Invalid Email
+    at _callee2$ (D:\Backend\E-Commerce\e-commerce_Backend\src\services\/user.service.js:36:11)
+    at tryCatch (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-17T13:08:14.497Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-17T13:17:04.738Z"}
+info: Connected to the database. {"timestamp":"2023-04-17T13:17:04.760Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-17T13:17:30.224Z"}
+info: Connected to the database. {"timestamp":"2023-04-17T13:17:30.250Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" is required 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-17T13:17:38.027Z"}
+error: 
+    status - 500 
+    message - Error: User already exist
+    at _callee$ (D:\Backend\E-Commerce\e-commerce_Backend\src\services\/user.service.js:18:11)
+    at tryCatch (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-17T13:17:45.548Z"}
+error: 
+    status - 500 
+    message - Error: User already exist
+    at _callee$ (D:\Backend\E-Commerce\e-commerce_Backend\src\services\/user.service.js:18:11)
+    at tryCatch (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-17T13:18:07.264Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-17T13:21:35.670Z"}
+info: Connected to the database. {"timestamp":"2023-04-17T13:21:35.708Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-17T13:21:47.208Z"}
+info: Connected to the database. {"timestamp":"2023-04-17T13:21:47.229Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-17T13:21:58.823Z"}
+info: Connected to the database. {"timestamp":"2023-04-17T13:21:58.852Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-17T13:22:31.549Z"}
+info: Connected to the database. {"timestamp":"2023-04-17T13:22:31.575Z"}
+info: Connected to the database. {"timestamp":"2023-04-17T13:23:32.117Z"}
+info: Connected to the database. {"timestamp":"2023-04-17T13:23:58.751Z"}
+info: Connected to the database. {"timestamp":"2023-04-17T13:24:03.650Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-17T13:25:13.147Z"}
+info: Connected to the database. {"timestamp":"2023-04-17T13:25:13.180Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-17T13:25:44.504Z"}
+info: Connected to the database. {"timestamp":"2023-04-17T13:25:44.554Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-17T13:25:50.024Z"}
+info: Connected to the database. {"timestamp":"2023-04-17T13:25:50.056Z"}

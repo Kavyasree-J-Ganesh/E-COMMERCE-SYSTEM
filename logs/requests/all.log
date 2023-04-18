@@ -1,0 +1,168 @@
+info: ::1 - - [17/Apr/2023:12:13:38 +0000] "POST /api/v1/users HTTP/1.1" 500 55 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/Apr/2023:12:15:28 +0000] "POST /api/v1/users HTTP/1.1" 500 55 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/Apr/2023:12:17:25 +0000] "POST /api/v1/users HTTP/1.1" 500 73 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/Apr/2023:12:17:42 +0000] "POST /api/v1/users HTTP/1.1" 500 67 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/Apr/2023:12:18:47 +0000] "POST /api/v1/users HTTP/1.1" 201 275 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/Apr/2023:12:19:39 +0000] "POST /api/v1/users HTTP/1.1" 500 61 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/Apr/2023:12:19:48 +0000] "POST /api/v1/users HTTP/1.1" 500 61 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/Apr/2023:12:19:52 +0000] "POST /api/v1/users HTTP/1.1" 500 61 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/Apr/2023:12:20:58 +0000] "POST /api/v1/users HTTP/1.1" 201 276 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/Apr/2023:12:21:03 +0000] "POST /api/v1/users HTTP/1.1" 500 61 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/Apr/2023:12:33:26 +0000] "POST /api/v1/users/login HTTP/1.1" 500 72 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/Apr/2023:12:34:12 +0000] "POST /api/v1/users/ HTTP/1.1" 201 276 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/Apr/2023:12:35:05 +0000] "POST /api/v1/users/ HTTP/1.1" 500 59 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/Apr/2023:12:35:11 +0000] "POST /api/v1/users/login HTTP/1.1" 500 72 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/Apr/2023:12:37:17 +0000] "POST /api/v1/users/login HTTP/1.1" 500 72 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/Apr/2023:12:37:19 +0000] "POST /api/v1/users/login HTTP/1.1" 500 72 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/Apr/2023:12:39:02 +0000] "POST /api/v1/users/login HTTP/1.1" 500 72 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/Apr/2023:12:39:09 +0000] "POST /api/v1/users/ HTTP/1.1" 500 61 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/Apr/2023:12:39:14 +0000] "POST /api/v1/users/ HTTP/1.1" 500 61 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/Apr/2023:12:39:15 +0000] "POST /api/v1/users/ HTTP/1.1" 500 61 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/Apr/2023:12:39:19 +0000] "POST /api/v1/users/ HTTP/1.1" 201 275 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/Apr/2023:12:39:27 +0000] "POST /api/v1/users/login HTTP/1.1" 500 72 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/Apr/2023:12:47:23 +0000] "POST /api/v1/users/login HTTP/1.1" 500 72 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/Apr/2023:12:48:18 +0000] "POST /api/v1/users/login HTTP/1.1" 500 72 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/Apr/2023:12:48:49 +0000] "POST /api/v1/users/ HTTP/1.1" 201 275 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/Apr/2023:12:48:55 +0000] "POST /api/v1/users/login HTTP/1.1" 500 72 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/Apr/2023:12:50:37 +0000] "POST /api/v1/users/login HTTP/1.1" 500 58 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/Apr/2023:12:50:45 +0000] "POST /api/v1/users/login HTTP/1.1" 500 58 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/Apr/2023:12:50:56 +0000] "POST /api/v1/users/ HTTP/1.1" 201 276 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/Apr/2023:12:51:13 +0000] "POST /api/v1/users/login HTTP/1.1" 500 58 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/Apr/2023:12:51:33 +0000] "POST /api/v1/users/login HTTP/1.1" 500 58 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/Apr/2023:12:52:58 +0000] "POST /api/v1/users/login HTTP/1.1" 500 55 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/Apr/2023:12:53:02 +0000] "POST /api/v1/users/ HTTP/1.1" 201 278 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/Apr/2023:12:55:47 +0000] "POST /api/v1/users/ HTTP/1.1" 500 59 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/Apr/2023:12:55:57 +0000] "POST /api/v1/users/login HTTP/1.1" 500 58 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/Apr/2023:13:03:37 +0000] "POST /api/v1/users HTTP/1.1" 201 314 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/Apr/2023:13:03:48 +0000] "POST /api/v1/users/login HTTP/1.1" 500 58 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/Apr/2023:13:05:31 +0000] "POST /api/v1/users HTTP/1.1" 201 336 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/Apr/2023:13:05:44 +0000] "POST /api/v1/users/login HTTP/1.1" 500 69 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/Apr/2023:13:07:15 +0000] "POST /api/v1/users/login HTTP/1.1" 202 258 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/Apr/2023:13:08:14 +0000] "POST /api/v1/users/login HTTP/1.1" 500 55 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/Apr/2023:13:08:25 +0000] "POST /api/v1/users HTTP/1.1" 201 327 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/Apr/2023:13:08:48 +0000] "POST /api/v1/users/login HTTP/1.1" 202 246 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/Apr/2023:13:17:38 +0000] "POST /api/v1/users/ HTTP/1.1" 500 60 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/Apr/2023:13:17:45 +0000] "POST /api/v1/users/ HTTP/1.1" 500 53 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/Apr/2023:13:17:49 +0000] "POST /api/v1/users/ HTTP/1.1" 201 330 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/Apr/2023:13:18:07 +0000] "POST /api/v1/users/ HTTP/1.1" 500 53 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/Apr/2023:13:18:11 +0000] "POST /api/v1/users/ HTTP/1.1" 201 354 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/Apr/2023:13:18:55 +0000] "POST /api/v1/users/ HTTP/1.1" 201 354 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/Apr/2023:13:19:18 +0000] "POST /api/v1/users/ HTTP/1.1" 201 348 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/Apr/2023:13:19:38 +0000] "POST /api/v1/users/login HTTP/1.1" 202 245 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [17/Apr/2023:13:20:56 +0000] "POST /api/v1/users/login HTTP/1.1" 202 245 "-" "PostmanRuntime/7.32.2"
+
+error: uncaughtException: adminRoute is not defined
+ReferenceError: adminRoute is not defined
+    at routes (D:\Backend\E-Commerce\e-commerce_Backend\src\routes\/index.js:16:24)
+    at Object.<anonymous> (D:\Backend\E-Commerce\e-commerce_Backend\src\/index.js:32:38)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._compile (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.newLoader [as .js] (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.runMain (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\node\src\_babel-node.ts:223:12)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47 {"date":"Mon Apr 17 2023 18:53:32 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":288657.703},"process":{"argv":["node","D:\\Backend\\E-Commerce\\e-commerce_Backend\\src\\index.js"],"cwd":"D:\\Backend\\E-Commerce\\e-commerce_Backend","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19106483,"external":20622203,"heapTotal":93814784,"heapUsed":61212312,"rss":131739648},"pid":8656,"uid":null,"version":"v18.15.0"},"stack":"ReferenceError: adminRoute is not defined\n    at routes (D:\\Backend\\E-Commerce\\e-commerce_Backend\\src\\routes\\/index.js:16:24)\n    at Object.<anonymous> (D:\\Backend\\E-Commerce\\e-commerce_Backend\\src\\/index.js:32:38)\n    at Module._compile (node:internal/modules/cjs/loader:1254:14)\n    at Module._compile (D:\\Backend\\E-Commerce\\e-commerce_Backend\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)\n    at Object.newLoader [as .js] (D:\\Backend\\E-Commerce\\e-commerce_Backend\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1117:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:958:12)\n    at Function.runMain (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (D:\\Backend\\E-Commerce\\e-commerce_Backend\\node_modules\\@babel\\node\\src\\_babel-node.ts:223:12)\n    at Module._compile (node:internal/modules/cjs/loader:1254:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1308:10)\n    at Module.load (node:internal/modules/cjs/loader:1117:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:958:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:23:47","trace":[{"column":24,"file":"D:\\Backend\\E-Commerce\\e-commerce_Backend\\src\\routes\\/index.js","function":"routes","line":16,"method":null,"native":false},{"column":38,"file":"D:\\Backend\\E-Commerce\\e-commerce_Backend\\src\\/index.js","function":null,"line":32,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1254,"method":"_compile","native":false},{"column":24,"file":"D:\\Backend\\E-Commerce\\e-commerce_Backend\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1308,"method":".js","native":false},{"column":7,"file":"D:\\Backend\\E-Commerce\\e-commerce_Backend\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1117,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":958,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":81,"method":"runMain","native":false},{"column":12,"file":"D:\\Backend\\E-Commerce\\e-commerce_Backend\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":223,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1254,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1308,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1117,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":958,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":23,"method":null,"native":false}]}
+error: uncaughtException: adminRoute is not defined
+ReferenceError: adminRoute is not defined
+    at routes (D:\Backend\E-Commerce\e-commerce_Backend\src\routes\/index.js:16:24)
+    at Object.<anonymous> (D:\Backend\E-Commerce\e-commerce_Backend\src\/index.js:32:38)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._compile (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.newLoader [as .js] (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.runMain (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\node\src\_babel-node.ts:223:12)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47 {"date":"Mon Apr 17 2023 18:53:58 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":288684.328},"process":{"argv":["node","D:\\Backend\\E-Commerce\\e-commerce_Backend\\src\\index.js"],"cwd":"D:\\Backend\\E-Commerce\\e-commerce_Backend","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18742774,"external":20259221,"heapTotal":90406912,"heapUsed":62552960,"rss":132923392},"pid":17616,"uid":null,"version":"v18.15.0"},"stack":"ReferenceError: adminRoute is not defined\n    at routes (D:\\Backend\\E-Commerce\\e-commerce_Backend\\src\\routes\\/index.js:16:24)\n    at Object.<anonymous> (D:\\Backend\\E-Commerce\\e-commerce_Backend\\src\\/index.js:32:38)\n    at Module._compile (node:internal/modules/cjs/loader:1254:14)\n    at Module._compile (D:\\Backend\\E-Commerce\\e-commerce_Backend\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)\n    at Object.newLoader [as .js] (D:\\Backend\\E-Commerce\\e-commerce_Backend\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1117:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:958:12)\n    at Function.runMain (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (D:\\Backend\\E-Commerce\\e-commerce_Backend\\node_modules\\@babel\\node\\src\\_babel-node.ts:223:12)\n    at Module._compile (node:internal/modules/cjs/loader:1254:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1308:10)\n    at Module.load (node:internal/modules/cjs/loader:1117:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:958:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:23:47","trace":[{"column":24,"file":"D:\\Backend\\E-Commerce\\e-commerce_Backend\\src\\routes\\/index.js","function":"routes","line":16,"method":null,"native":false},{"column":38,"file":"D:\\Backend\\E-Commerce\\e-commerce_Backend\\src\\/index.js","function":null,"line":32,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1254,"method":"_compile","native":false},{"column":24,"file":"D:\\Backend\\E-Commerce\\e-commerce_Backend\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1308,"method":".js","native":false},{"column":7,"file":"D:\\Backend\\E-Commerce\\e-commerce_Backend\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1117,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":958,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":81,"method":"runMain","native":false},{"column":12,"file":"D:\\Backend\\E-Commerce\\e-commerce_Backend\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":223,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1254,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1308,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1117,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":958,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":23,"method":null,"native":false}]}
+error: uncaughtException: adminRoute is not defined
+ReferenceError: adminRoute is not defined
+    at routes (D:\Backend\E-Commerce\e-commerce_Backend\src\routes\/index.js:16:24)
+    at Object.<anonymous> (D:\Backend\E-Commerce\e-commerce_Backend\src\/index.js:32:38)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._compile (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.newLoader [as .js] (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.runMain (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\node\src\_babel-node.ts:223:12)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47 {"date":"Mon Apr 17 2023 18:54:03 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":288689.25},"process":{"argv":["node","D:\\Backend\\E-Commerce\\e-commerce_Backend\\src\\index.js"],"cwd":"D:\\Backend\\E-Commerce\\e-commerce_Backend","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19075498,"external":20591945,"heapTotal":89882624,"heapUsed":70341648,"rss":132825088},"pid":20268,"uid":null,"version":"v18.15.0"},"stack":"ReferenceError: adminRoute is not defined\n    at routes (D:\\Backend\\E-Commerce\\e-commerce_Backend\\src\\routes\\/index.js:16:24)\n    at Object.<anonymous> (D:\\Backend\\E-Commerce\\e-commerce_Backend\\src\\/index.js:32:38)\n    at Module._compile (node:internal/modules/cjs/loader:1254:14)\n    at Module._compile (D:\\Backend\\E-Commerce\\e-commerce_Backend\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)\n    at Object.newLoader [as .js] (D:\\Backend\\E-Commerce\\e-commerce_Backend\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1117:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:958:12)\n    at Function.runMain (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (D:\\Backend\\E-Commerce\\e-commerce_Backend\\node_modules\\@babel\\node\\src\\_babel-node.ts:223:12)\n    at Module._compile (node:internal/modules/cjs/loader:1254:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1308:10)\n    at Module.load (node:internal/modules/cjs/loader:1117:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:958:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:23:47","trace":[{"column":24,"file":"D:\\Backend\\E-Commerce\\e-commerce_Backend\\src\\routes\\/index.js","function":"routes","line":16,"method":null,"native":false},{"column":38,"file":"D:\\Backend\\E-Commerce\\e-commerce_Backend\\src\\/index.js","function":null,"line":32,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1254,"method":"_compile","native":false},{"column":24,"file":"D:\\Backend\\E-Commerce\\e-commerce_Backend\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1308,"method":".js","native":false},{"column":7,"file":"D:\\Backend\\E-Commerce\\e-commerce_Backend\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1117,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":958,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":81,"method":"runMain","native":false},{"column":12,"file":"D:\\Backend\\E-Commerce\\e-commerce_Backend\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":223,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1254,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1308,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1117,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":958,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":23,"method":null,"native":false}]}
+info: ::1 - - [18/Apr/2023:05:18:08 +0000] "POST /api/v1/admin HTTP/1.1" 201 348 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [18/Apr/2023:05:22:12 +0000] "POST /api/v1/admin HTTP/1.1" 500 53 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [18/Apr/2023:05:22:17 +0000] "POST /api/v1/admin HTTP/1.1" 201 351 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [18/Apr/2023:05:22:17 +0000] "POST /api/v1/admin HTTP/1.1" 500 53 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [18/Apr/2023:05:22:21 +0000] "POST /api/v1/admin HTTP/1.1" 201 354 "-" "PostmanRuntime/7.32.2"
+

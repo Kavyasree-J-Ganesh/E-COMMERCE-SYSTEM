@@ -1,0 +1,10 @@
+info: ::1 - - [18/Apr/2023:05:18:08 +0000] "POST /api/v1/admin HTTP/1.1" 201 348 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [18/Apr/2023:05:22:12 +0000] "POST /api/v1/admin HTTP/1.1" 500 53 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [18/Apr/2023:05:22:17 +0000] "POST /api/v1/admin HTTP/1.1" 201 351 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [18/Apr/2023:05:22:17 +0000] "POST /api/v1/admin HTTP/1.1" 500 53 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [18/Apr/2023:05:22:21 +0000] "POST /api/v1/admin HTTP/1.1" 201 354 "-" "PostmanRuntime/7.32.2"
+
