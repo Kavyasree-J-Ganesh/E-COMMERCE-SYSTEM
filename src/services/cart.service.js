@@ -18,6 +18,18 @@ export const updateAddressDetails = async (updatedData) => {
     return updatedCart;
 };
 
+export const getCart= async (userId)=>{
+    let cart = await Cart.findOne({ userId: userId, isPurchased: false });
+    if (!cart) {
+        return {
+            userId: userId,
+            Product: [],
+            cart_total: 0
+        }
+    }
+    return cart
+  }
+
 
 export const addedToCart = async (userId, params_id) => {
     try {
@@ -28,17 +40,17 @@ export const addedToCart = async (userId, params_id) => {
 
         const userCart = (await cart.findOne({ userId: userId })) || {
             userId: userId,
-            Product: [],
+            product: [],
             cart_total: 0
         };
         let totalPrice = userCart.cart_total;
 
-        const existingBook = userCart.Product.find(
+        const existingBook = userCart.product.find(
             (prooo) => prooo.productId === params_id
         );
         if (existingBook) {
             existingBook.quantity++;
-            totalPrice += existingBook.price;
+            totalPrice += existingBook.discountedPrice;
             console.log('Existing prooo quantity:', existingBook.quantity);
         } else {
             const newBook = {
@@ -48,10 +60,11 @@ export const addedToCart = async (userId, params_id) => {
                 image: prooo.image,
                 manufacturer: prooo.manufacturer,
                 realPrice: parseInt(prooo.realPrice),
+                discountedPrice: parseInt(prooo.discountedPrice),
                 quantity: 1
             };
-            userCart.Product.push(newBook);
-            totalPrice += newBook.price;
+            userCart.product.push(newBook);
+            totalPrice += newBook.discountedPrice;
             console.log('Added new prooo:', newBook);
         }
 
@@ -59,7 +72,7 @@ export const addedToCart = async (userId, params_id) => {
 
         const updatedCart = await cart.findOneAndUpdate(
             { userId: userId },
-            { Product: userCart.Product, cart_total: totalPrice },
+            { product: userCart.product, cart_total: totalPrice },
             { new: true, upsert: true }
         );
         return updatedCart;

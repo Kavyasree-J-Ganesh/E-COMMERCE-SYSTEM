@@ -1610,3 +1610,77 @@ info: ::1 - - [23/Apr/2023:19:05:06 +0000] "GET /api/v1/product/6441774f02fefe46
 
 info: ::1 - - [23/Apr/2023:19:05:06 +0000] "GET /api/v1/product/6441774f02fefe46785ddbcc HTTP/1.1" 404 47 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
 
+info: ::1 - - [23/Apr/2023:19:06:38 +0000] "GET /api/v1/product/6441774f02fefe46785ddbcc HTTP/1.1" 202 519 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Apr/2023:19:06:38 +0000] "GET /api/v1/product/6441774f02fefe46785ddbcc HTTP/1.1" 202 519 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Apr/2023:19:25:55 +0000] "GET /api/v1/product/6441774f02fefe46785ddbcc HTTP/1.1" 202 519 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Apr/2023:19:25:55 +0000] "GET /api/v1/product/6441774f02fefe46785ddbcc HTTP/1.1" 202 519 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Apr/2023:19:26:03 +0000] "GET /api/v1/product/6441774f02fefe46785ddbcc HTTP/1.1" 202 519 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Apr/2023:19:26:03 +0000] "GET /api/v1/product/6441774f02fefe46785ddbcc HTTP/1.1" 202 519 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Apr/2023:19:26:11 +0000] "GET /api/v1/cart HTTP/1.1" 404 47 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Apr/2023:19:26:11 +0000] "GET /api/v1/cart HTTP/1.1" 404 47 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Apr/2023:19:26:11 +0000] "GET /api/v1/product HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Apr/2023:19:26:11 +0000] "GET /api/v1/product HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Apr/2023:19:39:03 +0000] "GET /api/v1/product/64411f86b995d83bc4b56d1d HTTP/1.1" 202 489 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Apr/2023:19:39:03 +0000] "GET /api/v1/product/64411f86b995d83bc4b56d1d HTTP/1.1" 202 489 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Apr/2023:19:39:05 +0000] "POST /api/v1/cart/undefined HTTP/1.1" 500 60 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Apr/2023:19:39:10 +0000] "POST /api/v1/cart/undefined HTTP/1.1" 500 60 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Apr/2023:19:39:35 +0000] "GET /api/v1/product/64411f86b995d83bc4b56d1d HTTP/1.1" 202 489 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Apr/2023:19:39:39 +0000] "GET /api/v1/product/64411f86b995d83bc4b56d1d HTTP/1.1" 202 489 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Apr/2023:19:39:39 +0000] "GET /api/v1/product/64411f86b995d83bc4b56d1d HTTP/1.1" 202 489 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Apr/2023:19:39:44 +0000] "POST /api/v1/cart/64411f86b995d83bc4b56d1d HTTP/1.1" 500 60 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Apr/2023:19:40:42 +0000] "PUT /api/v1/cart/64411f86b995d83bc4b56d1d HTTP/1.1" 400 55 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Apr/2023:19:40:51 +0000] "POST /api/v1/cart/64411f86b995d83bc4b56d1d HTTP/1.1" 500 60 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Apr/2023:19:47:36 +0000] "POST /api/v1/cart/64411f86b995d83bc4b56d1d HTTP/1.1" 201 197 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Apr/2023:19:48:11 +0000] "POST /api/v1/cart/64411f86b995d83bc4b56d1d HTTP/1.1" 500 60 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Apr/2023:19:49:07 +0000] "POST /api/v1/cart/64411f86b995d83bc4b56d1d HTTP/1.1" 500 60 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Apr/2023:19:49:34 +0000] "POST /api/v1/cart/64411f86b995d83bc4b56d1d HTTP/1.1" 201 536 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Apr/2023:19:49:50 +0000] "POST /api/v1/cart/64411f86b995d83bc4b56d1d HTTP/1.1" 500 60 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Apr/2023:19:51:50 +0000] "POST /api/v1/cart/64411f86b995d83bc4b56d1d HTTP/1.1" 500 60 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Apr/2023:19:51:52 +0000] "PUT /api/v1/cart/64411f86b995d83bc4b56d1d HTTP/1.1" 400 55 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Apr/2023:19:53:08 +0000] "POST /api/v1/cart/64411f86b995d83bc4b56d1d HTTP/1.1" 201 199 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Apr/2023:19:55:19 +0000] "GET /api/v1/product/64411f86b995d83bc4b56d1d HTTP/1.1" 202 489 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Apr/2023:19:55:19 +0000] "GET /api/v1/product/64411f86b995d83bc4b56d1d HTTP/1.1" 202 489 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Apr/2023:19:55:21 +0000] "POST /api/v1/cart/64411f86b995d83bc4b56d1d HTTP/1.1" 500 60 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Apr/2023:19:55:51 +0000] "GET /api/v1/product/64411f86b995d83bc4b56d1d HTTP/1.1" 202 489 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Apr/2023:19:55:51 +0000] "GET /api/v1/product/64411f86b995d83bc4b56d1d HTTP/1.1" 202 489 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Apr/2023:19:55:53 +0000] "POST /api/v1/cart/64411f86b995d83bc4b56d1d HTTP/1.1" 201 536 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Apr/2023:19:55:56 +0000] "POST /api/v1/cart/64411f86b995d83bc4b56d1d HTTP/1.1" 201 536 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Apr/2023:19:55:57 +0000] "POST /api/v1/cart/64411f86b995d83bc4b56d1d HTTP/1.1" 201 536 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [23/Apr/2023:19:55:59 +0000] "PUT /api/v1/cart/64411f86b995d83bc4b56d1d HTTP/1.1" 400 55 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+

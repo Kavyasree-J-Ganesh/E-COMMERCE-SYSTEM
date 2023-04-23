@@ -5888,3 +5888,66 @@ error:
     method - GET 
     IP - ::1
    {"timestamp":"2023-04-21T08:48:22.197Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/cart/undefined 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-23T19:39:05.511Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/cart/undefined 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-23T19:39:10.460Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/cart/64411f86b995d83bc4b56d1d 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-23T19:39:44.019Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/cart/64411f86b995d83bc4b56d1d 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-23T19:40:51.128Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/cart/64411f86b995d83bc4b56d1d 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-23T19:48:11.685Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/cart/64411f86b995d83bc4b56d1d 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-23T19:49:07.954Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/cart/64411f86b995d83bc4b56d1d 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-23T19:49:50.569Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/cart/64411f86b995d83bc4b56d1d 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-23T19:51:50.710Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/cart/64411f86b995d83bc4b56d1d 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-23T19:55:21.717Z"}

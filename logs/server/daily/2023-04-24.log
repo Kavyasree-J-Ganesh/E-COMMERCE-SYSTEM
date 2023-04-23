@@ -1,2 +1,97 @@
 info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-23T19:01:40.074Z"}
 info: Connected to the database. {"timestamp":"2023-04-23T19:01:40.105Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-23T19:06:37.615Z"}
+info: Connected to the database. {"timestamp":"2023-04-23T19:06:37.632Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-23T19:26:49.225Z"}
+info: Connected to the database. {"timestamp":"2023-04-23T19:26:49.243Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-23T19:26:52.864Z"}
+info: Connected to the database. {"timestamp":"2023-04-23T19:26:52.883Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-23T19:36:22.480Z"}
+info: Connected to the database. {"timestamp":"2023-04-23T19:36:22.499Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-23T19:36:31.676Z"}
+info: Connected to the database. {"timestamp":"2023-04-23T19:36:31.694Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-23T19:36:38.155Z"}
+info: Connected to the database. {"timestamp":"2023-04-23T19:36:38.176Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-23T19:37:31.330Z"}
+info: Connected to the database. {"timestamp":"2023-04-23T19:37:31.350Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-23T19:38:06.448Z"}
+info: Connected to the database. {"timestamp":"2023-04-23T19:38:06.471Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-23T19:38:20.616Z"}
+info: Connected to the database. {"timestamp":"2023-04-23T19:38:20.637Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-23T19:38:33.915Z"}
+info: Connected to the database. {"timestamp":"2023-04-23T19:38:33.933Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/cart/undefined 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-23T19:39:05.511Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/cart/undefined 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-23T19:39:10.460Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/cart/64411f86b995d83bc4b56d1d 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-23T19:39:44.019Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/cart/64411f86b995d83bc4b56d1d 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-23T19:40:51.128Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-23T19:45:17.773Z"}
+info: Connected to the database. {"timestamp":"2023-04-23T19:45:17.797Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-23T19:47:32.198Z"}
+info: Connected to the database. {"timestamp":"2023-04-23T19:47:32.217Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/cart/64411f86b995d83bc4b56d1d 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-23T19:48:11.685Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-23T19:49:04.771Z"}
+info: Connected to the database. {"timestamp":"2023-04-23T19:49:04.790Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/cart/64411f86b995d83bc4b56d1d 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-23T19:49:07.954Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/cart/64411f86b995d83bc4b56d1d 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-23T19:49:50.569Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/cart/64411f86b995d83bc4b56d1d 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-23T19:51:50.710Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-23T19:52:57.195Z"}
+info: Connected to the database. {"timestamp":"2023-04-23T19:52:57.219Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-23T19:55:02.625Z"}
+info: Connected to the database. {"timestamp":"2023-04-23T19:55:02.647Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/cart/64411f86b995d83bc4b56d1d 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-23T19:55:21.717Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-23T19:55:50.088Z"}
+info: Connected to the database. {"timestamp":"2023-04-23T19:55:50.119Z"}
