@@ -6723,3 +6723,5 @@ error:
    {"timestamp":"2023-04-21T08:48:22.197Z"}
 info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-21T10:45:35.464Z"}
 info: Connected to the database. {"timestamp":"2023-04-21T10:45:35.479Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-23T19:01:40.074Z"}
+info: Connected to the database. {"timestamp":"2023-04-23T19:01:40.105Z"}
