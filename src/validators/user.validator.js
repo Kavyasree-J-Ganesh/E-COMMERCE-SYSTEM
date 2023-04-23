@@ -6,7 +6,10 @@ export const newUserValidator = (req, res, next) => {
     lastname: Joi.string().min(4),
     phonenumber: Joi.number().min(9).required(),
     email: Joi.string().min(4).required(),
-    password: Joi.string().min(4).required()
+    password: Joi.string().min(4).required(),
+    confirmpassword: Joi.string(),
+    companyname: Joi.string().optional(),
+    isadmin: Joi.boolean()
   });
   const { error, value } = schema.validate(req.body);
   if (error) {

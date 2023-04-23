@@ -1,0 +1,1753 @@
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T05:02:13.114Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T05:02:13.140Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T05:17:35.309Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T05:17:35.341Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T05:20:21.379Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T05:20:21.419Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T05:24:48.404Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T05:24:48.444Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: secret or public key must be provided
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\jsonwebtoken\verify.js:106:19
+    at getSecret (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (D:\Backend\E-Commerce\e-commerce_Backend\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\Backend\E-Commerce\e-commerce_Backend\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:280:10)
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\raw-body\index.js:231:16)
+    at done (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/product/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-19T05:28:00.023Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\body-parser\lib\types\json.js:160:10)
+    at parse (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\body-parser\lib\types\json.js:83:15)
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\raw-body\index.js:231:16)
+    at done (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/product/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-19T05:28:14.360Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\body-parser\lib\types\json.js:160:10)
+    at parse (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\body-parser\lib\types\json.js:83:15)
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\raw-body\index.js:231:16)
+    at done (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/product/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-19T05:28:20.302Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\body-parser\lib\types\json.js:160:10)
+    at parse (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\body-parser\lib\types\json.js:83:15)
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\raw-body\index.js:231:16)
+    at done (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/product/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-19T05:28:46.464Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\body-parser\lib\types\json.js:160:10)
+    at parse (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\body-parser\lib\types\json.js:83:15)
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\raw-body\index.js:231:16)
+    at done (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/product/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-19T05:28:47.931Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: secret or public key must be provided
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\jsonwebtoken\verify.js:106:19
+    at getSecret (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (D:\Backend\E-Commerce\e-commerce_Backend\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\Backend\E-Commerce\e-commerce_Backend\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:280:10)
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\raw-body\index.js:231:16)
+    at done (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/product 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-19T05:31:12.273Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T05:31:31.248Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T05:31:31.273Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T05:31:41.541Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T05:31:41.569Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T05:34:06.511Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T05:34:06.545Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: secret or public key must be provided
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\jsonwebtoken\verify.js:106:19
+    at getSecret (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (D:\Backend\E-Commerce\e-commerce_Backend\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\Backend\E-Commerce\e-commerce_Backend\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:280:10)
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\raw-body\index.js:231:16)
+    at done (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/product 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-19T05:34:09.015Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: secret or public key must be provided
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\jsonwebtoken\verify.js:106:19
+    at getSecret (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (D:\Backend\E-Commerce\e-commerce_Backend\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\Backend\E-Commerce\e-commerce_Backend\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:280:10)
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\raw-body\index.js:231:16)
+    at done (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/product 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-19T05:34:10.480Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: secret or public key must be provided
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\jsonwebtoken\verify.js:106:19
+    at getSecret (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (D:\Backend\E-Commerce\e-commerce_Backend\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\Backend\E-Commerce\e-commerce_Backend\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:280:10)
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\raw-body\index.js:231:16)
+    at done (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/product 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-19T05:34:11.831Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T05:34:22.887Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T05:34:22.915Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: secret or public key must be provided
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\jsonwebtoken\verify.js:106:19
+    at getSecret (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (D:\Backend\E-Commerce\e-commerce_Backend\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\Backend\E-Commerce\e-commerce_Backend\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:280:10)
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\raw-body\index.js:231:16)
+    at done (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/product 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-19T05:34:39.214Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T05:36:32.372Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T05:36:32.411Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (D:\Backend\E-Commerce\e-commerce_Backend\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\Backend\E-Commerce\e-commerce_Backend\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\route.js:114:3) 
+    url - /api/v1/product 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-19T05:38:15.614Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T05:43:18.058Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T05:43:18.077Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T05:43:37.312Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T05:43:37.362Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T05:43:56.245Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T05:43:56.269Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T05:44:02.649Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T05:44:02.671Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T05:44:27.646Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T05:44:27.675Z"}
+error: 
+    status - 500 
+    message - Error: Product validation failed: categories: Validator failed for path `categories` with value `clothhhhhh`
+    at _callee3$ (D:\Backend\E-Commerce\e-commerce_Backend\src\services\/product.services.js:30:15)
+    at tryCatch (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.throw (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/product 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-19T05:45:30.241Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T05:46:49.174Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T05:46:49.210Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T05:47:26.490Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T05:47:26.526Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T05:47:32.853Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T05:47:32.911Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T05:50:42.000Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T05:50:42.037Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T05:53:20.458Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T05:53:20.487Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T05:55:02.234Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T05:55:02.257Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T05:55:14.543Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T05:55:14.569Z"}
+error: 
+    status - 500 
+    message - Error: Product validation failed: title: Path `title` is required.
+    at _callee3$ (D:\Backend\E-Commerce\e-commerce_Backend\src\services\/product.services.js:30:15)
+    at tryCatch (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.throw (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/product 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-19T05:55:18.537Z"}
+error: 
+    status - 500 
+    message - Error: E11000 duplicate key error collection: e-commerce.products index: title_1 dup key: { title: "iphone14" }
+    at _callee3$ (D:\Backend\E-Commerce\e-commerce_Backend\src\services\/product.services.js:30:15)
+    at tryCatch (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.throw (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/product 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-19T05:55:59.927Z"}
+error: 
+    status - 500 
+    message - Error: E11000 duplicate key error collection: e-commerce.products index: title_1 dup key: { title: "iphone10" }
+    at _callee3$ (D:\Backend\E-Commerce\e-commerce_Backend\src\services\/product.services.js:30:15)
+    at tryCatch (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.throw (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/product 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-19T06:12:33.576Z"}
+error: 
+    status - 500 
+    message - Error: E11000 duplicate key error collection: e-commerce.products index: title_1 dup key: { title: "iphone11" }
+    at _callee3$ (D:\Backend\E-Commerce\e-commerce_Backend\src\services\/product.services.js:30:15)
+    at tryCatch (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.throw (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/product 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-19T06:13:16.795Z"}
+error: 
+    status - 500 
+    message - Error: E11000 duplicate key error collection: e-commerce.products index: title_1 dup key: { title: "iphone 11" }
+    at _callee3$ (D:\Backend\E-Commerce\e-commerce_Backend\src\services\/product.services.js:30:15)
+    at tryCatch (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.throw (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/product 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-19T06:13:31.275Z"}
+error: 
+    status - 500 
+    message - Error: E11000 duplicate key error collection: e-commerce.products index: title_1 dup key: { title: "iphone 11" }
+    at _callee3$ (D:\Backend\E-Commerce\e-commerce_Backend\src\services\/product.services.js:30:15)
+    at tryCatch (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.throw (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/product 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-19T06:21:54.517Z"}
+error: 
+    status - 500 
+    message - Error: E11000 duplicate key error collection: e-commerce.products index: title_1 dup key: { title: "iphone 11" }
+    at _callee3$ (D:\Backend\E-Commerce\e-commerce_Backend\src\services\/product.services.js:30:15)
+    at tryCatch (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.throw (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/product 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-19T06:23:57.549Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" is required 
+    url - /api/v1/admin 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-19T06:25:11.755Z"}
+error: 
+    status - 500 
+    message - ValidationError: "buyprice" is required 
+    url - /api/v1/admin 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-19T06:25:25.582Z"}
+error: 
+    status - 500 
+    message - ValidationError: "buyprice" is required 
+    url - /api/v1/admin 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-19T06:25:31.223Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T06:26:13.415Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T06:26:13.443Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T06:26:16.535Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T06:26:16.553Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: e-commerce.admins index: companyname_1 dup key: { companyname: "Sam Transport" } 
+      url - /api/v1/admin 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-04-19T06:26:25.569Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:399:5)
+    at ServerResponse.writeHead (node:_http_server:344:11)
+    at ServerResponse.writeHead (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:335:8)
+    at write_ (node:_http_outgoing:908:9)
+    at ServerResponse.end (node:_http_outgoing:1016:5)
+    at ServerResponse.send (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (D:\Backend\E-Commerce\e-commerce_Backend\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:326:13)
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:280:10)
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:646:15
+    at next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:265:14)
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:646:15
+    at next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:265:14)
+    at next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\route.js:136:14)
+    at _callee$ (D:\Backend\E-Commerce\e-commerce_Backend\src\controllers\/admin.controller.js:13:9)
+    at tryCatch (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.throw (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/admin 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-19T06:26:25.579Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: e-commerce.admins index: companyname_1 dup key: { companyname: "Sam Transport" } 
+      url - /api/v1/admin 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-04-19T06:26:28.989Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:399:5)
+    at ServerResponse.writeHead (node:_http_server:344:11)
+    at ServerResponse.writeHead (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:335:8)
+    at write_ (node:_http_outgoing:908:9)
+    at ServerResponse.end (node:_http_outgoing:1016:5)
+    at ServerResponse.send (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (D:\Backend\E-Commerce\e-commerce_Backend\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:326:13)
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:280:10)
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:646:15
+    at next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:265:14)
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:646:15
+    at next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:265:14)
+    at next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\route.js:136:14)
+    at _callee$ (D:\Backend\E-Commerce\e-commerce_Backend\src\controllers\/admin.controller.js:13:9)
+    at tryCatch (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.throw (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/admin 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-19T06:26:28.991Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T06:26:40.665Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T06:26:40.683Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: e-commerce.admins index: companyname_1 dup key: { companyname: "Sam Transport" } 
+      url - /api/v1/admin 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-04-19T06:26:44.383Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:399:5)
+    at ServerResponse.writeHead (node:_http_server:344:11)
+    at ServerResponse.writeHead (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:335:8)
+    at write_ (node:_http_outgoing:908:9)
+    at ServerResponse.end (node:_http_outgoing:1016:5)
+    at ServerResponse.send (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (D:\Backend\E-Commerce\e-commerce_Backend\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:326:13)
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:280:10)
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:646:15
+    at next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:265:14)
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:646:15
+    at next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:265:14)
+    at next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\route.js:136:14)
+    at _callee$ (D:\Backend\E-Commerce\e-commerce_Backend\src\controllers\/admin.controller.js:13:9)
+    at tryCatch (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.throw (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/admin 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-19T06:26:44.391Z"}
+error: 
+    status - 500 
+    message - Error: Product validation failed: categories: Path `categories` is required., buyprice: Path `buyprice` is required., quantity: Path `quantity` is required., manufacturer: Path `manufacturer` is required., description: Path `description` is required., discountedPrice: Path `discountedPrice` is required., realPrice: Path `realPrice` is required., image: Path `image` is required., title: Path `title` is required.
+    at _callee3$ (D:\Backend\E-Commerce\e-commerce_Backend\src\services\/product.services.js:30:15)
+    at tryCatch (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.throw (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/product 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-19T06:29:29.323Z"}
+error: 
+    status - 500 
+    message - Error: E11000 duplicate key error collection: e-commerce.products index: title_1 dup key: { title: "asus tuf gaming" }
+    at _callee3$ (D:\Backend\E-Commerce\e-commerce_Backend\src\services\/product.services.js:30:15)
+    at tryCatch (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.throw (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/product 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-19T06:30:11.378Z"}
+error: 
+    status - 500 
+    message - Error: Error: secretOrPrivateKey must have a value
+    at _callee2$ (D:\Backend\E-Commerce\e-commerce_Backend\src\services\/user.service.js:35:11)
+    at tryCatch (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-19T06:30:41.642Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (D:\Backend\E-Commerce\e-commerce_Backend\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\Backend\E-Commerce\e-commerce_Backend\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:280:10)
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\raw-body\index.js:231:16)
+    at done (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/product 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-19T06:31:33.331Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T06:36:36.235Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T06:36:36.253Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T06:36:45.296Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T06:36:45.314Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T06:37:03.132Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T06:37:03.151Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T06:37:23.616Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T06:37:23.635Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T06:37:31.919Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T06:37:31.939Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T06:38:04.351Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T06:38:04.367Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (D:\Backend\E-Commerce\e-commerce_Backend\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\Backend\E-Commerce\e-commerce_Backend\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:280:10)
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\raw-body\index.js:231:16)
+    at done (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/product/hightolow 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-19T06:40:10.623Z"}
+error: 
+    status - 500 
+    message - Error: ReferenceError: books is not defined
+    at _callee3$ (D:\Backend\E-Commerce\e-commerce_Backend\src\services\/product.services.js:30:15)
+    at tryCatch (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.apply (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.highToLow (D:\Backend\E-Commerce\e-commerce_Backend\src\services\/product.services.js:25:23)
+    at _callee3$ (D:\Backend\E-Commerce\e-commerce_Backend\src\controllers\/product.controller.js:29:43)
+    at tryCatch (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at sortHighToLow (D:\Backend\E-Commerce\e-commerce_Backend\src\controllers\/product.controller.js:27:27)
+    at Layer.handle [as handle_request] (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (D:\Backend\E-Commerce\e-commerce_Backend\src\middlewares\/auth.middleware.js:16:5)
+    at tryCatch (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/product/hightolow 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-19T06:40:31.634Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T06:41:00.937Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T06:41:00.955Z"}
+error: 
+    status - 500 
+    message - ReferenceError: HttpStatus is not defined
+    at _callee3$ (D:\Backend\E-Commerce\e-commerce_Backend\src\controllers\/product.controller.js:30:20)
+    at tryCatch (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/product/hightolow 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-19T06:41:09.640Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T06:41:19.259Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T06:41:19.277Z"}
+error: 
+    status - 500 
+    message - ReferenceError: HttpStatus is not defined
+    at _callee3$ (D:\Backend\E-Commerce\e-commerce_Backend\src\controllers\/product.controller.js:30:20)
+    at tryCatch (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/product/hightolow 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-19T06:41:26.345Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T06:50:09.762Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T06:50:09.781Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T06:50:12.472Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T06:50:12.494Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T06:52:38.673Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T06:52:38.698Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T06:53:44.520Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T06:53:44.542Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T06:53:55.894Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T06:53:55.918Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T06:54:27.879Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T06:54:27.899Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T06:54:31.285Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T06:54:31.302Z"}
+error: 
+    status - 500 
+    message - TypeError: productService.LowToHigh is not a function
+    at _callee4$ (D:\Backend\E-Commerce\e-commerce_Backend\src\controllers\/product.controller.js:45:43)
+    at tryCatch (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at sortLowToHigh (D:\Backend\E-Commerce\e-commerce_Backend\src\controllers\/product.controller.js:43:27)
+    at Layer.handle [as handle_request] (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (D:\Backend\E-Commerce\e-commerce_Backend\src\middlewares\/auth.middleware.js:16:5)
+    at tryCatch (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/product/lowtohigh 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-19T06:54:45.916Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T06:55:23.557Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T06:55:23.574Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T06:55:31.138Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T06:55:31.159Z"}
+error: 
+    status - 500 
+    message - TypeError: productService.lowToHigh is not a function
+    at _callee4$ (D:\Backend\E-Commerce\e-commerce_Backend\src\controllers\/product.controller.js:45:43)
+    at tryCatch (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at sortLowToHigh (D:\Backend\E-Commerce\e-commerce_Backend\src\controllers\/product.controller.js:43:27)
+    at Layer.handle [as handle_request] (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (D:\Backend\E-Commerce\e-commerce_Backend\src\middlewares\/auth.middleware.js:16:5)
+    at tryCatch (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/product/lowtohigh 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-19T06:55:34.693Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T06:56:06.498Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T06:56:06.518Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T06:56:22.092Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T06:56:22.110Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T06:57:12.893Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T06:57:12.913Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T06:57:45.689Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T06:57:45.712Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T06:58:05.231Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T06:58:05.251Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T06:58:27.823Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T06:58:27.841Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T06:58:44.559Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T06:58:44.578Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T06:59:30.348Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T06:59:30.369Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T06:59:44.587Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T06:59:44.604Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T06:59:50.133Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T06:59:50.158Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T07:00:14.064Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T07:00:14.083Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T07:00:23.874Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T07:00:23.891Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T07:00:56.740Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T07:00:56.764Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T07:02:45.386Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T07:02:45.427Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T07:03:06.647Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T07:03:06.665Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T08:36:48.552Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T08:36:48.575Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T08:37:39.707Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T08:37:39.724Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T08:37:45.488Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T08:37:45.515Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T08:38:02.872Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T08:38:02.892Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T08:38:51.470Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T08:38:51.488Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T08:39:18.678Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T08:39:18.700Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T08:39:36.000Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T08:39:36.020Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T08:44:08.818Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T08:44:08.837Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T08:44:39.044Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T08:44:39.065Z"}
+error: 
+    status - 500 
+    message - Error: ReferenceError: books is not defined
+    at _callee5$ (D:\Backend\E-Commerce\e-commerce_Backend\src\services\/product.services.js:62:15)
+    at tryCatch (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.apply (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.searchByText (D:\Backend\E-Commerce\e-commerce_Backend\src\services\/product.services.js:45:26)
+    at _callee5$ (D:\Backend\E-Commerce\e-commerce_Backend\src\controllers\/product.controller.js:59:43)
+    at tryCatch (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at searchByText (D:\Backend\E-Commerce\e-commerce_Backend\src\controllers\/product.controller.js:57:26)
+    at Layer.handle [as handle_request] (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (D:\Backend\E-Commerce\e-commerce_Backend\src\middlewares\/auth.middleware.js:16:5)
+    at tryCatch (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/product/search/:searchText 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-19T08:44:59.538Z"}
+error: 
+    status - 500 
+    message - Error: ReferenceError: books is not defined
+    at _callee5$ (D:\Backend\E-Commerce\e-commerce_Backend\src\services\/product.services.js:62:15)
+    at tryCatch (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.apply (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.searchByText (D:\Backend\E-Commerce\e-commerce_Backend\src\services\/product.services.js:45:26)
+    at _callee5$ (D:\Backend\E-Commerce\e-commerce_Backend\src\controllers\/product.controller.js:59:43)
+    at tryCatch (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at searchByText (D:\Backend\E-Commerce\e-commerce_Backend\src\controllers\/product.controller.js:57:26)
+    at Layer.handle [as handle_request] (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (D:\Backend\E-Commerce\e-commerce_Backend\src\middlewares\/auth.middleware.js:16:5)
+    at tryCatch (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/product/search/:iphone 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-19T08:45:10.416Z"}
+error: 
+    status - 500 
+    message - Error: ReferenceError: books is not defined
+    at _callee5$ (D:\Backend\E-Commerce\e-commerce_Backend\src\services\/product.services.js:62:15)
+    at tryCatch (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.apply (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.searchByText (D:\Backend\E-Commerce\e-commerce_Backend\src\services\/product.services.js:45:26)
+    at _callee5$ (D:\Backend\E-Commerce\e-commerce_Backend\src\controllers\/product.controller.js:59:43)
+    at tryCatch (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at searchByText (D:\Backend\E-Commerce\e-commerce_Backend\src\controllers\/product.controller.js:57:26)
+    at Layer.handle [as handle_request] (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (D:\Backend\E-Commerce\e-commerce_Backend\src\middlewares\/auth.middleware.js:16:5)
+    at tryCatch (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/product/search/:iphone 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-19T08:45:11.299Z"}
+error: 
+    status - 500 
+    message - Error: ReferenceError: books is not defined
+    at _callee5$ (D:\Backend\E-Commerce\e-commerce_Backend\src\services\/product.services.js:62:15)
+    at tryCatch (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.apply (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.searchByText (D:\Backend\E-Commerce\e-commerce_Backend\src\services\/product.services.js:45:26)
+    at _callee5$ (D:\Backend\E-Commerce\e-commerce_Backend\src\controllers\/product.controller.js:59:43)
+    at tryCatch (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at searchByText (D:\Backend\E-Commerce\e-commerce_Backend\src\controllers\/product.controller.js:57:26)
+    at Layer.handle [as handle_request] (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (D:\Backend\E-Commerce\e-commerce_Backend\src\middlewares\/auth.middleware.js:16:5)
+    at tryCatch (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/product/search/:iphone 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-19T08:45:12.015Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T08:46:51.206Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T08:46:51.224Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T08:48:25.658Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T08:48:25.683Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T09:02:03.948Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T09:02:03.979Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T09:03:10.753Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T09:03:10.775Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T09:03:27.015Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T09:03:27.036Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T09:04:40.625Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T09:04:40.651Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T09:08:28.168Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T09:08:28.195Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T09:20:06.431Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T09:20:06.460Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T09:20:38.927Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T09:20:38.968Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T09:24:00.919Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T09:24:00.942Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T09:24:19.852Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T09:24:19.876Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T09:24:29.790Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T09:24:29.816Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T09:35:01.175Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T09:35:01.200Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T09:36:38.528Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T09:36:38.556Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T09:37:16.767Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T09:37:16.787Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T09:37:58.592Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T09:37:58.612Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T09:38:17.511Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T09:38:17.529Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T09:39:54.018Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T09:39:54.041Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\body-parser\lib\types\json.js:160:10)
+    at parse (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\body-parser\lib\types\json.js:83:15)
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\raw-body\index.js:231:16)
+    at done (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/product/search/:a 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-19T09:42:44.642Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T09:44:09.497Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T09:44:09.540Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T09:44:47.636Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T09:44:47.665Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T09:45:31.152Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T09:45:31.184Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T09:46:37.802Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T09:46:37.839Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T09:46:43.520Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T09:46:43.548Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T09:47:11.769Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T09:47:11.794Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T09:47:44.691Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T09:47:44.719Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T09:48:15.673Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T09:48:15.696Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T09:48:51.765Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T09:48:51.804Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T09:49:11.597Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T09:49:11.624Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T09:49:32.225Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T09:49:32.259Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T09:49:44.144Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T09:49:44.176Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T09:52:16.090Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T09:52:16.126Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T09:52:24.462Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T09:52:24.484Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T09:55:02.375Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T09:55:02.404Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T09:55:47.675Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T09:55:47.700Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T09:56:05.019Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T09:56:05.070Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T09:56:48.057Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T09:56:48.083Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T09:59:02.805Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T09:59:02.836Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T09:59:18.532Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T09:59:18.568Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T09:59:24.744Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T09:59:24.770Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T10:11:37.501Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T10:11:37.535Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T10:17:51.488Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T10:17:51.522Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T10:17:58.782Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T10:17:58.816Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T10:25:33.133Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T10:25:33.171Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T10:27:17.953Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T10:27:17.982Z"}
+error: 
+    status - 500 
+    message - Error: CastError: Cast to ObjectId failed for value "{ _id: undefined, userId: undefined }" (type Object) at path "_id" for model "Product"
+    at _callee2$ (D:\Backend\E-Commerce\e-commerce_Backend\src\services\/product.services.js:19:15)
+    at tryCatch (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.throw (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/product/643f8a67ecb91b03f0a9b01c 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-19T10:27:24.081Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T10:27:32.601Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T10:27:32.637Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee2$ (D:\Backend\E-Commerce\e-commerce_Backend\src\middlewares\/auth.middleware.js:32:29)
+    at tryCatch (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at adminAuth (D:\Backend\E-Commerce\e-commerce_Backend\src\middlewares\/auth.middleware.js:22:23)
+    at Layer.handle [as handle_request] (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:280:10)
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\raw-body\index.js:231:16)
+    at done (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/product/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-19T10:30:35.806Z"}
+error: 
+    status - 500 
+    message - Error: E11000 duplicate key error collection: e-commerce.products index: title_1 dup key: { title: "iphone 20" }
+    at _callee7$ (D:\Backend\E-Commerce\e-commerce_Backend\src\services\/product.services.js:82:15)
+    at tryCatch (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.throw (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/product/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-19T10:30:54.138Z"}
+error: 
+    status - 500 
+    message - Error: E11000 duplicate key error collection: e-commerce.products index: title_1 dup key: { title: "iphone 20" }
+    at _callee7$ (D:\Backend\E-Commerce\e-commerce_Backend\src\services\/product.services.js:82:15)
+    at tryCatch (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.throw (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/product/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-19T10:32:10.614Z"}
+error: 
+    status - 500 
+    message - Error: E11000 duplicate key error collection: e-commerce.products index: title_1 dup key: { title: "iphone 201" }
+    at _callee7$ (D:\Backend\E-Commerce\e-commerce_Backend\src\services\/product.services.js:82:15)
+    at tryCatch (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.throw (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/product/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-19T10:32:19.909Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T11:22:18.752Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T11:22:18.768Z"}
+error: 
+    status - 500 
+    message - Error: E11000 duplicate key error collection: e-commerce.products index: title_1 dup key: { title: "iphone 2as01" }
+    at _callee7$ (D:\Backend\E-Commerce\e-commerce_Backend\src\services\/product.services.js:82:15)
+    at tryCatch (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.throw (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/product/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-19T11:27:49.952Z"}
+error: 
+    status - 500 
+    message - Error: Product validation failed: categories: Validator failed for path `categories` with value `Headpones`
+    at _callee7$ (D:\Backend\E-Commerce\e-commerce_Backend\src\services\/product.services.js:82:15)
+    at tryCatch (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.throw (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/product/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-19T11:27:55.483Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T11:31:26.108Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T11:31:26.135Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T11:36:32.816Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T11:36:32.835Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (D:\Backend\E-Commerce\e-commerce_Backend\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\Backend\E-Commerce\e-commerce_Backend\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:280:10)
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\raw-body\index.js:231:16)
+    at done (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/cart/updateAddress 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-19T11:41:31.358Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T11:43:34.970Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T11:43:34.994Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T11:43:48.138Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T11:43:48.158Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T11:43:53.498Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T11:43:53.518Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T11:44:09.449Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T11:44:09.470Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T11:46:39.027Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T11:46:39.045Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T11:47:24.439Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T11:47:24.456Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T11:48:18.219Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T11:48:18.243Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T11:48:55.283Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T11:48:55.302Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T11:49:10.932Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T11:49:10.950Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T11:49:14.807Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T11:49:14.831Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T11:49:54.707Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T11:49:54.731Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T11:50:43.367Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T11:50:43.386Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T11:51:01.495Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T11:51:01.519Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T11:51:39.455Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T11:51:39.489Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T11:52:12.163Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T11:52:12.182Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T11:52:30.433Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T11:52:30.462Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee2$ (D:\Backend\E-Commerce\e-commerce_Backend\src\middlewares\/auth.middleware.js:32:29)
+    at tryCatch (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at adminAuth (D:\Backend\E-Commerce\e-commerce_Backend\src\middlewares\/auth.middleware.js:22:23)
+    at Layer.handle [as handle_request] (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\body-parser\lib\types\json.js:119:7)
+    at Layer.handle [as handle_request] (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\body-parser\lib\types\urlencoded.js:100:7)
+    at Layer.handle [as handle_request] (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:286:9 
+    url - /api/v1/product 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-19T11:54:34.133Z"}
+error: 
+    status - 500 
+    message - Error: _cart.findOne is not a function
+    at _callee2$ (D:\Backend\E-Commerce\e-commerce_Backend\src\services\/cart.service.js:69:15)
+    at tryCatch (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/643f81ff0807bb390c408589 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-19T11:55:21.683Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T12:18:06.285Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T12:18:06.302Z"}
+error: 
+    status - 500 
+    message - Error: _cart.findOne is not a function
+    at _callee2$ (D:\Backend\E-Commerce\e-commerce_Backend\src\services\/cart.service.js:75:15)
+    at tryCatch (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/643f81ff0807bb390c408589 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-19T12:18:23.811Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T12:29:27.693Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T12:29:27.721Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T12:29:33.192Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T12:29:33.210Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T12:29:48.430Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T12:29:48.449Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T12:33:37.904Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T12:33:37.925Z"}
+error: 
+    status - 500 
+    message - Error: cart1 is not defined
+    at _callee2$ (D:\Backend\E-Commerce\e-commerce_Backend\src\services\/cart.service.js:70:15)
+    at tryCatch (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/643f81ff0807bb390c408589 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-19T12:33:43.117Z"}
+error: 
+    status - 500 
+    message - Error: cart1 is not defined
+    at _callee2$ (D:\Backend\E-Commerce\e-commerce_Backend\src\services\/cart.service.js:70:15)
+    at tryCatch (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/643f81ff0807bb390c408589 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-19T12:33:44.461Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T12:33:51.253Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T12:33:51.279Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T12:36:03.238Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T12:36:03.255Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T12:36:48.847Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T12:36:48.863Z"}
+error: 
+    status - 500 
+    message - Error: _cart.findOne is not a function
+    at _callee2$ (D:\Backend\E-Commerce\e-commerce_Backend\src\services\/cart.service.js:70:15)
+    at tryCatch (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/643f81ff0807bb390c408589 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-19T12:36:56.731Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T12:37:16.409Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T12:37:16.442Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T12:38:02.780Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T12:38:02.797Z"}
+error: 
+    status - 500 
+    message - Error: Cast to Number failed for value "NaN" (type number) at path "cart_total"
+    at _callee2$ (D:\Backend\E-Commerce\e-commerce_Backend\src\services\/cart.service.js:69:15)
+    at tryCatch (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.throw (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/643f81ff0807bb390c408589 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-19T12:39:03.952Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T12:39:30.783Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T12:39:30.808Z"}
+error: 
+    status - 500 
+    message - Error: Cast to Number failed for value "NaN" (type number) at path "cart_total"
+    at _callee2$ (D:\Backend\E-Commerce\e-commerce_Backend\src\services\/cart.service.js:69:15)
+    at tryCatch (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.throw (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart/643f81ff0807bb390c408589 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-19T12:39:32.171Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-19T12:47:54.233Z"}
+info: Connected to the database. {"timestamp":"2023-04-19T12:47:54.261Z"}

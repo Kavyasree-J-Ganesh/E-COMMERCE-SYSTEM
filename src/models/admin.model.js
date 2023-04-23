@@ -1,8 +1,6 @@
 import { Schema, model } from 'mongoose';
 const mongoose = require('mongoose');
 
-// rest of your code
-
 
 const adminSchema = new Schema(
     {
@@ -21,6 +19,10 @@ const adminSchema = new Schema(
         },
         password: {
             type: String
+        },
+        companyname: {
+            type: String,
+            unique: true
         }
     },
     {

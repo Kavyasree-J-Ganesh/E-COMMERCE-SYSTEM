@@ -1,0 +1,1101 @@
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-21T03:04:18.963Z"}
+info: Connected to the database. {"timestamp":"2023-04-21T03:04:18.987Z"}
+error: 
+    status - 500 
+    message - ValidationError: "phonenumber" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-21T03:32:18.108Z"}
+error: 
+    status - 500 
+    message - ValidationError: "phonenumber" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-21T03:32:19.736Z"}
+error: 
+    status - 500 
+    message - ValidationError: "phonenumber" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-21T03:32:37.649Z"}
+error: 
+    status - 500 
+    message - ValidationError: "phonenumber" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-21T03:34:58.395Z"}
+error: 
+    status - 500 
+    message - ValidationError: "phonenumber" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-21T03:35:12.739Z"}
+error: 
+    status - 500 
+    message - ValidationError: "phonenumber" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-21T03:35:30.043Z"}
+error: 
+    status - 500 
+    message - ValidationError: "phonenumber" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-21T03:36:57.274Z"}
+error: 
+    status - 500 
+    message - ValidationError: "phonenumber" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-21T03:36:58.281Z"}
+error: 
+    status - 500 
+    message - ValidationError: "phonenumber" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-21T03:36:59.133Z"}
+error: 
+    status - 500 
+    message - ValidationError: "phonenumber" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-21T03:38:24.951Z"}
+error: 
+    status - 500 
+    message - ValidationError: "mobile" is not allowed 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-21T03:40:15.769Z"}
+error: 
+    status - 500 
+    message - ValidationError: "mobile" is not allowed 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-21T03:40:20.421Z"}
+error: 
+    status - 500 
+    message - ValidationError: "mobile" is not allowed 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-21T03:40:22.695Z"}
+error: 
+    status - 500 
+    message - ValidationError: "mobile" is not allowed 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-21T03:40:44.233Z"}
+error: 
+    status - 500 
+    message - ValidationError: "confirmpassword" is not allowed 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-21T03:42:43.694Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-21T03:43:42.798Z"}
+info: Connected to the database. {"timestamp":"2023-04-21T03:43:42.819Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-21T03:44:17.027Z"}
+info: Connected to the database. {"timestamp":"2023-04-21T03:44:17.044Z"}
+error: 
+    status - 500 
+    message - ValidationError: "emailMobValue" is not allowed 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-21T03:44:17.174Z"}
+error: 
+    status - 500 
+    message - ValidationError: "emailMobValue" is not allowed 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-21T03:45:31.347Z"}
+error: 
+    status - 500 
+    message - ValidationError: "companyName" is not allowed 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-21T03:48:11.146Z"}
+error: 
+    status - 500 
+    message - ValidationError: "companyName" is not allowed 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-21T03:49:01.343Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-21T03:54:23.615Z"}
+error: 
+    status - 500 
+    message - ValidationError: "companyname" is not allowed to be empty 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-21T03:55:18.159Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-21T03:55:43.989Z"}
+info: Connected to the database. {"timestamp":"2023-04-21T03:55:44.008Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-21T03:55:49.782Z"}
+info: Connected to the database. {"timestamp":"2023-04-21T03:55:49.801Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-21T03:55:55.791Z"}
+info: Connected to the database. {"timestamp":"2023-04-21T03:55:55.808Z"}
+error: 
+    status - 500 
+    message - ValidationError: "companyname" is not allowed to be empty 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-21T03:55:55.852Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-21T03:56:17.039Z"}
+info: Connected to the database. {"timestamp":"2023-04-21T03:56:17.057Z"}
+error: 
+    status - 500 
+    message - ValidationError: "companyname" is not allowed to be empty 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-21T03:56:23.734Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-21T03:57:15.300Z"}
+info: Connected to the database. {"timestamp":"2023-04-21T03:57:15.319Z"}
+error: 
+    status - 500 
+    message - ValidationError: "companyname" is not allowed to be empty 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-21T03:57:48.574Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (E:\e-commerce_Backend\e-commerce_Backend\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (E:\e-commerce_Backend\e-commerce_Backend\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (E:\e-commerce_Backend\e-commerce_Backend\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\e-commerce_Backend\e-commerce_Backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (E:\e-commerce_Backend\e-commerce_Backend\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (E:\e-commerce_Backend\e-commerce_Backend\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:280:10) 
+    url - /api/v1/product 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-21T04:13:35.262Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (E:\e-commerce_Backend\e-commerce_Backend\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (E:\e-commerce_Backend\e-commerce_Backend\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (E:\e-commerce_Backend\e-commerce_Backend\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\e-commerce_Backend\e-commerce_Backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (E:\e-commerce_Backend\e-commerce_Backend\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (E:\e-commerce_Backend\e-commerce_Backend\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:280:10) 
+    url - /api/v1/product 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-21T04:18:05.553Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (E:\e-commerce_Backend\e-commerce_Backend\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (E:\e-commerce_Backend\e-commerce_Backend\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (E:\e-commerce_Backend\e-commerce_Backend\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\e-commerce_Backend\e-commerce_Backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (E:\e-commerce_Backend\e-commerce_Backend\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (E:\e-commerce_Backend\e-commerce_Backend\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:280:10) 
+    url - /api/v1/product 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-21T04:18:05.565Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (E:\e-commerce_Backend\e-commerce_Backend\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (E:\e-commerce_Backend\e-commerce_Backend\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (E:\e-commerce_Backend\e-commerce_Backend\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\e-commerce_Backend\e-commerce_Backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (E:\e-commerce_Backend\e-commerce_Backend\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (E:\e-commerce_Backend\e-commerce_Backend\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:280:10) 
+    url - /api/v1/product 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-21T04:19:05.805Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (E:\e-commerce_Backend\e-commerce_Backend\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (E:\e-commerce_Backend\e-commerce_Backend\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (E:\e-commerce_Backend\e-commerce_Backend\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\e-commerce_Backend\e-commerce_Backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (E:\e-commerce_Backend\e-commerce_Backend\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (E:\e-commerce_Backend\e-commerce_Backend\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:280:10) 
+    url - /api/v1/product 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-21T04:19:05.820Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-21T04:20:54.629Z"}
+info: Connected to the database. {"timestamp":"2023-04-21T04:20:54.653Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-21T04:21:23.280Z"}
+info: Connected to the database. {"timestamp":"2023-04-21T04:21:23.299Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-21T04:22:34.986Z"}
+info: Connected to the database. {"timestamp":"2023-04-21T04:22:35.015Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-21T04:23:19.373Z"}
+info: Connected to the database. {"timestamp":"2023-04-21T04:23:19.392Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (E:\e-commerce_Backend\e-commerce_Backend\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (E:\e-commerce_Backend\e-commerce_Backend\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (E:\e-commerce_Backend\e-commerce_Backend\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\e-commerce_Backend\e-commerce_Backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (E:\e-commerce_Backend\e-commerce_Backend\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (E:\e-commerce_Backend\e-commerce_Backend\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:280:10)
+    at internalNext (E:\e-commerce_Backend\e-commerce_Backend\node_modules\helmet\dist\index.js:142:6)
+    at xXssProtectionMiddleware (E:\e-commerce_Backend\e-commerce_Backend\node_modules\helmet\dist\middlewares\x-xss-protection\index.js:6:3)
+    at internalNext (E:\e-commerce_Backend\e-commerce_Backend\node_modules\helmet\dist\index.js:145:6)
+    at referrerPolicyMiddleware (E:\e-commerce_Backend\e-commerce_Backend\node_modules\helmet\dist\middlewares\referrer-policy\index.js:24:3)
+    at internalNext (E:\e-commerce_Backend\e-commerce_Backend\node_modules\helmet\dist\index.js:145:6)
+    at xPermittedCrossDomainPoliciesMiddleware (E:\e-commerce_Backend\e-commerce_Backend\node_modules\helmet\dist\middlewares\x-permitted-cross-domain-policies\index.js:15:3) 
+    url - /api/v1/product 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-21T04:23:45.912Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (E:\e-commerce_Backend\e-commerce_Backend\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (E:\e-commerce_Backend\e-commerce_Backend\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (E:\e-commerce_Backend\e-commerce_Backend\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\e-commerce_Backend\e-commerce_Backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (E:\e-commerce_Backend\e-commerce_Backend\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (E:\e-commerce_Backend\e-commerce_Backend\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\e-commerce_Backend\e-commerce_Backend\node_modules\express\lib\router\index.js:280:10)
+    at internalNext (E:\e-commerce_Backend\e-commerce_Backend\node_modules\helmet\dist\index.js:142:6)
+    at xXssProtectionMiddleware (E:\e-commerce_Backend\e-commerce_Backend\node_modules\helmet\dist\middlewares\x-xss-protection\index.js:6:3)
+    at internalNext (E:\e-commerce_Backend\e-commerce_Backend\node_modules\helmet\dist\index.js:145:6)
+    at referrerPolicyMiddleware (E:\e-commerce_Backend\e-commerce_Backend\node_modules\helmet\dist\middlewares\referrer-policy\index.js:24:3)
+    at internalNext (E:\e-commerce_Backend\e-commerce_Backend\node_modules\helmet\dist\index.js:145:6)
+    at xPermittedCrossDomainPoliciesMiddleware (E:\e-commerce_Backend\e-commerce_Backend\node_modules\helmet\dist\middlewares\x-permitted-cross-domain-policies\index.js:15:3) 
+    url - /api/v1/product 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-21T04:23:45.927Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-21T04:35:57.193Z"}
+info: Connected to the database. {"timestamp":"2023-04-21T04:35:57.213Z"}
+error: 
+    status - 500 
+    message - Error: User already exists
+    at _callee$ (E:\e-commerce_Backend\e-commerce_Backend\src\services\/user.service.js:15:11)
+    at tryCatch (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-21T05:25:25.380Z"}
+error: 
+    status - 500 
+    message - Error: User already exists
+    at _callee$ (E:\e-commerce_Backend\e-commerce_Backend\src\services\/user.service.js:15:11)
+    at tryCatch (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-21T05:25:35.074Z"}
+error: 
+    status - 500 
+    message - Error: User already exists
+    at _callee$ (E:\e-commerce_Backend\e-commerce_Backend\src\services\/user.service.js:15:11)
+    at tryCatch (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-21T05:45:28.838Z"}
+error: 
+    status - 500 
+    message - Error: User already exists
+    at _callee$ (E:\e-commerce_Backend\e-commerce_Backend\src\services\/user.service.js:15:11)
+    at tryCatch (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-21T05:45:30.403Z"}
+error: 
+    status - 500 
+    message - Error: User already exists
+    at _callee$ (E:\e-commerce_Backend\e-commerce_Backend\src\services\/user.service.js:15:11)
+    at tryCatch (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-21T05:45:30.911Z"}
+error: 
+    status - 500 
+    message - Error: User already exists
+    at _callee$ (E:\e-commerce_Backend\e-commerce_Backend\src\services\/user.service.js:15:11)
+    at tryCatch (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-21T05:45:31.502Z"}
+error: 
+    status - 500 
+    message - Error: User already exists
+    at _callee$ (E:\e-commerce_Backend\e-commerce_Backend\src\services\/user.service.js:15:11)
+    at tryCatch (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-21T05:45:32.282Z"}
+error: 
+    status - 500 
+    message - Error: User already exists
+    at _callee$ (E:\e-commerce_Backend\e-commerce_Backend\src\services\/user.service.js:15:11)
+    at tryCatch (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-21T05:45:32.508Z"}
+error: 
+    status - 500 
+    message - ValidationError: "companyName" is not allowed 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-21T05:48:44.949Z"}
+error: 
+    status - 500 
+    message - Error: Error: Invalid Email
+    at _callee2$ (E:\e-commerce_Backend\e-commerce_Backend\src\services\/user.service.js:38:11)
+    at tryCatch (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-21T05:49:59.384Z"}
+error: 
+    status - 500 
+    message - Error: Error: Invalid Email
+    at _callee2$ (E:\e-commerce_Backend\e-commerce_Backend\src\services\/user.service.js:38:11)
+    at tryCatch (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-21T05:50:13.573Z"}
+error: 
+    status - 500 
+    message - Error: Error: Invalid Email
+    at _callee2$ (E:\e-commerce_Backend\e-commerce_Backend\src\services\/user.service.js:38:11)
+    at tryCatch (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-21T05:50:43.549Z"}
+error: 
+    status - 500 
+    message - Error: Error: Invalid Email
+    at _callee2$ (E:\e-commerce_Backend\e-commerce_Backend\src\services\/user.service.js:38:11)
+    at tryCatch (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-21T05:50:45.992Z"}
+error: 
+    status - 500 
+    message - Error: Error: Invalid Email
+    at _callee2$ (E:\e-commerce_Backend\e-commerce_Backend\src\services\/user.service.js:38:11)
+    at tryCatch (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-21T05:50:46.159Z"}
+error: 
+    status - 500 
+    message - Error: Error: Invalid Email
+    at _callee2$ (E:\e-commerce_Backend\e-commerce_Backend\src\services\/user.service.js:38:11)
+    at tryCatch (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-21T05:50:54.436Z"}
+error: 
+    status - 500 
+    message - Error: Error: Invalid Email
+    at _callee2$ (E:\e-commerce_Backend\e-commerce_Backend\src\services\/user.service.js:38:11)
+    at tryCatch (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-21T05:50:55.370Z"}
+error: 
+    status - 500 
+    message - Error: Error: Invalid Email
+    at _callee2$ (E:\e-commerce_Backend\e-commerce_Backend\src\services\/user.service.js:38:11)
+    at tryCatch (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-21T05:50:55.596Z"}
+error: 
+    status - 500 
+    message - Error: Error: Invalid Email
+    at _callee2$ (E:\e-commerce_Backend\e-commerce_Backend\src\services\/user.service.js:38:11)
+    at tryCatch (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-21T05:50:55.994Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-21T06:27:19.135Z"}
+info: Connected to the database. {"timestamp":"2023-04-21T06:27:19.152Z"}
+error: 
+    status - 500 
+    message - ValidationError: "companyname" is not allowed to be empty 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-21T06:29:30.266Z"}
+error: 
+    status - 500 
+    message - ValidationError: "companyname" is not allowed to be empty 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-21T06:35:31.360Z"}
+error: 
+    status - 500 
+    message - ValidationError: "companyName" is not allowed 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-21T06:35:52.584Z"}
+error: 
+    status - 500 
+    message - ValidationError: "companyName" is not allowed 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-21T06:36:05.194Z"}
+error: 
+    status - 500 
+    message - ValidationError: "companyName" is not allowed 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-21T06:36:14.238Z"}
+error: 
+    status - 500 
+    message - ValidationError: "companyname" is not allowed to be empty 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-21T06:41:20.701Z"}
+error: 
+    status - 500 
+    message - ValidationError: "companyName" is not allowed 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-21T06:41:42.713Z"}
+error: 
+    status - 500 
+    message - ValidationError: "companyName" is not allowed 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-21T06:42:22.971Z"}
+error: 
+    status - 500 
+    message - ValidationError: "companyname" is not allowed to be empty 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-21T06:45:07.549Z"}
+error: 
+    status - 500 
+    message - ValidationError: "companyname" is not allowed to be empty 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-21T06:45:26.779Z"}
+error: 
+    status - 500 
+    message - ValidationError: "companyname" is not allowed to be empty 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-21T06:58:07.687Z"}
+error: 
+    status - 500 
+    message - ValidationError: "companyname" is not allowed to be empty 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-21T06:58:16.622Z"}
+error: 
+    status - 500 
+    message - Error: User already exists
+    at _callee$ (D:\Backend\E-Commerce\e-commerce_Backend\src\services\/user.service.js:15:11)
+    at tryCatch (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-21T07:05:17.990Z"}
+error: 
+    status - 500 
+    message - Error: Error: Invalid Email
+    at _callee2$ (D:\Backend\E-Commerce\e-commerce_Backend\src\services\/user.service.js:38:11)
+    at tryCatch (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-21T07:06:14.343Z"}
+error: 
+    status - 500 
+    message - Error: Error: Invalid Email
+    at _callee2$ (D:\Backend\E-Commerce\e-commerce_Backend\src\services\/user.service.js:38:11)
+    at tryCatch (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-21T07:06:25.881Z"}
+error: 
+    status - 500 
+    message - Error: Error: Invalid Email
+    at _callee2$ (D:\Backend\E-Commerce\e-commerce_Backend\src\services\/user.service.js:38:11)
+    at tryCatch (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-21T07:06:26.731Z"}
+error: 
+    status - 500 
+    message - ValidationError: "companyname" is not allowed to be empty 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-21T07:10:27.667Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-21T07:16:30.531Z"}
+info: Connected to the database. {"timestamp":"2023-04-21T07:16:30.553Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-21T08:28:48.703Z"}
+info: Connected to the database. {"timestamp":"2023-04-21T08:28:48.731Z"}
+error: 
+    status - 500 
+    message - ValidationError: "companyname" is not allowed to be empty 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-21T08:37:19.832Z"}
+error: 
+    status - 500 
+    message - ValidationError: "companyname" is not allowed to be empty 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-21T08:39:04.044Z"}
+error: 
+    status - 500 
+    message - ValidationError: "companyname" is not allowed to be empty 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-21T08:43:57.941Z"}
+error: 
+    status - 500 
+    message - ValidationError: "companyname" is not allowed to be empty 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-21T08:44:45.680Z"}
+error: 
+    status - 500 
+    message - ValidationError: User validation failed: confirmpassword: Path `confirmpassword` is required.
+    at model.Document.invalidate (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\mongoose\lib\document.js:2782:32)
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\mongoose\lib\document.js:2574:17
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:77:11) 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-21T08:47:30.441Z"}
+error: 
+    status - 500 
+    message - ValidationError: User validation failed: confirmpassword: Path `confirmpassword` is required.
+    at model.Document.invalidate (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\mongoose\lib\document.js:2782:32)
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\mongoose\lib\document.js:2574:17
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:77:11) 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-21T08:47:35.755Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (D:\Backend\E-Commerce\e-commerce_Backend\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\Backend\E-Commerce\e-commerce_Backend\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/product 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-21T08:48:22.181Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (D:\Backend\E-Commerce\e-commerce_Backend\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\Backend\E-Commerce\e-commerce_Backend\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/product 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-21T08:48:22.197Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-21T10:45:35.464Z"}
+info: Connected to the database. {"timestamp":"2023-04-21T10:45:35.479Z"}

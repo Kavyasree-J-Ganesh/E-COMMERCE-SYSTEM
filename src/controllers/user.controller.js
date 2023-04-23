@@ -1,16 +1,18 @@
 import HttpStatus from 'http-status-codes';
-import * as UserService from '../services/user.service';
+import * as UserService from '../services/user.service'
 
 
+//New User Signup
 export const newUser = async (req, res, next) => {
   try {
-    const data = await UserService.newUser(req.body);
+    const data = await UserService.userRegistration(req.body);
     res.status(HttpStatus.CREATED).json({
       code: HttpStatus.CREATED,
       data: data,
       message: 'User created successfully'
-    });
-  } catch (error) {
+    })
+  }
+  catch (error) {
     next(error);
   }
 };
@@ -21,7 +23,7 @@ export const login = async (req, res, next) => {
     const data = await UserService.login(req.body);
     res.status(HttpStatus.ACCEPTED).json({
       code: HttpStatus.ACCEPTED,
-      data: data,
+      token:data.token,
       message: 'User Login Succesfully'
     })
   }
@@ -29,3 +31,4 @@ export const login = async (req, res, next) => {
     next(error);
   }
 };
+

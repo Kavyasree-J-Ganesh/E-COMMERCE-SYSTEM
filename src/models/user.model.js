@@ -3,25 +3,44 @@ import { Schema, model } from 'mongoose';
 const userSchema = new Schema(
   {
     firstname: {
-      type: String
+      type: String,
+      required: true,
+      trim: true,
     },
     lastname: {
-      type: String
-    },
-    phonenumber: {
-      type: Number
+      type: String,
+      trim: true,
     },
     email: {
       type: String,
-      unique: true
+      required: true,
+      unique: true,
+      trim: true,
     },
     password: {
-      type: String
-    }
+      type: String,
+      required: true,
+      trim: true,
+    },
+    confirmpassword: {
+      type: String,
+      required: true,
+      trim: true,
+    },
+    phonenumber: {
+      type: String,
+      required: true,
+      trim: true,
+    },
+    companyname: {
+      type: String,
+      trim: true,
+    },
+    isAdmin: {
+      type: Boolean,
+      default: false,
+    },
   },
-  {
-    timestamps: true
-  }
+  { timestamps: true }
 );
-
 export default model('User', userSchema);
