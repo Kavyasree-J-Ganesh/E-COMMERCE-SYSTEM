@@ -5951,3 +5951,147 @@ error:
     method - POST 
     IP - ::1
    {"timestamp":"2023-04-23T19:55:21.717Z"}
+error: 
+    status - 500 
+    message - ReferenceError: Cart is not defined
+    at _callee2$ (E:\projects\E-COMMERCE-SYSTEM\src\services\/cart.service.js:21:36)
+    at tryCatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.apply (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.getCart (E:\projects\E-COMMERCE-SYSTEM\src\services\/cart.service.js:21:21)
+    at _callee2$ (E:\projects\E-COMMERCE-SYSTEM\src\controllers\/cart.controller.js:24:40)
+    at tryCatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at getCart (E:\projects\E-COMMERCE-SYSTEM\src\controllers\/cart.controller.js:22:21)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:16:5)
+    at tryCatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-23T20:03:20.553Z"}
+error: 
+    status - 500 
+    message - ReferenceError: Cart is not defined
+    at _callee2$ (E:\projects\E-COMMERCE-SYSTEM\src\services\/cart.service.js:21:36)
+    at tryCatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.apply (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.getCart (E:\projects\E-COMMERCE-SYSTEM\src\services\/cart.service.js:21:21)
+    at _callee2$ (E:\projects\E-COMMERCE-SYSTEM\src\controllers\/cart.controller.js:24:40)
+    at tryCatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at getCart (E:\projects\E-COMMERCE-SYSTEM\src\controllers\/cart.controller.js:22:21)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:16:5)
+    at tryCatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-23T20:03:20.569Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'findOne')
+    at _callee2$ (E:\projects\E-COMMERCE-SYSTEM\src\services\/cart.service.js:22:27)
+    at tryCatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.apply (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.getCart (E:\projects\E-COMMERCE-SYSTEM\src\services\/cart.service.js:21:21)
+    at _callee2$ (E:\projects\E-COMMERCE-SYSTEM\src\controllers\/cart.controller.js:24:40)
+    at tryCatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at getCart (E:\projects\E-COMMERCE-SYSTEM\src\controllers\/cart.controller.js:22:21)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:16:5)
+    at tryCatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-23T20:03:47.563Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'findOne')
+    at _callee2$ (E:\projects\E-COMMERCE-SYSTEM\src\services\/cart.service.js:22:27)
+    at tryCatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.apply (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.getCart (E:\projects\E-COMMERCE-SYSTEM\src\services\/cart.service.js:21:21)
+    at _callee2$ (E:\projects\E-COMMERCE-SYSTEM\src\controllers\/cart.controller.js:24:40)
+    at tryCatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at getCart (E:\projects\E-COMMERCE-SYSTEM\src\controllers\/cart.controller.js:22:21)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:16:5)
+    at tryCatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-23T20:03:47.578Z"}

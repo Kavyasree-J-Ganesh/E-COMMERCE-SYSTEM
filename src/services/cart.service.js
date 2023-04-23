@@ -19,15 +19,15 @@ export const updateAddressDetails = async (updatedData) => {
 };
 
 export const getCart= async (userId)=>{
-    let cart = await Cart.findOne({ userId: userId, isPurchased: false });
-    if (!cart) {
+    let cartDetails = await cart.findOne({ userId: userId});
+    if (!cartDetails) {
         return {
             userId: userId,
             Product: [],
             cart_total: 0
         }
     }
-    return cart
+    return cartDetails
   }
 
 
