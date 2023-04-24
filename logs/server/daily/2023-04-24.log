@@ -1,0 +1,251 @@
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-23T19:01:40.074Z"}
+info: Connected to the database. {"timestamp":"2023-04-23T19:01:40.105Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-23T19:06:37.615Z"}
+info: Connected to the database. {"timestamp":"2023-04-23T19:06:37.632Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-23T19:26:49.225Z"}
+info: Connected to the database. {"timestamp":"2023-04-23T19:26:49.243Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-23T19:26:52.864Z"}
+info: Connected to the database. {"timestamp":"2023-04-23T19:26:52.883Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-23T19:36:22.480Z"}
+info: Connected to the database. {"timestamp":"2023-04-23T19:36:22.499Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-23T19:36:31.676Z"}
+info: Connected to the database. {"timestamp":"2023-04-23T19:36:31.694Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-23T19:36:38.155Z"}
+info: Connected to the database. {"timestamp":"2023-04-23T19:36:38.176Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-23T19:37:31.330Z"}
+info: Connected to the database. {"timestamp":"2023-04-23T19:37:31.350Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-23T19:38:06.448Z"}
+info: Connected to the database. {"timestamp":"2023-04-23T19:38:06.471Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-23T19:38:20.616Z"}
+info: Connected to the database. {"timestamp":"2023-04-23T19:38:20.637Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-23T19:38:33.915Z"}
+info: Connected to the database. {"timestamp":"2023-04-23T19:38:33.933Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/cart/undefined 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-23T19:39:05.511Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/cart/undefined 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-23T19:39:10.460Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/cart/64411f86b995d83bc4b56d1d 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-23T19:39:44.019Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/cart/64411f86b995d83bc4b56d1d 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-23T19:40:51.128Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-23T19:45:17.773Z"}
+info: Connected to the database. {"timestamp":"2023-04-23T19:45:17.797Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-23T19:47:32.198Z"}
+info: Connected to the database. {"timestamp":"2023-04-23T19:47:32.217Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/cart/64411f86b995d83bc4b56d1d 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-23T19:48:11.685Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-23T19:49:04.771Z"}
+info: Connected to the database. {"timestamp":"2023-04-23T19:49:04.790Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/cart/64411f86b995d83bc4b56d1d 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-23T19:49:07.954Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/cart/64411f86b995d83bc4b56d1d 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-23T19:49:50.569Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/cart/64411f86b995d83bc4b56d1d 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-23T19:51:50.710Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-23T19:52:57.195Z"}
+info: Connected to the database. {"timestamp":"2023-04-23T19:52:57.219Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-23T19:55:02.625Z"}
+info: Connected to the database. {"timestamp":"2023-04-23T19:55:02.647Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/cart/64411f86b995d83bc4b56d1d 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-23T19:55:21.717Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-23T19:55:50.088Z"}
+info: Connected to the database. {"timestamp":"2023-04-23T19:55:50.119Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-23T20:03:18.543Z"}
+info: Connected to the database. {"timestamp":"2023-04-23T20:03:18.564Z"}
+error: 
+    status - 500 
+    message - ReferenceError: Cart is not defined
+    at _callee2$ (E:\projects\E-COMMERCE-SYSTEM\src\services\/cart.service.js:21:36)
+    at tryCatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.apply (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.getCart (E:\projects\E-COMMERCE-SYSTEM\src\services\/cart.service.js:21:21)
+    at _callee2$ (E:\projects\E-COMMERCE-SYSTEM\src\controllers\/cart.controller.js:24:40)
+    at tryCatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at getCart (E:\projects\E-COMMERCE-SYSTEM\src\controllers\/cart.controller.js:22:21)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:16:5)
+    at tryCatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-23T20:03:20.553Z"}
+error: 
+    status - 500 
+    message - ReferenceError: Cart is not defined
+    at _callee2$ (E:\projects\E-COMMERCE-SYSTEM\src\services\/cart.service.js:21:36)
+    at tryCatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.apply (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.getCart (E:\projects\E-COMMERCE-SYSTEM\src\services\/cart.service.js:21:21)
+    at _callee2$ (E:\projects\E-COMMERCE-SYSTEM\src\controllers\/cart.controller.js:24:40)
+    at tryCatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at getCart (E:\projects\E-COMMERCE-SYSTEM\src\controllers\/cart.controller.js:22:21)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:16:5)
+    at tryCatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-23T20:03:20.569Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-23T20:03:45.636Z"}
+info: Connected to the database. {"timestamp":"2023-04-23T20:03:45.655Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'findOne')
+    at _callee2$ (E:\projects\E-COMMERCE-SYSTEM\src\services\/cart.service.js:22:27)
+    at tryCatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.apply (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.getCart (E:\projects\E-COMMERCE-SYSTEM\src\services\/cart.service.js:21:21)
+    at _callee2$ (E:\projects\E-COMMERCE-SYSTEM\src\controllers\/cart.controller.js:24:40)
+    at tryCatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at getCart (E:\projects\E-COMMERCE-SYSTEM\src\controllers\/cart.controller.js:22:21)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:16:5)
+    at tryCatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-23T20:03:47.563Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'findOne')
+    at _callee2$ (E:\projects\E-COMMERCE-SYSTEM\src\services\/cart.service.js:22:27)
+    at tryCatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.apply (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.getCart (E:\projects\E-COMMERCE-SYSTEM\src\services\/cart.service.js:21:21)
+    at _callee2$ (E:\projects\E-COMMERCE-SYSTEM\src\controllers\/cart.controller.js:24:40)
+    at tryCatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at getCart (E:\projects\E-COMMERCE-SYSTEM\src\controllers\/cart.controller.js:22:21)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:16:5)
+    at tryCatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/cart 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-23T20:03:47.578Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-23T20:05:34.318Z"}
+info: Connected to the database. {"timestamp":"2023-04-23T20:05:34.338Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-23T20:06:41.132Z"}
+info: Connected to the database. {"timestamp":"2023-04-23T20:06:41.153Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-23T20:07:40.986Z"}
+info: Connected to the database. {"timestamp":"2023-04-23T20:07:41.006Z"}

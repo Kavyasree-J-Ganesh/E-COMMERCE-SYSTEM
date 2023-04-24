@@ -18,6 +18,23 @@ export const updateAddressDetails = async (req, res) => {
     }
 };
 
+// Get cart details
+export const getCart = async (req, res, next) => {
+    try {
+        const data = await cartService.getCart(
+            req.body.userId,
+        );
+        res.status(HttpStatus.CREATED).json({
+            code: HttpStatus.CREATED,
+            data: data,
+            message: 'Fetched cart successfully'
+        });
+
+    } catch (error) {
+        next(error)
+    }
+};
+
 // Add Book To Card
 export const addedToCart = async (req, res, next) => {
     try {
