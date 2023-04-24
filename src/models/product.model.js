@@ -27,6 +27,16 @@ const productSchema = new Schema({
         type: String,
         required: true
     },
+    rating: {
+        type: Number,
+        required: true,
+        default: 0
+    },
+    reviewcount: {
+        type: Number,
+        required: true,
+        default: 0
+    },
     quantity: {
         type: Number,
         required: true
