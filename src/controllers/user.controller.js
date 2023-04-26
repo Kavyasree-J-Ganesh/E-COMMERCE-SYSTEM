@@ -24,6 +24,7 @@ export const login = async (req, res, next) => {
     res.status(HttpStatus.ACCEPTED).json({
       code: HttpStatus.ACCEPTED,
       token:data.token,
+      isAdmin: data.isAdmin,
       message: 'User Login Succesfully'
     })
   }

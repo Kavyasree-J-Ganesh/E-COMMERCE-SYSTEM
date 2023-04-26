@@ -33,7 +33,7 @@ export const login = async (body, isAdmin = false) => {
     // If logging in as admin, make sure user.isAdmin is true
       var token = Jwt.sign({ email: user.email, id: user._id }, process.env.USER_SECRET_KEY);
 
-    return { user, token };
+    return { isAdmin:user.isAdmin, token };
   } catch (error) {
     throw new Error(error);
   }

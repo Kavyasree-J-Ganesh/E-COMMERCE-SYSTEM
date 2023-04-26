@@ -35,6 +35,7 @@ const userSchema = new Schema(
     companyname: {
       type: String,
       trim: true,
+      required: false
     },
     isAdmin: {
       type: Boolean,

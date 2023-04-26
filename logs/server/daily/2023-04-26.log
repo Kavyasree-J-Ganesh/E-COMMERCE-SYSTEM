@@ -1,0 +1,195 @@
+info: Connected to the database. {"timestamp":"2023-04-25T18:33:54.397Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-25T18:36:32.882Z"}
+info: Connected to the database. {"timestamp":"2023-04-25T18:36:32.962Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-25T18:39:24.688Z"}
+info: Connected to the database. {"timestamp":"2023-04-25T18:39:24.710Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-25T18:39:45.709Z"}
+info: Connected to the database. {"timestamp":"2023-04-25T18:39:45.735Z"}
+error: 
+    status - 500 
+    message - Error: Error: Invalid Email
+    at _callee2$ (E:\projects\E-COMMERCE-SYSTEM\src\services\/user.service.js:38:11)
+    at tryCatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-25T18:48:38.014Z"}
+error: 
+    status - 500 
+    message - ValidationError: "companyname" is not allowed to be empty 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-25T18:49:48.449Z"}
+error: 
+    status - 500 
+    message - ValidationError: "companyname" is not allowed to be empty 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-25T18:49:55.234Z"}
+error: 
+    status - 500 
+    message - ValidationError: "companyname" is not allowed to be empty 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-25T18:49:56.988Z"}
+error: 
+    status - 500 
+    message - ValidationError: "companyname" is not allowed to be empty 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-25T18:49:58.138Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-25T18:51:11.016Z"}
+info: Connected to the database. {"timestamp":"2023-04-25T18:51:11.043Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-25T18:53:00.012Z"}
+info: Connected to the database. {"timestamp":"2023-04-25T18:53:00.033Z"}
+error: 
+    status - 500 
+    message - ValidationError: "companyname" is not allowed to be empty 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-25T18:53:00.729Z"}
+error: 
+    status - 500 
+    message - ValidationError: "companyname" is not allowed to be empty 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-25T19:06:30.723Z"}
+error: 
+    status - 500 
+    message - Error: Error: Invalid Email
+    at _callee2$ (E:\projects\E-COMMERCE-SYSTEM\src\services\/user.service.js:38:11)
+    at tryCatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-25T19:06:44.448Z"}
+error: 
+    status - 500 
+    message - Error: Error: Invalid Email
+    at _callee2$ (E:\projects\E-COMMERCE-SYSTEM\src\services\/user.service.js:38:11)
+    at tryCatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-25T19:06:46.411Z"}
+error: 
+    status - 500 
+    message - Error: Error: Invalid Email
+    at _callee2$ (E:\projects\E-COMMERCE-SYSTEM\src\services\/user.service.js:38:11)
+    at tryCatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-25T19:06:49.231Z"}
+error: 
+    status - 500 
+    message - Error: Error: Invalid Email
+    at _callee2$ (E:\projects\E-COMMERCE-SYSTEM\src\services\/user.service.js:38:11)
+    at tryCatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-25T19:06:49.453Z"}
+error: 
+    status - 500 
+    message - Error: Error: Invalid Email
+    at _callee2$ (E:\projects\E-COMMERCE-SYSTEM\src\services\/user.service.js:38:11)
+    at tryCatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-25T19:06:58.876Z"}
+error: 
+    status - 500 
+    message - Error: Error: Invalid Password
+    at _callee2$ (E:\projects\E-COMMERCE-SYSTEM\src\services\/user.service.js:38:11)
+    at tryCatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-25T19:07:43.931Z"}
+error: 
+    status - 500 
+    message - Error: Error: Invalid Password
+    at _callee2$ (E:\projects\E-COMMERCE-SYSTEM\src\services\/user.service.js:38:11)
+    at tryCatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-26T02:14:29.910Z"}
+error: 
+    status - 500 
+    message - Error: Error: Invalid Password
+    at _callee2$ (E:\projects\E-COMMERCE-SYSTEM\src\services\/user.service.js:38:11)
+    at tryCatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-26T02:14:31.099Z"}
+error: 
+    status - 500 
+    message - Error: Error: Invalid Password
+    at _callee2$ (E:\projects\E-COMMERCE-SYSTEM\src\services\/user.service.js:38:11)
+    at tryCatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-26T02:14:32.578Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-26T02:32:13.784Z"}
+info: Connected to the database. {"timestamp":"2023-04-26T02:32:13.812Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-26T02:33:37.421Z"}
+info: Connected to the database. {"timestamp":"2023-04-26T02:33:37.440Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-26T02:35:54.901Z"}
+info: Connected to the database. {"timestamp":"2023-04-26T02:35:54.921Z"}
