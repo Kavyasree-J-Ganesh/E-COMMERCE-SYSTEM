@@ -1,0 +1,36 @@
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-23T13:45:33.813Z"}
+info: Connected to the database. {"timestamp":"2023-04-23T13:45:33.839Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-23T14:33:37.181Z"}
+info: Connected to the database. {"timestamp":"2023-04-23T14:33:37.197Z"}
+error: 
+    status - 500 
+    message - Error: CastError: Cast to ObjectId failed for value "{ _id: undefined, userId: 'kavyasree97@gmail.com' }" (type Object) at path "_id" for model "Product"
+    at _callee2$ (E:\e-commerce_Backend\e-commerce_Backend\src\services\/product.services.js:19:15)
+    at tryCatch (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.throw (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/product/64411f7ab995d83bc4b56d18 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-23T14:38:44.511Z"}
+error: 
+    status - 500 
+    message - Error: CastError: Cast to ObjectId failed for value "{ _id: undefined, userId: 'kavyasree97@gmail.com' }" (type Object) at path "_id" for model "Product"
+    at _callee2$ (E:\e-commerce_Backend\e-commerce_Backend\src\services\/product.services.js:19:15)
+    at tryCatch (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.throw (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/product/64411f7ab995d83bc4b56d18 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-23T14:38:44.524Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-23T14:39:53.002Z"}
+info: Connected to the database. {"timestamp":"2023-04-23T14:39:53.019Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-23T14:40:05.216Z"}
+info: Connected to the database. {"timestamp":"2023-04-23T14:40:05.236Z"}
