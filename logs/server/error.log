@@ -6498,3 +6498,443 @@ error:
     method - POST 
     IP - ::1
    {"timestamp":"2023-04-25T12:08:25.319Z"}
+error: 
+    status - 500 
+    message - Error: User already exists
+    at _callee$ (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\src\services\/user.service.js:15:11)
+    at tryCatch (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-26T06:02:38.585Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/wishlist/id 
+      method - PUT 
+      IP - ::1
+     {"timestamp":"2023-04-26T06:38:49.504Z"}
+error: uncaughtException: listen EADDRINUSE: address already in use :::6060
+Error: listen EADDRINUSE: address already in use :::6060
+    at Server.setupListenHandle [as _listen2] (node:net:1740:16)
+    at listenInCluster (node:net:1788:12)
+    at Server.listen (node:net:1876:7)
+    at Function.listen (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\src\/index.js:37:5)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._compile (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.newLoader [as .js] (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.runMain (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\node\src\_babel-node.ts:223:12)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32) {"date":"Wed Apr 26 2023 14:13:39 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":6060,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":95301.921},"process":{"argv":["node","D:\\Backend\\xZXZXZXZXZ\\E-Commerce\\E-COMMERCE-SYSTEM\\src\\index.js"],"cwd":"D:\\Backend\\xZXZXZXZXZ\\E-Commerce\\E-COMMERCE-SYSTEM","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19086917,"external":20621692,"heapTotal":89096192,"heapUsed":62082248,"rss":130064384},"pid":3440,"uid":null,"version":"v18.15.0"},"stack":"Error: listen EADDRINUSE: address already in use :::6060\n    at Server.setupListenHandle [as _listen2] (node:net:1740:16)\n    at listenInCluster (node:net:1788:12)\n    at Server.listen (node:net:1876:7)\n    at Function.listen (D:\\Backend\\xZXZXZXZXZ\\E-Commerce\\E-COMMERCE-SYSTEM\\node_modules\\express\\lib\\application.js:635:24)\n    at Object.<anonymous> (D:\\Backend\\xZXZXZXZXZ\\E-Commerce\\E-COMMERCE-SYSTEM\\src\\/index.js:37:5)\n    at Module._compile (node:internal/modules/cjs/loader:1254:14)\n    at Module._compile (D:\\Backend\\xZXZXZXZXZ\\E-Commerce\\E-COMMERCE-SYSTEM\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)\n    at Object.newLoader [as .js] (D:\\Backend\\xZXZXZXZXZ\\E-Commerce\\E-COMMERCE-SYSTEM\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1117:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:958:12)\n    at Function.runMain (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (D:\\Backend\\xZXZXZXZXZ\\E-Commerce\\E-COMMERCE-SYSTEM\\node_modules\\@babel\\node\\src\\_babel-node.ts:223:12)\n    at Module._compile (node:internal/modules/cjs/loader:1254:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1308:10)\n    at Module.load (node:internal/modules/cjs/loader:1117:32)","timestamp":"2023-04-26T08:43:39.671Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1740,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1788,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1876,"method":"listen","native":false},{"column":24,"file":"D:\\Backend\\xZXZXZXZXZ\\E-Commerce\\E-COMMERCE-SYSTEM\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":635,"method":"listen","native":false},{"column":5,"file":"D:\\Backend\\xZXZXZXZXZ\\E-Commerce\\E-COMMERCE-SYSTEM\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1254,"method":"_compile","native":false},{"column":24,"file":"D:\\Backend\\xZXZXZXZXZ\\E-Commerce\\E-COMMERCE-SYSTEM\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1308,"method":".js","native":false},{"column":7,"file":"D:\\Backend\\xZXZXZXZXZ\\E-Commerce\\E-COMMERCE-SYSTEM\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1117,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":958,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":81,"method":"runMain","native":false},{"column":12,"file":"D:\\Backend\\xZXZXZXZXZ\\E-Commerce\\E-COMMERCE-SYSTEM\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":223,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1254,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1308,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1117,"method":"load","native":false}]}
+error: uncaughtException: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:469:13)
+    at routes (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\src\routes\/index.js:29:10)
+    at Object.<anonymous> (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\src\/index.js:32:38)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._compile (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.newLoader [as .js] (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.runMain (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\node\src\_babel-node.ts:223:12)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47 {"date":"Wed Apr 26 2023 14:51:35 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":97578.093},"process":{"argv":["node","D:\\Backend\\xZXZXZXZXZ\\E-Commerce\\E-COMMERCE-SYSTEM\\src\\index.js"],"cwd":"D:\\Backend\\xZXZXZXZXZ\\E-Commerce\\E-COMMERCE-SYSTEM","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19067898,"external":20583578,"heapTotal":88309760,"heapUsed":65709344,"rss":132034560},"pid":2564,"uid":null,"version":"v18.15.0"},"stack":"TypeError: Router.use() requires a middleware function but got a Object\n    at Function.use (D:\\Backend\\xZXZXZXZXZ\\E-Commerce\\E-COMMERCE-SYSTEM\\node_modules\\express\\lib\\router\\index.js:469:13)\n    at routes (D:\\Backend\\xZXZXZXZXZ\\E-Commerce\\E-COMMERCE-SYSTEM\\src\\routes\\/index.js:29:10)\n    at Object.<anonymous> (D:\\Backend\\xZXZXZXZXZ\\E-Commerce\\E-COMMERCE-SYSTEM\\src\\/index.js:32:38)\n    at Module._compile (node:internal/modules/cjs/loader:1254:14)\n    at Module._compile (D:\\Backend\\xZXZXZXZXZ\\E-Commerce\\E-COMMERCE-SYSTEM\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)\n    at Object.newLoader [as .js] (D:\\Backend\\xZXZXZXZXZ\\E-Commerce\\E-COMMERCE-SYSTEM\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1117:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:958:12)\n    at Function.runMain (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (D:\\Backend\\xZXZXZXZXZ\\E-Commerce\\E-COMMERCE-SYSTEM\\node_modules\\@babel\\node\\src\\_babel-node.ts:223:12)\n    at Module._compile (node:internal/modules/cjs/loader:1254:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1308:10)\n    at Module.load (node:internal/modules/cjs/loader:1117:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:958:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:23:47","timestamp":"2023-04-26T09:21:35.849Z","trace":[{"column":13,"file":"D:\\Backend\\xZXZXZXZXZ\\E-Commerce\\E-COMMERCE-SYSTEM\\node_modules\\express\\lib\\router\\index.js","function":"Function.use","line":469,"method":"use","native":false},{"column":10,"file":"D:\\Backend\\xZXZXZXZXZ\\E-Commerce\\E-COMMERCE-SYSTEM\\src\\routes\\/index.js","function":"routes","line":29,"method":null,"native":false},{"column":38,"file":"D:\\Backend\\xZXZXZXZXZ\\E-Commerce\\E-COMMERCE-SYSTEM\\src\\/index.js","function":null,"line":32,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1254,"method":"_compile","native":false},{"column":24,"file":"D:\\Backend\\xZXZXZXZXZ\\E-Commerce\\E-COMMERCE-SYSTEM\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1308,"method":".js","native":false},{"column":7,"file":"D:\\Backend\\xZXZXZXZXZ\\E-Commerce\\E-COMMERCE-SYSTEM\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1117,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":958,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":81,"method":"runMain","native":false},{"column":12,"file":"D:\\Backend\\xZXZXZXZXZ\\E-Commerce\\E-COMMERCE-SYSTEM\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":223,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1254,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1308,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1117,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":958,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":23,"method":null,"native":false}]}
+error: uncaughtException: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:469:13)
+    at routes (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\src\routes\/index.js:29:10)
+    at Object.<anonymous> (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\src\/index.js:32:38)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._compile (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.newLoader [as .js] (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.runMain (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\node\src\_babel-node.ts:223:12)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47 {"date":"Wed Apr 26 2023 14:51:58 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":97600.656},"process":{"argv":["node","D:\\Backend\\xZXZXZXZXZ\\E-Commerce\\E-COMMERCE-SYSTEM\\src\\index.js"],"cwd":"D:\\Backend\\xZXZXZXZXZ\\E-Commerce\\E-COMMERCE-SYSTEM","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19000140,"external":20515820,"heapTotal":91979776,"heapUsed":60840208,"rss":134729728},"pid":1300,"uid":null,"version":"v18.15.0"},"stack":"TypeError: Router.use() requires a middleware function but got a Object\n    at Function.use (D:\\Backend\\xZXZXZXZXZ\\E-Commerce\\E-COMMERCE-SYSTEM\\node_modules\\express\\lib\\router\\index.js:469:13)\n    at routes (D:\\Backend\\xZXZXZXZXZ\\E-Commerce\\E-COMMERCE-SYSTEM\\src\\routes\\/index.js:29:10)\n    at Object.<anonymous> (D:\\Backend\\xZXZXZXZXZ\\E-Commerce\\E-COMMERCE-SYSTEM\\src\\/index.js:32:38)\n    at Module._compile (node:internal/modules/cjs/loader:1254:14)\n    at Module._compile (D:\\Backend\\xZXZXZXZXZ\\E-Commerce\\E-COMMERCE-SYSTEM\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)\n    at Object.newLoader [as .js] (D:\\Backend\\xZXZXZXZXZ\\E-Commerce\\E-COMMERCE-SYSTEM\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1117:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:958:12)\n    at Function.runMain (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (D:\\Backend\\xZXZXZXZXZ\\E-Commerce\\E-COMMERCE-SYSTEM\\node_modules\\@babel\\node\\src\\_babel-node.ts:223:12)\n    at Module._compile (node:internal/modules/cjs/loader:1254:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1308:10)\n    at Module.load (node:internal/modules/cjs/loader:1117:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:958:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:23:47","timestamp":"2023-04-26T09:21:58.403Z","trace":[{"column":13,"file":"D:\\Backend\\xZXZXZXZXZ\\E-Commerce\\E-COMMERCE-SYSTEM\\node_modules\\express\\lib\\router\\index.js","function":"Function.use","line":469,"method":"use","native":false},{"column":10,"file":"D:\\Backend\\xZXZXZXZXZ\\E-Commerce\\E-COMMERCE-SYSTEM\\src\\routes\\/index.js","function":"routes","line":29,"method":null,"native":false},{"column":38,"file":"D:\\Backend\\xZXZXZXZXZ\\E-Commerce\\E-COMMERCE-SYSTEM\\src\\/index.js","function":null,"line":32,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1254,"method":"_compile","native":false},{"column":24,"file":"D:\\Backend\\xZXZXZXZXZ\\E-Commerce\\E-COMMERCE-SYSTEM\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1308,"method":".js","native":false},{"column":7,"file":"D:\\Backend\\xZXZXZXZXZ\\E-Commerce\\E-COMMERCE-SYSTEM\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1117,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":958,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":81,"method":"runMain","native":false},{"column":12,"file":"D:\\Backend\\xZXZXZXZXZ\\E-Commerce\\E-COMMERCE-SYSTEM\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":223,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1254,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1308,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1117,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":958,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":23,"method":null,"native":false}]}
+error: uncaughtException: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:469:13)
+    at routes (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\src\routes\/index.js:29:10)
+    at Object.<anonymous> (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\src\/index.js:32:38)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._compile (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.newLoader [as .js] (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.runMain (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\node\src\_babel-node.ts:223:12)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47 {"date":"Wed Apr 26 2023 16:09:32 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":4295.578},"process":{"argv":["node","D:\\Backend\\xZXZXZXZXZ\\E-Commerce\\E-COMMERCE-SYSTEM\\src\\index.js"],"cwd":"D:\\Backend\\xZXZXZXZXZ\\E-Commerce\\E-COMMERCE-SYSTEM","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18380921,"external":19896601,"heapTotal":90144768,"heapUsed":51388848,"rss":133140480},"pid":17496,"uid":null,"version":"v18.15.0"},"stack":"TypeError: Router.use() requires a middleware function but got a Object\n    at Function.use (D:\\Backend\\xZXZXZXZXZ\\E-Commerce\\E-COMMERCE-SYSTEM\\node_modules\\express\\lib\\router\\index.js:469:13)\n    at routes (D:\\Backend\\xZXZXZXZXZ\\E-Commerce\\E-COMMERCE-SYSTEM\\src\\routes\\/index.js:29:10)\n    at Object.<anonymous> (D:\\Backend\\xZXZXZXZXZ\\E-Commerce\\E-COMMERCE-SYSTEM\\src\\/index.js:32:38)\n    at Module._compile (node:internal/modules/cjs/loader:1254:14)\n    at Module._compile (D:\\Backend\\xZXZXZXZXZ\\E-Commerce\\E-COMMERCE-SYSTEM\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)\n    at Object.newLoader [as .js] (D:\\Backend\\xZXZXZXZXZ\\E-Commerce\\E-COMMERCE-SYSTEM\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1117:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:958:12)\n    at Function.runMain (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (D:\\Backend\\xZXZXZXZXZ\\E-Commerce\\E-COMMERCE-SYSTEM\\node_modules\\@babel\\node\\src\\_babel-node.ts:223:12)\n    at Module._compile (node:internal/modules/cjs/loader:1254:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1308:10)\n    at Module.load (node:internal/modules/cjs/loader:1117:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:958:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:23:47","timestamp":"2023-04-26T10:39:32.961Z","trace":[{"column":13,"file":"D:\\Backend\\xZXZXZXZXZ\\E-Commerce\\E-COMMERCE-SYSTEM\\node_modules\\express\\lib\\router\\index.js","function":"Function.use","line":469,"method":"use","native":false},{"column":10,"file":"D:\\Backend\\xZXZXZXZXZ\\E-Commerce\\E-COMMERCE-SYSTEM\\src\\routes\\/index.js","function":"routes","line":29,"method":null,"native":false},{"column":38,"file":"D:\\Backend\\xZXZXZXZXZ\\E-Commerce\\E-COMMERCE-SYSTEM\\src\\/index.js","function":null,"line":32,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1254,"method":"_compile","native":false},{"column":24,"file":"D:\\Backend\\xZXZXZXZXZ\\E-Commerce\\E-COMMERCE-SYSTEM\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1308,"method":".js","native":false},{"column":7,"file":"D:\\Backend\\xZXZXZXZXZ\\E-Commerce\\E-COMMERCE-SYSTEM\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1117,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":958,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":81,"method":"runMain","native":false},{"column":12,"file":"D:\\Backend\\xZXZXZXZXZ\\E-Commerce\\E-COMMERCE-SYSTEM\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":223,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1254,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1308,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1117,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":958,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":23,"method":null,"native":false}]}
+error: uncaughtException: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:469:13)
+    at routes (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\src\routes\/index.js:29:10)
+    at Object.<anonymous> (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\src\/index.js:32:38)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._compile (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.newLoader [as .js] (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.runMain (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\node\src\_babel-node.ts:223:12)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47 {"date":"Wed Apr 26 2023 16:09:45 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":4307.937},"process":{"argv":["node","D:\\Backend\\xZXZXZXZXZ\\E-Commerce\\E-COMMERCE-SYSTEM\\src\\index.js"],"cwd":"D:\\Backend\\xZXZXZXZXZ\\E-Commerce\\E-COMMERCE-SYSTEM","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18774183,"external":20289863,"heapTotal":90144768,"heapUsed":56319536,"rss":133906432},"pid":14620,"uid":null,"version":"v18.15.0"},"stack":"TypeError: Router.use() requires a middleware function but got a Object\n    at Function.use (D:\\Backend\\xZXZXZXZXZ\\E-Commerce\\E-COMMERCE-SYSTEM\\node_modules\\express\\lib\\router\\index.js:469:13)\n    at routes (D:\\Backend\\xZXZXZXZXZ\\E-Commerce\\E-COMMERCE-SYSTEM\\src\\routes\\/index.js:29:10)\n    at Object.<anonymous> (D:\\Backend\\xZXZXZXZXZ\\E-Commerce\\E-COMMERCE-SYSTEM\\src\\/index.js:32:38)\n    at Module._compile (node:internal/modules/cjs/loader:1254:14)\n    at Module._compile (D:\\Backend\\xZXZXZXZXZ\\E-Commerce\\E-COMMERCE-SYSTEM\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)\n    at Object.newLoader [as .js] (D:\\Backend\\xZXZXZXZXZ\\E-Commerce\\E-COMMERCE-SYSTEM\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1117:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:958:12)\n    at Function.runMain (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (D:\\Backend\\xZXZXZXZXZ\\E-Commerce\\E-COMMERCE-SYSTEM\\node_modules\\@babel\\node\\src\\_babel-node.ts:223:12)\n    at Module._compile (node:internal/modules/cjs/loader:1254:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1308:10)\n    at Module.load (node:internal/modules/cjs/loader:1117:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:958:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:23:47","timestamp":"2023-04-26T10:39:45.315Z","trace":[{"column":13,"file":"D:\\Backend\\xZXZXZXZXZ\\E-Commerce\\E-COMMERCE-SYSTEM\\node_modules\\express\\lib\\router\\index.js","function":"Function.use","line":469,"method":"use","native":false},{"column":10,"file":"D:\\Backend\\xZXZXZXZXZ\\E-Commerce\\E-COMMERCE-SYSTEM\\src\\routes\\/index.js","function":"routes","line":29,"method":null,"native":false},{"column":38,"file":"D:\\Backend\\xZXZXZXZXZ\\E-Commerce\\E-COMMERCE-SYSTEM\\src\\/index.js","function":null,"line":32,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1254,"method":"_compile","native":false},{"column":24,"file":"D:\\Backend\\xZXZXZXZXZ\\E-Commerce\\E-COMMERCE-SYSTEM\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1308,"method":".js","native":false},{"column":7,"file":"D:\\Backend\\xZXZXZXZXZ\\E-Commerce\\E-COMMERCE-SYSTEM\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1117,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":958,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":81,"method":"runMain","native":false},{"column":12,"file":"D:\\Backend\\xZXZXZXZXZ\\E-Commerce\\E-COMMERCE-SYSTEM\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":223,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1254,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1308,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1117,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":958,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":23,"method":null,"native":false}]}
+error: 
+    status - 500 
+    message - ValidationError: "companyname" is not allowed to be empty 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-26T17:07:56.447Z"}
+error: 
+    status - 500 
+    message - ValidationError: "companyname" is not allowed to be empty 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-26T17:08:25.762Z"}
+error: 
+    status - 500 
+    message - ValidationError: "companyname" is not allowed to be empty 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-26T17:08:39.193Z"}
+error: 
+    status - 500 
+    message - Error: User already exists
+    at _callee$ (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\src\services\/user.service.js:15:11)
+    at tryCatch (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-26T17:08:56.289Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at internalNext (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\helmet\dist\index.js:142:6)
+    at xXssProtectionMiddleware (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\helmet\dist\middlewares\x-xss-protection\index.js:6:3)
+    at internalNext (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\helmet\dist\index.js:145:6)
+    at referrerPolicyMiddleware (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\helmet\dist\middlewares\referrer-policy\index.js:24:3)
+    at internalNext (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\helmet\dist\index.js:145:6)
+    at xPermittedCrossDomainPoliciesMiddleware (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\helmet\dist\middlewares\x-permitted-cross-domain-policies\index.js:15:3) 
+    url - /api/v1/product 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-26T17:09:18.256Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at internalNext (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\helmet\dist\index.js:142:6)
+    at xXssProtectionMiddleware (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\helmet\dist\middlewares\x-xss-protection\index.js:6:3)
+    at internalNext (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\helmet\dist\index.js:145:6)
+    at referrerPolicyMiddleware (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\helmet\dist\middlewares\referrer-policy\index.js:24:3)
+    at internalNext (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\helmet\dist\index.js:145:6)
+    at xPermittedCrossDomainPoliciesMiddleware (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\helmet\dist\middlewares\x-permitted-cross-domain-policies\index.js:15:3) 
+    url - /api/v1/cart 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-26T17:09:18.285Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at internalNext (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\helmet\dist\index.js:142:6)
+    at xXssProtectionMiddleware (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\helmet\dist\middlewares\x-xss-protection\index.js:6:3)
+    at internalNext (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\helmet\dist\index.js:145:6)
+    at referrerPolicyMiddleware (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\helmet\dist\middlewares\referrer-policy\index.js:24:3)
+    at internalNext (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\helmet\dist\index.js:145:6)
+    at xPermittedCrossDomainPoliciesMiddleware (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\helmet\dist\middlewares\x-permitted-cross-domain-policies\index.js:15:3) 
+    url - /api/v1/product 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-26T17:09:18.332Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at internalNext (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\helmet\dist\index.js:142:6)
+    at xXssProtectionMiddleware (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\helmet\dist\middlewares\x-xss-protection\index.js:6:3)
+    at internalNext (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\helmet\dist\index.js:145:6)
+    at referrerPolicyMiddleware (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\helmet\dist\middlewares\referrer-policy\index.js:24:3)
+    at internalNext (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\helmet\dist\index.js:145:6)
+    at xPermittedCrossDomainPoliciesMiddleware (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\helmet\dist\middlewares\x-permitted-cross-domain-policies\index.js:15:3) 
+    url - /api/v1/cart 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-26T17:09:18.359Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/wishlist/64411f7db995d83bc4b56d1a 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-04-26T17:21:48.532Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/wishlist/64411f7db995d83bc4b56d1a?ksj=sd 
+      method - PUT 
+      IP - ::1
+     {"timestamp":"2023-04-26T17:25:40.384Z"}
+error: uncaughtException: res is not defined
+ReferenceError: res is not defined
+    at D:\react_app\SamBeta\E-COMMERCE-SYSTEM\src\services\/payment.service.js:33:7
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {"date":"Wed Apr 26 2023 23:53:18 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":520298},"process":{"argv":["node","D:\\react_app\\SamBeta\\E-COMMERCE-SYSTEM\\src\\index.js"],"cwd":"D:\\react_app\\SamBeta\\E-COMMERCE-SYSTEM","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18291907,"external":19949892,"heapTotal":53235712,"heapUsed":48059496,"rss":88412160},"pid":15564,"uid":null,"version":"v16.14.2"},"stack":"ReferenceError: res is not defined\n    at D:\\react_app\\SamBeta\\E-COMMERCE-SYSTEM\\src\\services\\/payment.service.js:33:7\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","timestamp":"2023-04-26T18:23:18.942Z","trace":[{"column":7,"file":"D:\\react_app\\SamBeta\\E-COMMERCE-SYSTEM\\src\\services\\/payment.service.js","function":null,"line":33,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":96,"method":null,"native":false}]}
+error: uncaughtException: Cannot set headers after they are sent to the client
+Error: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.setHeader (node:_http_outgoing:576:11)
+    at ServerResponse.header (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\response.js:278:15)
+    at ServerResponse.send (D:\react_app\SamBeta\E-COMMERCE-SYSTEM\node_modules\express\lib\response.js:162:21)
+    at D:\react_app\SamBeta\E-COMMERCE-SYSTEM\src\services\/payment.service.js:33:11
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {"date":"Wed Apr 26 2023 23:56:32 GMT+0530 (India Standard Time)","error":{"code":"ERR_HTTP_HEADERS_SENT"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":520491},"process":{"argv":["node","D:\\react_app\\SamBeta\\E-COMMERCE-SYSTEM\\src\\index.js"],"cwd":"D:\\react_app\\SamBeta\\E-COMMERCE-SYSTEM","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18319921,"external":19977906,"heapTotal":53497856,"heapUsed":48390488,"rss":89325568},"pid":3612,"uid":null,"version":"v16.14.2"},"stack":"Error: Cannot set headers after they are sent to the client\n    at new NodeError (node:internal/errors:371:5)\n    at ServerResponse.setHeader (node:_http_outgoing:576:11)\n    at ServerResponse.header (D:\\react_app\\SamBeta\\E-COMMERCE-SYSTEM\\node_modules\\express\\lib\\response.js:794:10)\n    at ServerResponse.send (D:\\react_app\\SamBeta\\E-COMMERCE-SYSTEM\\node_modules\\express\\lib\\response.js:174:12)\n    at ServerResponse.json (D:\\react_app\\SamBeta\\E-COMMERCE-SYSTEM\\node_modules\\express\\lib\\response.js:278:15)\n    at ServerResponse.send (D:\\react_app\\SamBeta\\E-COMMERCE-SYSTEM\\node_modules\\express\\lib\\response.js:162:21)\n    at D:\\react_app\\SamBeta\\E-COMMERCE-SYSTEM\\src\\services\\/payment.service.js:33:11\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","timestamp":"2023-04-26T18:26:32.040Z","trace":[{"column":5,"file":"node:internal/errors","function":"new NodeError","line":371,"method":null,"native":false},{"column":11,"file":"node:_http_outgoing","function":"ServerResponse.setHeader","line":576,"method":"setHeader","native":false},{"column":10,"file":"D:\\react_app\\SamBeta\\E-COMMERCE-SYSTEM\\node_modules\\express\\lib\\response.js","function":"ServerResponse.header","line":794,"method":"header","native":false},{"column":12,"file":"D:\\react_app\\SamBeta\\E-COMMERCE-SYSTEM\\node_modules\\express\\lib\\response.js","function":"ServerResponse.send","line":174,"method":"send","native":false},{"column":15,"file":"D:\\react_app\\SamBeta\\E-COMMERCE-SYSTEM\\node_modules\\express\\lib\\response.js","function":"ServerResponse.json","line":278,"method":"json","native":false},{"column":21,"file":"D:\\react_app\\SamBeta\\E-COMMERCE-SYSTEM\\node_modules\\express\\lib\\response.js","function":"ServerResponse.send","line":162,"method":"send","native":false},{"column":11,"file":"D:\\react_app\\SamBeta\\E-COMMERCE-SYSTEM\\src\\services\\/payment.service.js","function":null,"line":33,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":96,"method":null,"native":false}]}
+error: uncaughtException: Cannot set headers after they are sent to the client
+Error: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:399:5)
+    at ServerResponse.setHeader (node:_http_outgoing:663:11)
+    at ServerResponse.header (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\express\lib\response.js:278:15)
+    at ServerResponse.send (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\express\lib\response.js:162:21)
+    at D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\src\services\/payment.service.js:33:11
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {"date":"Thu Apr 27 2023 00:08:20 GMT+0530 (India Standard Time)","error":{"code":"ERR_HTTP_HEADERS_SENT"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":33022.656},"process":{"argv":["node","D:\\Backend\\xZXZXZXZXZ\\E-Commerce\\E-COMMERCE-SYSTEM\\src\\index.js"],"cwd":"D:\\Backend\\xZXZXZXZXZ\\E-Commerce\\E-COMMERCE-SYSTEM","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18326762,"external":19870036,"heapTotal":60792832,"heapUsed":56208384,"rss":103071744},"pid":6752,"uid":null,"version":"v18.15.0"},"stack":"Error: Cannot set headers after they are sent to the client\n    at new NodeError (node:internal/errors:399:5)\n    at ServerResponse.setHeader (node:_http_outgoing:663:11)\n    at ServerResponse.header (D:\\Backend\\xZXZXZXZXZ\\E-Commerce\\E-COMMERCE-SYSTEM\\node_modules\\express\\lib\\response.js:794:10)\n    at ServerResponse.send (D:\\Backend\\xZXZXZXZXZ\\E-Commerce\\E-COMMERCE-SYSTEM\\node_modules\\express\\lib\\response.js:174:12)\n    at ServerResponse.json (D:\\Backend\\xZXZXZXZXZ\\E-Commerce\\E-COMMERCE-SYSTEM\\node_modules\\express\\lib\\response.js:278:15)\n    at ServerResponse.send (D:\\Backend\\xZXZXZXZXZ\\E-Commerce\\E-COMMERCE-SYSTEM\\node_modules\\express\\lib\\response.js:162:21)\n    at D:\\Backend\\xZXZXZXZXZ\\E-Commerce\\E-COMMERCE-SYSTEM\\src\\services\\/payment.service.js:33:11\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2023-04-26T18:38:20.042Z","trace":[{"column":5,"file":"node:internal/errors","function":"new NodeError","line":399,"method":null,"native":false},{"column":11,"file":"node:_http_outgoing","function":"ServerResponse.setHeader","line":663,"method":"setHeader","native":false},{"column":10,"file":"D:\\Backend\\xZXZXZXZXZ\\E-Commerce\\E-COMMERCE-SYSTEM\\node_modules\\express\\lib\\response.js","function":"ServerResponse.header","line":794,"method":"header","native":false},{"column":12,"file":"D:\\Backend\\xZXZXZXZXZ\\E-Commerce\\E-COMMERCE-SYSTEM\\node_modules\\express\\lib\\response.js","function":"ServerResponse.send","line":174,"method":"send","native":false},{"column":15,"file":"D:\\Backend\\xZXZXZXZXZ\\E-Commerce\\E-COMMERCE-SYSTEM\\node_modules\\express\\lib\\response.js","function":"ServerResponse.json","line":278,"method":"json","native":false},{"column":21,"file":"D:\\Backend\\xZXZXZXZXZ\\E-Commerce\\E-COMMERCE-SYSTEM\\node_modules\\express\\lib\\response.js","function":"ServerResponse.send","line":162,"method":"send","native":false},{"column":11,"file":"D:\\Backend\\xZXZXZXZXZ\\E-Commerce\\E-COMMERCE-SYSTEM\\src\\services\\/payment.service.js","function":null,"line":33,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
