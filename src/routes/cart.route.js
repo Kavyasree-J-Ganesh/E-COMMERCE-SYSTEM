@@ -7,7 +7,6 @@ const router = express.Router();
 // pruchase Product from cart
 router.post('/updateAddress', userAuth, cartController.updateAddressDetails);
 
-// get products in cart
 router.get('/', userAuth, cartController.getCart);
 
 // add Products to the cart
