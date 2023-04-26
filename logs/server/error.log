@@ -5647,451 +5647,657 @@ error:
    {"timestamp":"2023-04-21T05:50:55.994Z"}
 error: 
     status - 500 
-    message - ValidationError: "companyname" is not allowed to be empty 
+    message - ValidationError: "firstname" is not allowed to be empty 
     url - /api/v1/users 
     method - POST 
     IP - ::1
-   {"timestamp":"2023-04-21T06:29:30.266Z"}
+   {"timestamp":"2023-04-21T08:01:26.703Z"}
 error: 
     status - 500 
-    message - ValidationError: "companyname" is not allowed to be empty 
-    url - /api/v1/users 
-    method - POST 
-    IP - ::1
-   {"timestamp":"2023-04-21T06:35:31.360Z"}
-error: 
-    status - 500 
-    message - ValidationError: "companyName" is not allowed 
-    url - /api/v1/users 
-    method - POST 
-    IP - ::1
-   {"timestamp":"2023-04-21T06:35:52.584Z"}
-error: 
-    status - 500 
-    message - ValidationError: "companyName" is not allowed 
-    url - /api/v1/users 
-    method - POST 
-    IP - ::1
-   {"timestamp":"2023-04-21T06:36:05.194Z"}
-error: 
-    status - 500 
-    message - ValidationError: "companyName" is not allowed 
-    url - /api/v1/users 
-    method - POST 
-    IP - ::1
-   {"timestamp":"2023-04-21T06:36:14.238Z"}
-error: 
-    status - 500 
-    message - ValidationError: "companyname" is not allowed to be empty 
-    url - /api/v1/users 
-    method - POST 
-    IP - ::1
-   {"timestamp":"2023-04-21T06:41:20.701Z"}
-error: 
-    status - 500 
-    message - ValidationError: "companyName" is not allowed 
-    url - /api/v1/users 
-    method - POST 
-    IP - ::1
-   {"timestamp":"2023-04-21T06:41:42.713Z"}
-error: 
-    status - 500 
-    message - ValidationError: "companyName" is not allowed 
-    url - /api/v1/users 
-    method - POST 
-    IP - ::1
-   {"timestamp":"2023-04-21T06:42:22.971Z"}
-error: 
-    status - 500 
-    message - ValidationError: "companyname" is not allowed to be empty 
-    url - /api/v1/users 
-    method - POST 
-    IP - ::1
-   {"timestamp":"2023-04-21T06:45:07.549Z"}
-error: 
-    status - 500 
-    message - ValidationError: "companyname" is not allowed to be empty 
-    url - /api/v1/users 
-    method - POST 
-    IP - ::1
-   {"timestamp":"2023-04-21T06:45:26.779Z"}
-error: 
-    status - 500 
-    message - ValidationError: "companyname" is not allowed to be empty 
-    url - /api/v1/users 
-    method - POST 
-    IP - ::1
-   {"timestamp":"2023-04-21T06:58:07.687Z"}
-error: 
-    status - 500 
-    message - ValidationError: "companyname" is not allowed to be empty 
-    url - /api/v1/users 
-    method - POST 
-    IP - ::1
-   {"timestamp":"2023-04-21T06:58:16.622Z"}
-error: 
-    status - 500 
-    message - Error: User already exists
-    at _callee$ (D:\Backend\E-Commerce\e-commerce_Backend\src\services\/user.service.js:15:11)
-    at tryCatch (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
-    at Generator.<anonymous> (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
-    at Generator.next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
-    at asyncGeneratorStep (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
-    at _next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    message - Error: CastError: Cast to ObjectId failed for value "{ _id: undefined, userId: 'kavyasree97@gmail.com' }" (type Object) at path "_id" for model "Product"
+    at _callee2$ (E:\e-commerce_Backend\e-commerce_Backend\src\services\/product.services.js:19:15)
+    at tryCatch (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.throw (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
     at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/product/64411f7ab995d83bc4b56d18 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-23T14:38:44.511Z"}
+error: 
+    status - 500 
+    message - Error: CastError: Cast to ObjectId failed for value "{ _id: undefined, userId: 'kavyasree97@gmail.com' }" (type Object) at path "_id" for model "Product"
+    at _callee2$ (E:\e-commerce_Backend\e-commerce_Backend\src\services\/product.services.js:19:15)
+    at tryCatch (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.throw (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (E:\e-commerce_Backend\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/product/64411f7ab995d83bc4b56d18 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-23T14:38:44.524Z"}
+error: uncaughtException: listen EADDRINUSE: address already in use :::6060
+Error: listen EADDRINUSE: address already in use :::6060
+    at Server.setupListenHandle [as _listen2] (node:net:1740:16)
+    at listenInCluster (node:net:1788:12)
+    at Server.listen (node:net:1876:7)
+    at Function.listen (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\src\/index.js:37:5)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._compile (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.newLoader [as .js] (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.runMain (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\node\src\_babel-node.ts:223:12)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47 {"date":"Tue Apr 25 2023 11:44:36 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":6060,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":337784.156},"process":{"argv":["node","D:\\Backend\\xZXZXZXZXZ\\E-Commerce\\E-COMMERCE-SYSTEM\\src\\index.js"],"cwd":"D:\\Backend\\xZXZXZXZXZ\\E-Commerce\\E-COMMERCE-SYSTEM","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19246423,"external":20781198,"heapTotal":103038976,"heapUsed":76690128,"rss":147689472},"pid":17864,"uid":null,"version":"v18.15.0"},"stack":"Error: listen EADDRINUSE: address already in use :::6060\n    at Server.setupListenHandle [as _listen2] (node:net:1740:16)\n    at listenInCluster (node:net:1788:12)\n    at Server.listen (node:net:1876:7)\n    at Function.listen (D:\\Backend\\xZXZXZXZXZ\\E-Commerce\\E-COMMERCE-SYSTEM\\node_modules\\express\\lib\\application.js:635:24)\n    at Object.<anonymous> (D:\\Backend\\xZXZXZXZXZ\\E-Commerce\\E-COMMERCE-SYSTEM\\src\\/index.js:37:5)\n    at Module._compile (node:internal/modules/cjs/loader:1254:14)\n    at Module._compile (D:\\Backend\\xZXZXZXZXZ\\E-Commerce\\E-COMMERCE-SYSTEM\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)\n    at Object.newLoader [as .js] (D:\\Backend\\xZXZXZXZXZ\\E-Commerce\\E-COMMERCE-SYSTEM\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1117:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:958:12)\n    at Function.runMain (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (D:\\Backend\\xZXZXZXZXZ\\E-Commerce\\E-COMMERCE-SYSTEM\\node_modules\\@babel\\node\\src\\_babel-node.ts:223:12)\n    at Module._compile (node:internal/modules/cjs/loader:1254:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1308:10)\n    at Module.load (node:internal/modules/cjs/loader:1117:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:958:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:23:47","timestamp":"2023-04-25T06:14:36.379Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1740,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1788,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1876,"method":"listen","native":false},{"column":24,"file":"D:\\Backend\\xZXZXZXZXZ\\E-Commerce\\E-COMMERCE-SYSTEM\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":635,"method":"listen","native":false},{"column":5,"file":"D:\\Backend\\xZXZXZXZXZ\\E-Commerce\\E-COMMERCE-SYSTEM\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1254,"method":"_compile","native":false},{"column":24,"file":"D:\\Backend\\xZXZXZXZXZ\\E-Commerce\\E-COMMERCE-SYSTEM\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1308,"method":".js","native":false},{"column":7,"file":"D:\\Backend\\xZXZXZXZXZ\\E-Commerce\\E-COMMERCE-SYSTEM\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1117,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":958,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":81,"method":"runMain","native":false},{"column":12,"file":"D:\\Backend\\xZXZXZXZXZ\\E-Commerce\\E-COMMERCE-SYSTEM\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":223,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1254,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1308,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1117,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":958,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":23,"method":null,"native":false}]}
+error: 
+    status - 500 
+    message - ValidationError: "companyname" is not allowed to be empty 
     url - /api/v1/users 
     method - POST 
     IP - ::1
-   {"timestamp":"2023-04-21T07:05:17.990Z"}
+   {"timestamp":"2023-04-25T06:19:01.434Z"}
 error: 
     status - 500 
     message - Error: Error: Invalid Email
-    at _callee2$ (D:\Backend\E-Commerce\e-commerce_Backend\src\services\/user.service.js:38:11)
-    at tryCatch (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
-    at Generator.<anonymous> (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
-    at Generator.next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
-    at asyncGeneratorStep (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
-    at _next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at _callee2$ (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\src\services\/user.service.js:38:11)
+    at tryCatch (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
     at processTicksAndRejections (node:internal/process/task_queues:95:5) 
     url - /api/v1/users/login 
     method - POST 
     IP - ::1
-   {"timestamp":"2023-04-21T07:06:14.343Z"}
+   {"timestamp":"2023-04-25T06:19:41.893Z"}
 error: 
     status - 500 
     message - Error: Error: Invalid Email
-    at _callee2$ (D:\Backend\E-Commerce\e-commerce_Backend\src\services\/user.service.js:38:11)
-    at tryCatch (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
-    at Generator.<anonymous> (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
-    at Generator.next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
-    at asyncGeneratorStep (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
-    at _next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at _callee2$ (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\src\services\/user.service.js:38:11)
+    at tryCatch (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
     at processTicksAndRejections (node:internal/process/task_queues:95:5) 
     url - /api/v1/users/login 
     method - POST 
     IP - ::1
-   {"timestamp":"2023-04-21T07:06:25.881Z"}
+   {"timestamp":"2023-04-25T06:19:42.994Z"}
+error: 
+    status - 500 
+    message - ValidationError: "companyname" is not allowed to be empty 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-25T06:21:26.139Z"}
 error: 
     status - 500 
     message - Error: Error: Invalid Email
-    at _callee2$ (D:\Backend\E-Commerce\e-commerce_Backend\src\services\/user.service.js:38:11)
-    at tryCatch (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
-    at Generator.<anonymous> (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
-    at Generator.next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
-    at asyncGeneratorStep (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
-    at _next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at _callee2$ (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\src\services\/user.service.js:38:11)
+    at tryCatch (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
     at processTicksAndRejections (node:internal/process/task_queues:95:5) 
     url - /api/v1/users/login 
     method - POST 
     IP - ::1
-   {"timestamp":"2023-04-21T07:06:26.731Z"}
+   {"timestamp":"2023-04-25T06:22:55.102Z"}
 error: 
     status - 500 
-    message - ValidationError: "companyname" is not allowed to be empty 
-    url - /api/v1/users 
+    message - undefined 
+    url - /api/v1/cart/64411f86b995d83bc4b56d1d 
     method - POST 
     IP - ::1
-   {"timestamp":"2023-04-21T07:10:27.667Z"}
+   {"timestamp":"2023-04-25T06:23:59.331Z"}
 error: 
     status - 500 
-    message - ValidationError: "companyname" is not allowed to be empty 
-    url - /api/v1/users 
+    message - undefined 
+    url - /api/v1/cart/64411f86b995d83bc4b56d1d 
     method - POST 
     IP - ::1
-   {"timestamp":"2023-04-21T08:37:19.832Z"}
+   {"timestamp":"2023-04-25T06:24:00.046Z"}
 error: 
     status - 500 
-    message - ValidationError: "companyname" is not allowed to be empty 
-    url - /api/v1/users 
+    message - undefined 
+    url - /api/v1/cart/64411f86b995d83bc4b56d1d 
     method - POST 
     IP - ::1
-   {"timestamp":"2023-04-21T08:39:04.044Z"}
+   {"timestamp":"2023-04-25T06:24:00.697Z"}
 error: 
     status - 500 
-    message - ValidationError: "companyname" is not allowed to be empty 
-    url - /api/v1/users 
+    message - undefined 
+    url - /api/v1/cart/64411f86b995d83bc4b56d1d 
     method - POST 
     IP - ::1
-   {"timestamp":"2023-04-21T08:43:57.941Z"}
+   {"timestamp":"2023-04-25T06:24:00.992Z"}
 error: 
     status - 500 
-    message - ValidationError: "companyname" is not allowed to be empty 
-    url - /api/v1/users 
+    message - undefined 
+    url - /api/v1/cart/64411f86b995d83bc4b56d1d 
     method - POST 
     IP - ::1
-   {"timestamp":"2023-04-21T08:44:45.680Z"}
+   {"timestamp":"2023-04-25T06:24:01.272Z"}
 error: 
     status - 500 
-    message - ValidationError: User validation failed: confirmpassword: Path `confirmpassword` is required.
-    at model.Document.invalidate (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\mongoose\lib\document.js:2782:32)
-    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\mongoose\lib\document.js:2574:17
-    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\mongoose\lib\schematype.js:1273:9
-    at processTicksAndRejections (node:internal/process/task_queues:77:11) 
-    url - /api/v1/users/ 
+    message - undefined 
+    url - /api/v1/cart/64411f86b995d83bc4b56d1d 
     method - POST 
     IP - ::1
-   {"timestamp":"2023-04-21T08:47:30.441Z"}
+   {"timestamp":"2023-04-25T06:24:01.538Z"}
 error: 
     status - 500 
-    message - ValidationError: User validation failed: confirmpassword: Path `confirmpassword` is required.
-    at model.Document.invalidate (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\mongoose\lib\document.js:2782:32)
-    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\mongoose\lib\document.js:2574:17
-    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\mongoose\lib\schematype.js:1273:9
-    at processTicksAndRejections (node:internal/process/task_queues:77:11) 
-    url - /api/v1/users/ 
+    message - undefined 
+    url - /api/v1/cart/64411f86b995d83bc4b56d1d 
     method - POST 
     IP - ::1
-   {"timestamp":"2023-04-21T08:47:35.755Z"}
+   {"timestamp":"2023-04-25T06:24:01.756Z"}
 error: 
     status - 500 
-    message - JsonWebTokenError: jwt malformed
-    at Object.verify (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\jsonwebtoken\verify.js:63:17)
-    at _callee$ (D:\Backend\E-Commerce\e-commerce_Backend\src\middlewares\/auth.middleware.js:14:28)
-    at tryCatch (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
-    at Generator.<anonymous> (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
-    at Generator.next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
-    at asyncGeneratorStep (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
-    at _next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
-    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
-    at new Promise (<anonymous>)
-    at apply (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
-    at userAuth (D:\Backend\E-Commerce\e-commerce_Backend\src\middlewares\/auth.middleware.js:4:22)
-    at Layer.handle [as handle_request] (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
-    at next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\route.js:144:13)
-    at Route.dispatch (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\route.js:114:3)
-    at Layer.handle [as handle_request] (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
-    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:284:15 
+    message - undefined 
+    url - /api/v1/cart/64411f86b995d83bc4b56d1d 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-25T06:24:02.398Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/cart/64411f86b995d83bc4b56d1d 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-25T06:24:02.581Z"}
+error: 
+    status - 500 
+    message - Error: Product validation failed: categories: Path `categories` is required., buyprice: Path `buyprice` is required., quantity: Path `quantity` is required., manufacturer: Path `manufacturer` is required., description: Path `description` is required., discountedPrice: Path `discountedPrice` is required., realPrice: Path `realPrice` is required., image: Path `image` is required., title: Path `title` is required.
+    at _callee7$ (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\src\services\/product.services.js:82:15)
+    at tryCatch (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.throw (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
     url - /api/v1/product 
-    method - GET 
+    method - POST 
     IP - ::1
-   {"timestamp":"2023-04-21T08:48:22.181Z"}
+   {"timestamp":"2023-04-25T06:29:03.558Z"}
 error: 
     status - 500 
-    message - JsonWebTokenError: jwt malformed
-    at Object.verify (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\jsonwebtoken\verify.js:63:17)
-    at _callee$ (D:\Backend\E-Commerce\e-commerce_Backend\src\middlewares\/auth.middleware.js:14:28)
-    at tryCatch (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
-    at Generator.<anonymous> (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
-    at Generator.next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
-    at asyncGeneratorStep (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
-    at _next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
-    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
-    at new Promise (<anonymous>)
-    at apply (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
-    at userAuth (D:\Backend\E-Commerce\e-commerce_Backend\src\middlewares\/auth.middleware.js:4:22)
-    at Layer.handle [as handle_request] (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
-    at next (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\route.js:144:13)
-    at Route.dispatch (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\route.js:114:3)
-    at Layer.handle [as handle_request] (D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\layer.js:95:5)
-    at D:\Backend\E-Commerce\e-commerce_Backend\node_modules\express\lib\router\index.js:284:15 
+    message - Error: E11000 duplicate key error collection: e-commerce.products index: title_1 dup key: { title: "iphone14" }
+    at _callee7$ (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\src\services\/product.services.js:82:15)
+    at tryCatch (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.throw (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
     url - /api/v1/product 
-    method - GET 
+    method - POST 
     IP - ::1
-   {"timestamp":"2023-04-21T08:48:22.197Z"}
+   {"timestamp":"2023-04-25T06:29:26.716Z"}
 error: 
     status - 500 
     message - undefined 
-    url - /api/v1/cart/undefined 
+    url - /api/v1/cart/6447734fda06ca20342c07c0 
     method - POST 
     IP - ::1
-   {"timestamp":"2023-04-23T19:39:05.511Z"}
+   {"timestamp":"2023-04-25T06:29:47.237Z"}
 error: 
     status - 500 
     message - undefined 
-    url - /api/v1/cart/undefined 
+    url - /api/v1/wishlist/6447734fda06ca20342c07c0 
     method - POST 
     IP - ::1
-   {"timestamp":"2023-04-23T19:39:10.460Z"}
+   {"timestamp":"2023-04-25T06:46:13.371Z"}
 error: 
     status - 500 
     message - undefined 
-    url - /api/v1/cart/64411f86b995d83bc4b56d1d 
+    url - /api/v1/wishlist/644176e002fefe46785ddbc2 
     method - POST 
     IP - ::1
-   {"timestamp":"2023-04-23T19:39:44.019Z"}
+   {"timestamp":"2023-04-25T06:52:57.931Z"}
 error: 
     status - 500 
     message - undefined 
-    url - /api/v1/cart/64411f86b995d83bc4b56d1d 
+    url - /api/v1/wishlist/644176e002fefe46785ddbc2 
     method - POST 
     IP - ::1
-   {"timestamp":"2023-04-23T19:40:51.128Z"}
+   {"timestamp":"2023-04-25T06:54:18.108Z"}
 error: 
     status - 500 
     message - undefined 
-    url - /api/v1/cart/64411f86b995d83bc4b56d1d 
+    url - /api/v1/wishlist/644176e002fefe46785ddbc2 
     method - POST 
     IP - ::1
-   {"timestamp":"2023-04-23T19:48:11.685Z"}
+   {"timestamp":"2023-04-25T06:55:47.896Z"}
 error: 
     status - 500 
     message - undefined 
-    url - /api/v1/cart/64411f86b995d83bc4b56d1d 
+    url - /api/v1/wishlist/644176e002fefe46785ddbc2 
     method - POST 
     IP - ::1
-   {"timestamp":"2023-04-23T19:49:07.954Z"}
+   {"timestamp":"2023-04-25T06:55:49.430Z"}
 error: 
     status - 500 
     message - undefined 
-    url - /api/v1/cart/64411f86b995d83bc4b56d1d 
+    url - /api/v1/wishlist/644176e002fefe46785ddbc2 
     method - POST 
     IP - ::1
-   {"timestamp":"2023-04-23T19:49:50.569Z"}
+   {"timestamp":"2023-04-25T06:56:13.970Z"}
 error: 
     status - 500 
     message - undefined 
-    url - /api/v1/cart/64411f86b995d83bc4b56d1d 
+    url - /api/v1/wishlist/644176e002fefe46785ddbc2 
     method - POST 
     IP - ::1
-   {"timestamp":"2023-04-23T19:51:50.710Z"}
+   {"timestamp":"2023-04-25T06:57:59.813Z"}
+error: 
+      status - 500
+      message - Failed to add product to wishlist 
+      url - /api/v1/wishlist/644176e002fefe46785ddbc2 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-04-25T07:00:41.124Z"}
+error: 
+      status - 500
+      message - Failed to add product to wishlist 
+      url - /api/v1/wishlist/644176e002fefe46785ddbc2 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-04-25T07:00:42.750Z"}
+error: 
+      status - 500
+      message - Failed to add product to wishlist 
+      url - /api/v1/wishlist/644176e002fefe46785ddbc2 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-04-25T07:00:44.262Z"}
+error: 
+      status - 500
+      message - Failed to add product to wishlist 
+      url - /api/v1/wishlist/644176e002fefe46785ddbc2 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-04-25T07:01:03.138Z"}
+error: 
+      status - 500
+      message - Failed to add product to wishlist 
+      url - /api/v1/wishlist/644176e002fefe46785ddbc2 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-04-25T07:04:35.373Z"}
+error: 
+      status - 500
+      message - Failed to add product to wishlist 
+      url - /api/v1/wishlist/644176e002fefe46785ddbc2 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-04-25T07:04:36.180Z"}
 error: 
     status - 500 
-    message - undefined 
-    url - /api/v1/cart/64411f86b995d83bc4b56d1d 
-    method - POST 
-    IP - ::1
-   {"timestamp":"2023-04-23T19:55:21.717Z"}
-error: 
-    status - 500 
-    message - ReferenceError: Cart is not defined
-    at _callee2$ (E:\projects\E-COMMERCE-SYSTEM\src\services\/cart.service.js:21:36)
-    at tryCatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
-    at Generator.<anonymous> (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
-    at Generator.next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
-    at asyncGeneratorStep (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
-    at _next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
-    at E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    message - TypeError: wishlistService.removeProduct is not a function
+    at _callee2$ (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\src\controllers\/wishlist.controller.js:30:46)
+    at tryCatch (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
     at new Promise (<anonymous>)
-    at Object.apply (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
-    at Object.getCart (E:\projects\E-COMMERCE-SYSTEM\src\services\/cart.service.js:21:21)
-    at _callee2$ (E:\projects\E-COMMERCE-SYSTEM\src\controllers\/cart.controller.js:24:40)
-    at tryCatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
-    at Generator.<anonymous> (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
-    at Generator.next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
-    at asyncGeneratorStep (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
-    at _next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
-    at E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
-    at new Promise (<anonymous>)
-    at apply (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
-    at getCart (E:\projects\E-COMMERCE-SYSTEM\src\controllers\/cart.controller.js:22:21)
-    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
-    at next (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
-    at _callee$ (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:16:5)
-    at tryCatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
-    at Generator.<anonymous> (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
-    at Generator.next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
-    at asyncGeneratorStep (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
-    at _next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at apply (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at removeProduct (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\src\controllers\/wishlist.controller.js:25:27)
+    at Layer.handle [as handle_request] (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:16:5)
+    at tryCatch (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
     at processTicksAndRejections (node:internal/process/task_queues:95:5) 
-    url - /api/v1/cart 
-    method - GET 
+    url - /api/v1/wishlist/644176e002fefe46785ddbc2 
+    method - PUT 
     IP - ::1
-   {"timestamp":"2023-04-23T20:03:20.553Z"}
+   {"timestamp":"2023-04-25T07:14:26.728Z"}
 error: 
     status - 500 
-    message - ReferenceError: Cart is not defined
-    at _callee2$ (E:\projects\E-COMMERCE-SYSTEM\src\services\/cart.service.js:21:36)
-    at tryCatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
-    at Generator.<anonymous> (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
-    at Generator.next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
-    at asyncGeneratorStep (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
-    at _next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
-    at E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
-    at new Promise (<anonymous>)
-    at Object.apply (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
-    at Object.getCart (E:\projects\E-COMMERCE-SYSTEM\src\services\/cart.service.js:21:21)
-    at _callee2$ (E:\projects\E-COMMERCE-SYSTEM\src\controllers\/cart.controller.js:24:40)
-    at tryCatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
-    at Generator.<anonymous> (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
-    at Generator.next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
-    at asyncGeneratorStep (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
-    at _next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
-    at E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
-    at new Promise (<anonymous>)
-    at apply (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
-    at getCart (E:\projects\E-COMMERCE-SYSTEM\src\controllers\/cart.controller.js:22:21)
-    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
-    at next (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
-    at _callee$ (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:16:5)
-    at tryCatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
-    at Generator.<anonymous> (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
-    at Generator.next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
-    at asyncGeneratorStep (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
-    at _next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    message - Error: Product not found in wishlist
+    at _callee2$ (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\src\services\/wishlist.service.js:79:19)
+    at tryCatch (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
     at processTicksAndRejections (node:internal/process/task_queues:95:5) 
-    url - /api/v1/cart 
-    method - GET 
+    url - /api/v1/wishlist/644791f672345e2484b0c336 
+    method - PUT 
     IP - ::1
-   {"timestamp":"2023-04-23T20:03:20.569Z"}
+   {"timestamp":"2023-04-25T08:41:07.351Z"}
 error: 
     status - 500 
-    message - TypeError: Cannot read properties of undefined (reading 'findOne')
-    at _callee2$ (E:\projects\E-COMMERCE-SYSTEM\src\services\/cart.service.js:22:27)
-    at tryCatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
-    at Generator.<anonymous> (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
-    at Generator.next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
-    at asyncGeneratorStep (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
-    at _next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
-    at E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
-    at new Promise (<anonymous>)
-    at Object.apply (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
-    at Object.getCart (E:\projects\E-COMMERCE-SYSTEM\src\services\/cart.service.js:21:21)
-    at _callee2$ (E:\projects\E-COMMERCE-SYSTEM\src\controllers\/cart.controller.js:24:40)
-    at tryCatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
-    at Generator.<anonymous> (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
-    at Generator.next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
-    at asyncGeneratorStep (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
-    at _next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
-    at E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
-    at new Promise (<anonymous>)
-    at apply (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
-    at getCart (E:\projects\E-COMMERCE-SYSTEM\src\controllers\/cart.controller.js:22:21)
-    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
-    at next (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
-    at _callee$ (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:16:5)
-    at tryCatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
-    at Generator.<anonymous> (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
-    at Generator.next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
-    at asyncGeneratorStep (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
-    at _next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    message - Error: Product not found in wishlist
+    at _callee2$ (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\src\services\/wishlist.service.js:79:19)
+    at tryCatch (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
     at processTicksAndRejections (node:internal/process/task_queues:95:5) 
-    url - /api/v1/cart 
-    method - GET 
+    url - /api/v1/wishlist/644791f672345e2484b0c336 
+    method - PUT 
     IP - ::1
-   {"timestamp":"2023-04-23T20:03:47.563Z"}
+   {"timestamp":"2023-04-25T08:44:36.275Z"}
 error: 
     status - 500 
-    message - TypeError: Cannot read properties of undefined (reading 'findOne')
-    at _callee2$ (E:\projects\E-COMMERCE-SYSTEM\src\services\/cart.service.js:22:27)
-    at tryCatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
-    at Generator.<anonymous> (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
-    at Generator.next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
-    at asyncGeneratorStep (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
-    at _next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
-    at E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
-    at new Promise (<anonymous>)
-    at Object.apply (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
-    at Object.getCart (E:\projects\E-COMMERCE-SYSTEM\src\services\/cart.service.js:21:21)
-    at _callee2$ (E:\projects\E-COMMERCE-SYSTEM\src\controllers\/cart.controller.js:24:40)
-    at tryCatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
-    at Generator.<anonymous> (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
-    at Generator.next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
-    at asyncGeneratorStep (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
-    at _next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
-    at E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
-    at new Promise (<anonymous>)
-    at apply (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
-    at getCart (E:\projects\E-COMMERCE-SYSTEM\src\controllers\/cart.controller.js:22:21)
-    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
-    at next (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
-    at _callee$ (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:16:5)
-    at tryCatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
-    at Generator.<anonymous> (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
-    at Generator.next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
-    at asyncGeneratorStep (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
-    at _next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    message - Error: Product not found in wishlist
+    at _callee2$ (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\src\services\/wishlist.service.js:79:19)
+    at tryCatch (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
     at processTicksAndRejections (node:internal/process/task_queues:95:5) 
-    url - /api/v1/cart 
-    method - GET 
+    url - /api/v1/wishlist/64477c19751e6a29e4a96940 
+    method - PUT 
     IP - ::1
-   {"timestamp":"2023-04-23T20:03:47.578Z"}
+   {"timestamp":"2023-04-25T08:44:54.007Z"}
+error: 
+      status - 500
+      message - Failed to add product to wishlist 
+      url - /api/v1/wishlist/64477c19751e6a29e4a96940 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-04-25T08:49:15.153Z"}
+error: 
+      status - 500
+      message - Failed to add product to wishlist 
+      url - /api/v1/wishlist/64477c19751e6a29e4a96940 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-04-25T08:49:54.879Z"}
+error: 
+    status - 500 
+    message - Error: E11000 duplicate key error collection: e-commerce.products index: title_1 dup key: { title: "Boat" }
+    at _callee7$ (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\src\services\/product.services.js:82:15)
+    at tryCatch (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.throw (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/product 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-25T08:50:01.575Z"}
+error: 
+    status - 500 
+    message - Error: Product not found in wishlist
+    at _callee2$ (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\src\services\/wishlist.service.js:79:19)
+    at tryCatch (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/wishlist/6447946ab99f4c0e1079a2ef 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-04-25T08:51:26.203Z"}
+error: 
+    status - 500 
+    message - Error: Product not found in wishlist
+    at _callee2$ (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\src\services\/wishlist.service.js:79:19)
+    at tryCatch (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/wishlist/6447946ab99f4c0e1079a2ef 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-04-25T08:51:27.687Z"}
+error: 
+    status - 500 
+    message - Error: Product not found in wishlist
+    at _callee2$ (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\src\services\/wishlist.service.js:79:19)
+    at tryCatch (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/wishlist/6447946ab99f4c0e1079a2ef 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-04-25T08:51:28.713Z"}
+error: 
+    status - 500 
+    message - TypeError: wishlistService.removeProduct is not a function
+    at _callee2$ (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\src\controllers\/wishlist.controller.js:30:46)
+    at tryCatch (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at removeProduct (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\src\controllers\/wishlist.controller.js:25:27)
+    at Layer.handle [as handle_request] (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:16:5)
+    at tryCatch (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/wishlist/64411f7ab995d83bc4b56d18 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-04-25T10:42:33.074Z"}
+error: 
+    status - 500 
+    message - TypeError: wishlistService.removeProduct is not a function
+    at _callee2$ (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\src\controllers\/wishlist.controller.js:30:46)
+    at tryCatch (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at removeProduct (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\src\controllers\/wishlist.controller.js:25:27)
+    at Layer.handle [as handle_request] (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:16:5)
+    at tryCatch (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/wishlist/64411f7ab995d83bc4b56d18 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-04-25T10:45:29.907Z"}
+error: 
+    status - 500 
+    message - TypeError: wishlistService.removeProduct is not a function
+    at _callee2$ (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\src\controllers\/wishlist.controller.js:30:46)
+    at tryCatch (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at removeProduct (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\src\controllers\/wishlist.controller.js:25:27)
+    at Layer.handle [as handle_request] (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:16:5)
+    at tryCatch (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/wishlist/64411f7ab995d83bc4b56d18 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-04-25T10:45:32.111Z"}
+error: 
+    status - 500 
+    message - TypeError: wishlistService.removeProduct is not a function
+    at _callee2$ (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\src\controllers\/wishlist.controller.js:30:46)
+    at tryCatch (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at removeProduct (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\src\controllers\/wishlist.controller.js:25:27)
+    at Layer.handle [as handle_request] (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:16:5)
+    at tryCatch (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/wishlist/64411f7ab995d83bc4b56d18 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-04-25T10:45:47.627Z"}
+error: 
+    status - 500 
+    message - TypeError: wishlistService.removeProduct is not a function
+    at _callee2$ (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\src\controllers\/wishlist.controller.js:30:46)
+    at tryCatch (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at removeProduct (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\src\controllers\/wishlist.controller.js:25:27)
+    at Layer.handle [as handle_request] (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:16:5)
+    at tryCatch (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/wishlist/64411f7ab995d83bc4b56d18 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-04-25T10:54:28.717Z"}
+error: 
+    status - 500 
+    message - TypeError: wishlistService.removeProduct is not a function
+    at _callee2$ (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\src\controllers\/wishlist.controller.js:30:46)
+    at tryCatch (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at removeProduct (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\src\controllers\/wishlist.controller.js:25:27)
+    at Layer.handle [as handle_request] (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:16:5)
+    at tryCatch (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/wishlist/64411f7ab995d83bc4b56d18 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-04-25T10:54:29.921Z"}
+error: 
+    status - 500 
+    message - TypeError: wishlistService.removeProduct is not a function
+    at _callee2$ (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\src\controllers\/wishlist.controller.js:30:46)
+    at tryCatch (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at removeProduct (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\src\controllers\/wishlist.controller.js:25:27)
+    at Layer.handle [as handle_request] (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:16:5)
+    at tryCatch (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend\xZXZXZXZXZ\E-Commerce\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/wishlist/64411f7ab995d83bc4b56d18 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-04-25T10:57:24.011Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/wishlist/ 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2023-04-25T11:37:39.162Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/cart/64411f7ab995d83bc4b56d18 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-25T12:08:19.239Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/cart/64411f7ab995d83bc4b56d18 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-25T12:08:19.860Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/cart/64411f7ab995d83bc4b56d18 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-25T12:08:20.013Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/cart/64411f7ab995d83bc4b56d18 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-25T12:08:25.319Z"}
