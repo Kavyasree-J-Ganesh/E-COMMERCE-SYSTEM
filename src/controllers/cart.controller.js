@@ -57,7 +57,7 @@ export const addedToCart = async (req, res, next) => {
 export const removeProductFromCart = async (req, res) => {
     try {
         const data = await cartService.removeproductFromCart(
-            req.body.EmailId,
+            req.body.userId,
             req.params._id
         );
         res.status(HttpStatus.CREATED).json({

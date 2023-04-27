@@ -99,10 +99,12 @@ export const removeproductFromCart = async (userId, params_product_id) => {
             if (element.productId === params_product_id) {
                 element.quantity = element.quantity -= 1;
                 productquanitity = element.quantity;
-                totalPrice = totalPrice - element.realPrice * element.quantity;
+                totalPrice = checkCart.cart_total - element.discountedPrice * 1;
                 let indexofelement = checkCart.product.indexOf(element);
                 console.log('If product found');
-                checkCart.product.splice(indexofelement, 1);
+                if(element.quantity ===0 ){
+                    checkCart.product.splice(indexofelement, 1);
+                }
                 productFound = true;
             }
         });
