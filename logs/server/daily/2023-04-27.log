@@ -1,0 +1,139 @@
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-27T05:01:48.864Z"}
+info: Connected to the database. {"timestamp":"2023-04-27T05:01:48.891Z"}
+error: 
+    status - 500 
+    message - ValidationError: "isAdmin" is not allowed 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-27T05:10:41.304Z"}
+error: 
+    status - 500 
+    message - ValidationError: "isAdmin" is not allowed 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-27T05:10:58.575Z"}
+error: 
+    status - 500 
+    message - ValidationError: "isAdmin" is not allowed 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-27T05:11:24.805Z"}
+error: 
+    status - 500 
+    message - Error: User already exists
+    at _callee$ (D:\Backend new\E-COMMERCE-SYSTEM\src\services\/user.service.js:15:11)
+    at tryCatch (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-27T05:28:55.057Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-27T05:37:08.854Z"}
+info: Connected to the database. {"timestamp":"2023-04-27T05:37:08.875Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-27T05:41:51.360Z"}
+info: Connected to the database. {"timestamp":"2023-04-27T05:41:51.380Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-27T05:42:14.475Z"}
+info: Connected to the database. {"timestamp":"2023-04-27T05:42:14.502Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-27T05:42:20.952Z"}
+info: Connected to the database. {"timestamp":"2023-04-27T05:42:20.976Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-27T05:42:44.946Z"}
+info: Connected to the database. {"timestamp":"2023-04-27T05:42:44.965Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-27T05:43:08.512Z"}
+info: Connected to the database. {"timestamp":"2023-04-27T05:43:08.530Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-27T05:43:25.081Z"}
+info: Connected to the database. {"timestamp":"2023-04-27T05:43:25.099Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-27T05:43:35.228Z"}
+info: Connected to the database. {"timestamp":"2023-04-27T05:43:35.248Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-27T05:43:46.268Z"}
+info: Connected to the database. {"timestamp":"2023-04-27T05:43:46.287Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-27T05:51:19.922Z"}
+info: Connected to the database. {"timestamp":"2023-04-27T05:51:19.941Z"}
+info: Connected to the database. {"timestamp":"2023-04-27T05:58:55.661Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-27T06:01:12.957Z"}
+info: Connected to the database. {"timestamp":"2023-04-27T06:01:12.976Z"}
+error: 
+    status - 500 
+    message - Error: Error: Invalid Password
+    at _callee2$ (D:\Backend new\E-COMMERCE-SYSTEM\src\services\/user.service.js:38:11)
+    at tryCatch (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-27T06:15:53.503Z"}
+error: 
+    status - 500 
+    message - Error: Error: Invalid Password
+    at _callee2$ (D:\Backend new\E-COMMERCE-SYSTEM\src\services\/user.service.js:38:11)
+    at tryCatch (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-27T06:15:55.232Z"}
+error: 
+      status - 500
+      message - Failed to add product to wishlist 
+      url - /api/v1/wishlist/undefined 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-04-27T09:25:48.571Z"}
+error: 
+      status - 500
+      message - Failed to add product to wishlist 
+      url - /api/v1/wishlist/undefined 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-04-27T09:26:01.716Z"}
+error: 
+      status - 500
+      message - Failed to add product to wishlist 
+      url - /api/v1/wishlist/undefined 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-04-27T09:27:44.550Z"}
+error: 
+      status - 500
+      message - Failed to add product to wishlist 
+      url - /api/v1/wishlist/undefined 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-04-27T09:30:06.424Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-27T10:04:50.630Z"}
+info: Connected to the database. {"timestamp":"2023-04-27T10:04:50.672Z"}
+error: 
+      status - 500
+      message - Failed to add product to wishlist 
+      url - /api/v1/wishlist/undefined 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-04-27T11:04:22.455Z"}
+error: 
+      status - 500
+      message - Failed to add product to wishlist 
+      url - /api/v1/wishlist/undefined 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-04-27T11:04:22.665Z"}
+error: 
+      status - 500
+      message - Failed to add product to wishlist 
+      url - /api/v1/wishlist/[object%20Object] 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-04-27T12:08:17.661Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-27T14:01:58.459Z"}
+info: Connected to the database. {"timestamp":"2023-04-27T14:01:58.495Z"}

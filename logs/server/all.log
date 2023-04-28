@@ -7521,3 +7521,256 @@ info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-26T0
 info: Connected to the database. {"timestamp":"2023-04-26T02:35:54.921Z"}
 info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-26T02:37:58.973Z"}
 info: Connected to the database. {"timestamp":"2023-04-26T02:37:58.996Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-27T05:01:48.864Z"}
+info: Connected to the database. {"timestamp":"2023-04-27T05:01:48.891Z"}
+error: 
+    status - 500 
+    message - ValidationError: "isAdmin" is not allowed 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-27T05:10:41.304Z"}
+error: 
+    status - 500 
+    message - ValidationError: "isAdmin" is not allowed 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-27T05:10:58.575Z"}
+error: 
+    status - 500 
+    message - ValidationError: "isAdmin" is not allowed 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-27T05:11:24.805Z"}
+error: 
+    status - 500 
+    message - Error: User already exists
+    at _callee$ (D:\Backend new\E-COMMERCE-SYSTEM\src\services\/user.service.js:15:11)
+    at tryCatch (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-27T05:28:55.057Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-27T05:37:08.854Z"}
+info: Connected to the database. {"timestamp":"2023-04-27T05:37:08.875Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-27T05:41:51.360Z"}
+info: Connected to the database. {"timestamp":"2023-04-27T05:41:51.380Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-27T05:42:14.475Z"}
+info: Connected to the database. {"timestamp":"2023-04-27T05:42:14.502Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-27T05:42:20.952Z"}
+info: Connected to the database. {"timestamp":"2023-04-27T05:42:20.976Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-27T05:42:44.946Z"}
+info: Connected to the database. {"timestamp":"2023-04-27T05:42:44.965Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-27T05:43:08.512Z"}
+info: Connected to the database. {"timestamp":"2023-04-27T05:43:08.530Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-27T05:43:25.081Z"}
+info: Connected to the database. {"timestamp":"2023-04-27T05:43:25.099Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-27T05:43:35.228Z"}
+info: Connected to the database. {"timestamp":"2023-04-27T05:43:35.248Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-27T05:43:46.268Z"}
+info: Connected to the database. {"timestamp":"2023-04-27T05:43:46.287Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-27T05:51:19.922Z"}
+info: Connected to the database. {"timestamp":"2023-04-27T05:51:19.941Z"}
+error: uncaughtException: paymentRoute is not defined
+ReferenceError: paymentRoute is not defined
+    at routes (D:\Backend new\E-COMMERCE-SYSTEM\src\routes\/index.js:27:26)
+    at Object.<anonymous> (D:\Backend new\E-COMMERCE-SYSTEM\src\/index.js:32:38)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._compile (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.newLoader [as .js] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.runMain (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\node\src\_babel-node.ts:223:12)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47 {"date":"Thu Apr 27 2023 11:28:55 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":73858.234},"process":{"argv":["node","D:\\Backend new\\E-COMMERCE-SYSTEM\\src\\index.js"],"cwd":"D:\\Backend new\\E-COMMERCE-SYSTEM","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19003622,"external":20519302,"heapTotal":95911936,"heapUsed":58326528,"rss":137056256},"pid":6972,"uid":null,"version":"v18.15.0"},"stack":"ReferenceError: paymentRoute is not defined\n    at routes (D:\\Backend new\\E-COMMERCE-SYSTEM\\src\\routes\\/index.js:27:26)\n    at Object.<anonymous> (D:\\Backend new\\E-COMMERCE-SYSTEM\\src\\/index.js:32:38)\n    at Module._compile (node:internal/modules/cjs/loader:1254:14)\n    at Module._compile (D:\\Backend new\\E-COMMERCE-SYSTEM\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)\n    at Object.newLoader [as .js] (D:\\Backend new\\E-COMMERCE-SYSTEM\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1117:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:958:12)\n    at Function.runMain (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (D:\\Backend new\\E-COMMERCE-SYSTEM\\node_modules\\@babel\\node\\src\\_babel-node.ts:223:12)\n    at Module._compile (node:internal/modules/cjs/loader:1254:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1308:10)\n    at Module.load (node:internal/modules/cjs/loader:1117:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:958:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:23:47","timestamp":"2023-04-27T05:58:55.620Z","trace":[{"column":26,"file":"D:\\Backend new\\E-COMMERCE-SYSTEM\\src\\routes\\/index.js","function":"routes","line":27,"method":null,"native":false},{"column":38,"file":"D:\\Backend new\\E-COMMERCE-SYSTEM\\src\\/index.js","function":null,"line":32,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1254,"method":"_compile","native":false},{"column":24,"file":"D:\\Backend new\\E-COMMERCE-SYSTEM\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1308,"method":".js","native":false},{"column":7,"file":"D:\\Backend new\\E-COMMERCE-SYSTEM\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1117,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":958,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":81,"method":"runMain","native":false},{"column":12,"file":"D:\\Backend new\\E-COMMERCE-SYSTEM\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":223,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1254,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1308,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1117,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":958,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":23,"method":null,"native":false}]}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-27T06:01:12.957Z"}
+info: Connected to the database. {"timestamp":"2023-04-27T06:01:12.976Z"}
+error: 
+    status - 500 
+    message - Error: Error: Invalid Password
+    at _callee2$ (D:\Backend new\E-COMMERCE-SYSTEM\src\services\/user.service.js:38:11)
+    at tryCatch (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-27T06:15:53.503Z"}
+error: 
+    status - 500 
+    message - Error: Error: Invalid Password
+    at _callee2$ (D:\Backend new\E-COMMERCE-SYSTEM\src\services\/user.service.js:38:11)
+    at tryCatch (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-27T06:15:55.232Z"}
+error: 
+      status - 500
+      message - Failed to add product to wishlist 
+      url - /api/v1/wishlist/undefined 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-04-27T09:25:48.571Z"}
+error: 
+      status - 500
+      message - Failed to add product to wishlist 
+      url - /api/v1/wishlist/undefined 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-04-27T09:26:01.716Z"}
+error: 
+      status - 500
+      message - Failed to add product to wishlist 
+      url - /api/v1/wishlist/undefined 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-04-27T09:27:44.550Z"}
+error: 
+      status - 500
+      message - Failed to add product to wishlist 
+      url - /api/v1/wishlist/undefined 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-04-27T09:30:06.424Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-27T10:04:50.630Z"}
+info: Connected to the database. {"timestamp":"2023-04-27T10:04:50.672Z"}
+error: 
+      status - 500
+      message - Failed to add product to wishlist 
+      url - /api/v1/wishlist/undefined 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-04-27T11:04:22.455Z"}
+error: 
+      status - 500
+      message - Failed to add product to wishlist 
+      url - /api/v1/wishlist/undefined 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-04-27T11:04:22.665Z"}
+error: 
+      status - 500
+      message - Failed to add product to wishlist 
+      url - /api/v1/wishlist/[object%20Object] 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-04-27T12:08:17.661Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-27T14:01:58.459Z"}
+info: Connected to the database. {"timestamp":"2023-04-27T14:01:58.495Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-28T03:58:50.765Z"}
+info: Connected to the database. {"timestamp":"2023-04-28T03:58:50.811Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-28T04:10:32.664Z"}
+info: Connected to the database. {"timestamp":"2023-04-28T04:10:32.701Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-28T04:37:22.918Z"}
+info: Connected to the database. {"timestamp":"2023-04-28T04:37:22.974Z"}
+error: uncaughtException: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:469:13)
+    at routes (D:\Backend new\E-COMMERCE-SYSTEM\src\routes\/index.js:31:10)
+    at Object.<anonymous> (D:\Backend new\E-COMMERCE-SYSTEM\src\/index.js:32:38)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._compile (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.newLoader [as .js] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.runMain (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\node\src\_babel-node.ts:223:12)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47 {"date":"Fri Apr 28 2023 12:14:35 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":74503.437},"process":{"argv":["node","D:\\Backend new\\E-COMMERCE-SYSTEM\\src\\index.js"],"cwd":"D:\\Backend new\\E-COMMERCE-SYSTEM","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18363023,"external":19878703,"heapTotal":95125504,"heapUsed":48607664,"rss":135630848},"pid":13984,"uid":null,"version":"v18.15.0"},"stack":"TypeError: Router.use() requires a middleware function but got a Object\n    at Function.use (D:\\Backend new\\E-COMMERCE-SYSTEM\\node_modules\\express\\lib\\router\\index.js:469:13)\n    at routes (D:\\Backend new\\E-COMMERCE-SYSTEM\\src\\routes\\/index.js:31:10)\n    at Object.<anonymous> (D:\\Backend new\\E-COMMERCE-SYSTEM\\src\\/index.js:32:38)\n    at Module._compile (node:internal/modules/cjs/loader:1254:14)\n    at Module._compile (D:\\Backend new\\E-COMMERCE-SYSTEM\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)\n    at Object.newLoader [as .js] (D:\\Backend new\\E-COMMERCE-SYSTEM\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1117:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:958:12)\n    at Function.runMain (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (D:\\Backend new\\E-COMMERCE-SYSTEM\\node_modules\\@babel\\node\\src\\_babel-node.ts:223:12)\n    at Module._compile (node:internal/modules/cjs/loader:1254:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1308:10)\n    at Module.load (node:internal/modules/cjs/loader:1117:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:958:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:23:47","timestamp":"2023-04-28T06:44:35.992Z","trace":[{"column":13,"file":"D:\\Backend new\\E-COMMERCE-SYSTEM\\node_modules\\express\\lib\\router\\index.js","function":"Function.use","line":469,"method":"use","native":false},{"column":10,"file":"D:\\Backend new\\E-COMMERCE-SYSTEM\\src\\routes\\/index.js","function":"routes","line":31,"method":null,"native":false},{"column":38,"file":"D:\\Backend new\\E-COMMERCE-SYSTEM\\src\\/index.js","function":null,"line":32,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1254,"method":"_compile","native":false},{"column":24,"file":"D:\\Backend new\\E-COMMERCE-SYSTEM\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1308,"method":".js","native":false},{"column":7,"file":"D:\\Backend new\\E-COMMERCE-SYSTEM\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1117,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":958,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":81,"method":"runMain","native":false},{"column":12,"file":"D:\\Backend new\\E-COMMERCE-SYSTEM\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":223,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1254,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1308,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1117,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":958,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":23,"method":null,"native":false}]}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-28T06:45:22.608Z"}
+info: Connected to the database. {"timestamp":"2023-04-28T06:45:22.633Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-28T06:46:55.478Z"}
+info: Connected to the database. {"timestamp":"2023-04-28T06:46:55.507Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-28T06:47:44.882Z"}
+info: Connected to the database. {"timestamp":"2023-04-28T06:47:44.907Z"}
+error: uncaughtException: Cannot set headers after they are sent to the client
+Error: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:399:5)
+    at ServerResponse.setHeader (node:_http_outgoing:663:11)
+    at ServerResponse.header (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\response.js:278:15)
+    at ServerResponse.send (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\response.js:162:21)
+    at D:\Backend new\E-COMMERCE-SYSTEM\src\services\/payment.service.js:33:17
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {"date":"Fri Apr 28 2023 12:18:30 GMT+0530 (India Standard Time)","error":{"code":"ERR_HTTP_HEADERS_SENT"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":74737.515},"process":{"argv":["node","D:\\Backend new\\E-COMMERCE-SYSTEM\\src\\index.js"],"cwd":"D:\\Backend new\\E-COMMERCE-SYSTEM","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18328595,"external":19871869,"heapTotal":52396032,"heapUsed":48450288,"rss":96485376},"pid":6740,"uid":null,"version":"v18.15.0"},"stack":"Error: Cannot set headers after they are sent to the client\n    at new NodeError (node:internal/errors:399:5)\n    at ServerResponse.setHeader (node:_http_outgoing:663:11)\n    at ServerResponse.header (D:\\Backend new\\E-COMMERCE-SYSTEM\\node_modules\\express\\lib\\response.js:794:10)\n    at ServerResponse.send (D:\\Backend new\\E-COMMERCE-SYSTEM\\node_modules\\express\\lib\\response.js:174:12)\n    at ServerResponse.json (D:\\Backend new\\E-COMMERCE-SYSTEM\\node_modules\\express\\lib\\response.js:278:15)\n    at ServerResponse.send (D:\\Backend new\\E-COMMERCE-SYSTEM\\node_modules\\express\\lib\\response.js:162:21)\n    at D:\\Backend new\\E-COMMERCE-SYSTEM\\src\\services\\/payment.service.js:33:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2023-04-28T06:48:30.069Z","trace":[{"column":5,"file":"node:internal/errors","function":"new NodeError","line":399,"method":null,"native":false},{"column":11,"file":"node:_http_outgoing","function":"ServerResponse.setHeader","line":663,"method":"setHeader","native":false},{"column":10,"file":"D:\\Backend new\\E-COMMERCE-SYSTEM\\node_modules\\express\\lib\\response.js","function":"ServerResponse.header","line":794,"method":"header","native":false},{"column":12,"file":"D:\\Backend new\\E-COMMERCE-SYSTEM\\node_modules\\express\\lib\\response.js","function":"ServerResponse.send","line":174,"method":"send","native":false},{"column":15,"file":"D:\\Backend new\\E-COMMERCE-SYSTEM\\node_modules\\express\\lib\\response.js","function":"ServerResponse.json","line":278,"method":"json","native":false},{"column":21,"file":"D:\\Backend new\\E-COMMERCE-SYSTEM\\node_modules\\express\\lib\\response.js","function":"ServerResponse.send","line":162,"method":"send","native":false},{"column":17,"file":"D:\\Backend new\\E-COMMERCE-SYSTEM\\src\\services\\/payment.service.js","function":null,"line":33,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-28T06:50:22.874Z"}
+info: Connected to the database. {"timestamp":"2023-04-28T06:50:22.892Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-28T06:57:17.779Z"}
+info: Connected to the database. {"timestamp":"2023-04-28T06:57:17.802Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-28T06:57:25.050Z"}
+info: Connected to the database. {"timestamp":"2023-04-28T06:57:25.088Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-28T06:57:30.597Z"}
+info: Connected to the database. {"timestamp":"2023-04-28T06:57:30.613Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-28T06:57:36.478Z"}
+info: Connected to the database. {"timestamp":"2023-04-28T06:57:36.501Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-28T06:57:39.142Z"}
+info: Connected to the database. {"timestamp":"2023-04-28T06:57:39.163Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-28T06:58:07.668Z"}
+info: Connected to the database. {"timestamp":"2023-04-28T06:58:07.688Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-28T06:58:29.923Z"}
+info: Connected to the database. {"timestamp":"2023-04-28T06:58:29.942Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-28T06:59:02.629Z"}
+info: Connected to the database. {"timestamp":"2023-04-28T06:59:02.647Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-28T06:59:11.661Z"}
+info: Connected to the database. {"timestamp":"2023-04-28T06:59:11.682Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-28T06:59:24.584Z"}
+info: Connected to the database. {"timestamp":"2023-04-28T06:59:24.603Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-28T06:59:40.441Z"}
+info: Connected to the database. {"timestamp":"2023-04-28T06:59:40.461Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-28T07:00:44.800Z"}
+info: Connected to the database. {"timestamp":"2023-04-28T07:00:44.819Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-28T07:04:05.646Z"}
+info: Connected to the database. {"timestamp":"2023-04-28T07:04:05.670Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-28T07:04:13.281Z"}
+info: Connected to the database. {"timestamp":"2023-04-28T07:04:13.301Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-28T07:05:11.553Z"}
+info: Connected to the database. {"timestamp":"2023-04-28T07:05:11.574Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-28T07:06:06.340Z"}
+info: Connected to the database. {"timestamp":"2023-04-28T07:06:06.361Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-28T07:06:58.481Z"}
+info: Connected to the database. {"timestamp":"2023-04-28T07:06:58.499Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-28T07:07:06.691Z"}
+info: Connected to the database. {"timestamp":"2023-04-28T07:07:06.712Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-28T07:07:50.992Z"}
+info: Connected to the database. {"timestamp":"2023-04-28T07:07:51.021Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-28T07:20:04.069Z"}
+info: Connected to the database. {"timestamp":"2023-04-28T07:20:04.095Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-28T07:20:16.927Z"}
+info: Connected to the database. {"timestamp":"2023-04-28T07:20:16.947Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-28T07:20:35.710Z"}
+info: Connected to the database. {"timestamp":"2023-04-28T07:20:35.730Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-28T07:21:10.122Z"}
+info: Connected to the database. {"timestamp":"2023-04-28T07:21:10.140Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-28T07:21:41.812Z"}
+info: Connected to the database. {"timestamp":"2023-04-28T07:21:41.834Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-28T07:26:50.185Z"}
+info: Connected to the database. {"timestamp":"2023-04-28T07:26:50.206Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-28T07:28:01.259Z"}
+info: Connected to the database. {"timestamp":"2023-04-28T07:28:01.285Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-28T07:28:29.672Z"}
+info: Connected to the database. {"timestamp":"2023-04-28T07:28:29.697Z"}

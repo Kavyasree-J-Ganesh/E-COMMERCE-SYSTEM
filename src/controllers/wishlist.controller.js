@@ -40,7 +40,7 @@ export const removeProduct = async (req, res, next) => {
 };
 
 
-// Remove book from Wishlist
+// Remove Product from Wishlist
 export const getWishlist = async (req, res) => {
     try {
         const data = await wishlistService.getWishlist(req.body.userId);

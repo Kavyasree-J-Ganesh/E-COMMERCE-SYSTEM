@@ -18,8 +18,8 @@ export const updateAddressDetails = async (updatedData) => {
     return updatedCart;
 };
 
-export const getCart= async (userId)=>{
-    let cartDetails = await cart.findOne({ userId: userId});
+export const getCart = async (userId) => {
+    let cartDetails = await cart.findOne({ userId: userId });
     if (!cartDetails) {
         return {
             userId: userId,
@@ -28,7 +28,7 @@ export const getCart= async (userId)=>{
         }
     }
     return cartDetails
-  }
+}
 
 
 export const addedToCart = async (userId, params_id) => {
@@ -45,15 +45,15 @@ export const addedToCart = async (userId, params_id) => {
         };
         let totalPrice = userCart.cart_total;
 
-        const existingBook = userCart.product.find(
+        const existingProduct = userCart.product.find(
             (prooo) => prooo.productId === params_id
         );
-        if (existingBook) {
-            existingBook.quantity++;
-            totalPrice += existingBook.discountedPrice;
-            console.log('Existing prooo quantity:', existingBook.quantity);
+        if (existingProduct) {
+            existingProduct.quantity++;
+            totalPrice += existingProduct.discountedPrice;
+            console.log('Existing prooo quantity:', existingProduct.quantity);
         } else {
-            const newBook = {
+            const newProduct = {
                 productId: prooo._id,
                 description: prooo.description,
                 title: prooo.title,
@@ -63,9 +63,9 @@ export const addedToCart = async (userId, params_id) => {
                 discountedPrice: parseInt(prooo.discountedPrice),
                 quantity: 1
             };
-            userCart.product.push(newBook);
-            totalPrice += newBook.discountedPrice;
-            console.log('Added new prooo:', newBook);
+            userCart.product.push(newProduct);
+            totalPrice += newProduct.discountedPrice;
+            console.log('Added new prooo:', newProduct);
         }
 
         console.log(`Cart total after adding prooo(s): ${totalPrice}`);
@@ -102,7 +102,7 @@ export const removeproductFromCart = async (userId, params_product_id) => {
                 totalPrice = checkCart.cart_total - element.discountedPrice * 1;
                 let indexofelement = checkCart.product.indexOf(element);
                 console.log('If product found');
-                if(element.quantity ===0 ){
+                if (element.quantity === 0) {
                     checkCart.product.splice(indexofelement, 1);
                 }
                 productFound = true;

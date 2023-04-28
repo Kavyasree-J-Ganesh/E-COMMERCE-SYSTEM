@@ -1,0 +1,36 @@
+info: ::1 - - [28/Apr/2023:05:50:42 +0000] "GET /api/v1/cart HTTP/1.1" 201 875 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [28/Apr/2023:05:50:42 +0000] "GET /api/v1/cart HTTP/1.1" 201 875 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [28/Apr/2023:06:48:28 +0000] "POST /api/v1/payment HTTP/1.1" 200 32 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [28/Apr/2023:07:14:53 +0000] "POST /api/v1/payment HTTP/1.1" 500 2082 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [28/Apr/2023:07:17:25 +0000] "POST /api/v1/users HTTP/1.1" 201 411 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [28/Apr/2023:07:17:42 +0000] "POST /api/v1/users/login HTTP/1.1" 202 274 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [28/Apr/2023:07:17:42 +0000] "GET /api/v1/cart HTTP/1.1" 201 875 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [28/Apr/2023:07:17:42 +0000] "GET /api/v1/cart HTTP/1.1" 201 875 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [28/Apr/2023:07:17:42 +0000] "GET /api/v1/product HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [28/Apr/2023:07:17:42 +0000] "GET /api/v1/product HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [28/Apr/2023:07:17:43 +0000] "GET /api/v1/product/64411f86b995d83bc4b56d1d HTTP/1.1" 202 516 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [28/Apr/2023:07:17:43 +0000] "GET /api/v1/product/64411f86b995d83bc4b56d1d HTTP/1.1" 202 516 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [28/Apr/2023:07:17:44 +0000] "POST /api/v1/cart/64411f86b995d83bc4b56d1d HTTP/1.1" 201 1216 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [28/Apr/2023:07:17:44 +0000] "GET /api/v1/cart HTTP/1.1" 201 1215 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [28/Apr/2023:07:17:46 +0000] "GET /api/v1/cart HTTP/1.1" 201 1215 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [28/Apr/2023:07:17:46 +0000] "GET /api/v1/cart HTTP/1.1" 201 1215 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [28/Apr/2023:07:18:03 +0000] "POST /api/v1/payment HTTP/1.1" 500 2082 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [28/Apr/2023:07:21:56 +0000] "POST /api/v1/payment HTTP/1.1" 500 2102 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+

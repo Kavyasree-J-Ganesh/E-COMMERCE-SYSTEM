@@ -29,7 +29,4 @@ router.get('/newarrival', userAuth, productController.newArrival);
 
 
 
-// // get a book by search
-// router.get('/search/:searchText', userAuth, bookController.searchByText);
-
 export default router;
