@@ -1,0 +1,28 @@
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-30T08:29:01.295Z"}
+info: Connected to the database. {"timestamp":"2023-04-30T08:29:01.320Z"}
+error: 
+    status - 500 
+    message - Error: Error: Invalid Password
+    at _callee2$ (D:\Backend new\E-COMMERCE-SYSTEM\src\services\/user.service.js:38:11)
+    at tryCatch (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-30T08:30:27.576Z"}
+error: 
+    status - 500 
+    message - Error: Error: Invalid Password
+    at _callee2$ (D:\Backend new\E-COMMERCE-SYSTEM\src\services\/user.service.js:38:11)
+    at tryCatch (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-30T08:30:37.099Z"}

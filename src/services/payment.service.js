@@ -56,7 +56,7 @@ export const createCharge = async (amount, token, demoProduct) => {
                 city: 'Chittorgarh',
                 state: 'Rajasthan',
                 country: 'India',
-                sendMail: 'hellllooooooooo', token
+                sendMail: 'hellllooooooooo'
             }
         });
 

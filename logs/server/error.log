@@ -6655,3 +6655,1839 @@ Error: Cannot set headers after they are sent to the client
     at ServerResponse.send (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\response.js:162:21)
     at D:\Backend new\E-COMMERCE-SYSTEM\src\services\/payment.service.js:33:17
     at processTicksAndRejections (node:internal/process/task_queues:95:5) {"date":"Fri Apr 28 2023 12:18:30 GMT+0530 (India Standard Time)","error":{"code":"ERR_HTTP_HEADERS_SENT"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":74737.515},"process":{"argv":["node","D:\\Backend new\\E-COMMERCE-SYSTEM\\src\\index.js"],"cwd":"D:\\Backend new\\E-COMMERCE-SYSTEM","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18328595,"external":19871869,"heapTotal":52396032,"heapUsed":48450288,"rss":96485376},"pid":6740,"uid":null,"version":"v18.15.0"},"stack":"Error: Cannot set headers after they are sent to the client\n    at new NodeError (node:internal/errors:399:5)\n    at ServerResponse.setHeader (node:_http_outgoing:663:11)\n    at ServerResponse.header (D:\\Backend new\\E-COMMERCE-SYSTEM\\node_modules\\express\\lib\\response.js:794:10)\n    at ServerResponse.send (D:\\Backend new\\E-COMMERCE-SYSTEM\\node_modules\\express\\lib\\response.js:174:12)\n    at ServerResponse.json (D:\\Backend new\\E-COMMERCE-SYSTEM\\node_modules\\express\\lib\\response.js:278:15)\n    at ServerResponse.send (D:\\Backend new\\E-COMMERCE-SYSTEM\\node_modules\\express\\lib\\response.js:162:21)\n    at D:\\Backend new\\E-COMMERCE-SYSTEM\\src\\services\\/payment.service.js:33:17\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2023-04-28T06:48:30.069Z","trace":[{"column":5,"file":"node:internal/errors","function":"new NodeError","line":399,"method":null,"native":false},{"column":11,"file":"node:_http_outgoing","function":"ServerResponse.setHeader","line":663,"method":"setHeader","native":false},{"column":10,"file":"D:\\Backend new\\E-COMMERCE-SYSTEM\\node_modules\\express\\lib\\response.js","function":"ServerResponse.header","line":794,"method":"header","native":false},{"column":12,"file":"D:\\Backend new\\E-COMMERCE-SYSTEM\\node_modules\\express\\lib\\response.js","function":"ServerResponse.send","line":174,"method":"send","native":false},{"column":15,"file":"D:\\Backend new\\E-COMMERCE-SYSTEM\\node_modules\\express\\lib\\response.js","function":"ServerResponse.json","line":278,"method":"json","native":false},{"column":21,"file":"D:\\Backend new\\E-COMMERCE-SYSTEM\\node_modules\\express\\lib\\response.js","function":"ServerResponse.send","line":162,"method":"send","native":false},{"column":17,"file":"D:\\Backend new\\E-COMMERCE-SYSTEM\\src\\services\\/payment.service.js","function":null,"line":33,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (D:\Backend new\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\Backend new\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:284:15
+    at param (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9 
+    url - /api/v1/product/6441774f02fefe46785ddbcc 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-29T15:50:12.152Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (D:\Backend new\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\Backend new\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:284:15
+    at param (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9 
+    url - /api/v1/product/6441774f02fefe46785ddbcc 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-29T15:50:12.212Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (D:\Backend new\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\Backend new\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:284:15
+    at param (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9 
+    url - /api/v1/product/6441774f02fefe46785ddbcc 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-29T15:50:14.165Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (D:\Backend new\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\Backend new\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:284:15
+    at param (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9 
+    url - /api/v1/product/6441774f02fefe46785ddbcc 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-29T15:50:14.189Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (D:\Backend new\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\Backend new\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:284:15
+    at param (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9 
+    url - /api/v1/product/6441774f02fefe46785ddbcc 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-29T15:50:14.879Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (D:\Backend new\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\Backend new\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:284:15
+    at param (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9 
+    url - /api/v1/product/6441774f02fefe46785ddbcc 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-29T15:50:14.961Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (D:\Backend new\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\Backend new\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:284:15
+    at param (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9 
+    url - /api/v1/product/6441774f02fefe46785ddbcc 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-29T15:50:15.261Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (D:\Backend new\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\Backend new\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:284:15
+    at param (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9 
+    url - /api/v1/product/6441774f02fefe46785ddbcc 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-29T15:50:15.288Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (D:\Backend new\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\Backend new\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:284:15
+    at param (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9 
+    url - /api/v1/product/6441774f02fefe46785ddbcc 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-29T15:50:15.455Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (D:\Backend new\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\Backend new\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:284:15
+    at param (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9 
+    url - /api/v1/product/6441774f02fefe46785ddbcc 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-29T15:50:15.477Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (D:\Backend new\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\Backend new\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:284:15
+    at param (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9 
+    url - /api/v1/product/6441774f02fefe46785ddbcc 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-29T15:50:15.995Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (D:\Backend new\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\Backend new\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:284:15
+    at param (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9 
+    url - /api/v1/product/6441774f02fefe46785ddbcc 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-29T15:50:16.020Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (D:\Backend new\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\Backend new\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:284:15
+    at param (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9 
+    url - /api/v1/product/6441774f02fefe46785ddbcc 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-29T15:50:16.456Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (D:\Backend new\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\Backend new\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:284:15
+    at param (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9 
+    url - /api/v1/product/6441774f02fefe46785ddbcc 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-29T15:50:16.475Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (D:\Backend new\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\Backend new\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10) 
+    url - /api/v1/product 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-29T15:50:20.266Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (D:\Backend new\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\Backend new\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10) 
+    url - /api/v1/cart 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-29T15:50:20.288Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (D:\Backend new\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\Backend new\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10) 
+    url - /api/v1/product 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-29T15:50:20.309Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (D:\Backend new\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\Backend new\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10) 
+    url - /api/v1/cart 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-29T15:50:20.330Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (D:\Backend new\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\Backend new\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10) 
+    url - /api/v1/product 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-29T15:50:22.065Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (D:\Backend new\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\Backend new\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10) 
+    url - /api/v1/cart 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-29T15:50:22.084Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (D:\Backend new\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\Backend new\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10) 
+    url - /api/v1/cart 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-29T15:50:22.106Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (D:\Backend new\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\Backend new\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10) 
+    url - /api/v1/product 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-29T15:50:22.127Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (D:\Backend new\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\Backend new\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10) 
+    url - /api/v1/product 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-29T15:50:22.549Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (D:\Backend new\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\Backend new\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10) 
+    url - /api/v1/cart 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-29T15:50:22.567Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (D:\Backend new\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\Backend new\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10) 
+    url - /api/v1/product 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-29T15:50:22.639Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (D:\Backend new\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\Backend new\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10) 
+    url - /api/v1/cart 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-29T15:50:22.662Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (D:\Backend new\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\Backend new\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/product 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-29T15:51:12.453Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (D:\Backend new\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\Backend new\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/product 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-29T15:51:12.482Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (D:\Backend new\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\Backend new\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/cart 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-29T15:51:12.530Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (D:\Backend new\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\Backend new\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/cart 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-29T15:51:12.571Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (D:\Backend new\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\Backend new\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/product 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-29T15:51:14.381Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (D:\Backend new\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\Backend new\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/cart 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-29T15:51:14.398Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (D:\Backend new\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\Backend new\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/cart 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-29T15:51:14.410Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (D:\Backend new\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\Backend new\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/product 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-29T15:51:14.422Z"}
+error: 
+    status - 500 
+    message - Error: Error: Invalid Password
+    at _callee2$ (D:\Backend new\E-COMMERCE-SYSTEM\src\services\/user.service.js:38:11)
+    at tryCatch (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-29T15:51:26.509Z"}
+error: 
+    status - 500 
+    message - Error: Error: Invalid Password
+    at _callee2$ (D:\Backend new\E-COMMERCE-SYSTEM\src\services\/user.service.js:38:11)
+    at tryCatch (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-29T15:51:28.312Z"}
+error: 
+    status - 500 
+    message - Error: Error: Invalid Password
+    at _callee2$ (D:\Backend new\E-COMMERCE-SYSTEM\src\services\/user.service.js:38:11)
+    at tryCatch (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-29T15:51:35.359Z"}
+error: 
+    status - 500 
+    message - Error: Error: Invalid Password
+    at _callee2$ (D:\Backend new\E-COMMERCE-SYSTEM\src\services\/user.service.js:38:11)
+    at tryCatch (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-29T15:53:51.246Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (D:\Backend new\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\Backend new\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/product 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-29T15:54:07.942Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (D:\Backend new\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\Backend new\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/product 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-29T15:54:07.952Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (D:\Backend new\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\Backend new\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/cart 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-29T15:54:07.967Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (D:\Backend new\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\Backend new\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/cart 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-29T15:54:07.977Z"}
+error: 
+    status - 500 
+    message - Error: Error: Invalid Password
+    at _callee2$ (D:\Backend new\E-COMMERCE-SYSTEM\src\services\/user.service.js:38:11)
+    at tryCatch (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-30T08:30:27.576Z"}
+error: 
+    status - 500 
+    message - Error: Error: Invalid Password
+    at _callee2$ (D:\Backend new\E-COMMERCE-SYSTEM\src\services\/user.service.js:38:11)
+    at tryCatch (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-30T08:30:37.099Z"}

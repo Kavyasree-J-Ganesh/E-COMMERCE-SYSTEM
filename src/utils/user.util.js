@@ -98,6 +98,3 @@ export async function sendMail(email, token) {
         throw error;
     }
 }
-sendMail()
-    .then((result) => console.log('Email sent...', result))
-    .catch((error) => console.log(error.message));

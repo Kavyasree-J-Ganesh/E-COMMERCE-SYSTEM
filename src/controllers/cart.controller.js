@@ -2,13 +2,29 @@ import HttpStatus from 'http-status-codes';
 import * as cartService from '../services/cart.service';
 
 // update Cart address Details
+// export const updateAddressDetails = async (req, res) => {
+//     try {
+//         const data = await cartService.updateAddressDetails(req.body);
+//         res.status(HttpStatus.CREATED).json({
+//             code: HttpStatus.CREATED,
+//             data: data,
+//             message: 'Product updated as purchased'
+//         });
+//     } catch (error) {
+//         res.status(HttpStatus.BAD_REQUEST).json({
+//             code: HttpStatus.BAD_REQUEST,
+//             message: `${error}`
+//         });
+//     }
+// };
+
 export const updateAddressDetails = async (req, res) => {
     try {
-        const data = await cartService.updateAddressDetails(req.body);
+        const data = await cartService.updateAddressDetails(req.params.cartId, req.body._id);
         res.status(HttpStatus.CREATED).json({
             code: HttpStatus.CREATED,
             data: data,
-            message: 'Product updated as purchased'
+            message: 'Address details updated'
         });
     } catch (error) {
         res.status(HttpStatus.BAD_REQUEST).json({
@@ -17,6 +33,31 @@ export const updateAddressDetails = async (req, res) => {
         });
     }
 };
+
+
+// get address by id 
+export const getAddresses = async (req, res) => {
+    try {
+        const userId = req.params.userId;
+        const addresses = await cartService.getAddresses(userId);
+        res.json(addresses);
+    } catch (err) {
+        console.log(err);
+        res.status(500).json({ message: 'Server error' });
+    }
+};
+
+// get all address
+export const getAllAddresses = async (req, res) => {
+    try {
+        const addresses = await cartService.getAllAddresses();
+        res.json(addresses);
+    } catch (err) {
+        console.log(err);
+        res.status(500).json({ message: 'Server error' });
+    }
+};
+
 
 // Get cart details
 export const getCart = async (req, res, next) => {
