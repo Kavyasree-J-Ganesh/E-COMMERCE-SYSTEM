@@ -41,6 +41,7 @@
             "hash": "dbbc305b273c2b32e39ae7f49b34aad5ec94840ce09f7325c356280b84de1e77"
         },
         {
+<<<<<<< HEAD
             "date": 1682572352677,
             "name": "logs\\requests\\daily\\2023-04-27.log",
             "hash": "e04c536a9b7d41500c4c0e0a35640a76446d56bbe16c5b4ec8c31fa0c25ff7ed"
@@ -59,6 +60,11 @@
             "date": 1682793872545,
             "name": "logs\\requests\\daily\\2023-04-30.log",
             "hash": "39934ad4c513dc30849f5d8b259eb696e69e1b775d2a72f03ac8efba5658742c"
+=======
+            "date": 1682534206732,
+            "name": "logs\\requests\\daily\\2023-04-27.log",
+            "hash": "73e77952afb6bc0e694255ae23e7bb20c57c35f284de2c1f9f34b37378cbfeb6"
+>>>>>>> 244b24cbe5b95bf2a414dc8b7b6ebe7f34017bc4
         }
     ],
     "hashType": "sha256"
