@@ -35,7 +35,7 @@ export const getCart = async (req, res, next) => {
     }
 };
 
-// Add Book To Card
+// Add Product To Card
 export const addedToCart = async (req, res, next) => {
     try {
         const data = await cartService.addedToCart(
@@ -63,7 +63,7 @@ export const removeProductFromCart = async (req, res) => {
         res.status(HttpStatus.CREATED).json({
             code: HttpStatus.CREATED,
             data: data,
-            message: 'book removed from cart successfully'
+            message: 'Product removed from cart successfully'
         });
     } catch (error) {
         res.status(HttpStatus.BAD_REQUEST).json({

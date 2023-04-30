@@ -2,10 +2,10 @@ import express from 'express';
 const router = express.Router();
 
 import userRoute from './user.route';
-import adminRoute from './admin.route';
 import productRoute from './product.route';
 import cartRoute from './cart.route'
 import wishlistRoute from './wishlist.route'
+import caregoryRoute from './categoryRoute'
 /**
  * Function contains Application routes
  *
@@ -24,6 +24,8 @@ const routes = () => {
   router.use('/cart', cartRoute);
 
   router.use('/wishlist', wishlistRoute);
+
+  router.use('/category', caregoryRoute);
 
   return router;
 };

@@ -45,25 +45,9 @@ const productSchema = new Schema({
         type: Number,
         required: true
     },
-    categories: {
+    category: {
         type: String,
-        required: true,
-        enum: {
-            values: [
-                'Electronics',
-                'Cameras',
-                'Laptops',
-                'Accessories',
-                'Headphones',
-                'Food',
-                "Books",
-                'Clothes/Shoes',
-                'Beauty/Health',
-                'Sports',
-                'Outdoor',
-                'Home'
-            ]
-        }
+        required: true
     }
 },
     {

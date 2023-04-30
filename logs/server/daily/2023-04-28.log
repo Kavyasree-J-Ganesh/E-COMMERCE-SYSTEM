@@ -1,0 +1,1526 @@
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-27T19:38:16.244Z"}
+info: Connected to the database. {"timestamp":"2023-04-27T19:38:16.281Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-27T19:38:24.351Z"}
+info: Connected to the database. {"timestamp":"2023-04-27T19:38:24.379Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-27T19:38:45.684Z"}
+info: Connected to the database. {"timestamp":"2023-04-27T19:38:45.712Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-27T19:39:12.716Z"}
+info: Connected to the database. {"timestamp":"2023-04-27T19:39:12.749Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-27T19:39:38.820Z"}
+info: Connected to the database. {"timestamp":"2023-04-27T19:39:38.847Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-27T19:40:43.530Z"}
+info: Connected to the database. {"timestamp":"2023-04-27T19:40:43.556Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-27T19:40:52.058Z"}
+info: Connected to the database. {"timestamp":"2023-04-27T19:40:52.081Z"}
+info: Connected to the database. {"timestamp":"2023-04-27T19:41:02.154Z"}
+info: Connected to the database. {"timestamp":"2023-04-27T19:41:07.713Z"}
+info: Connected to the database. {"timestamp":"2023-04-27T19:43:15.588Z"}
+info: Connected to the database. {"timestamp":"2023-04-27T19:43:22.507Z"}
+info: Connected to the database. {"timestamp":"2023-04-27T19:43:36.394Z"}
+info: Connected to the database. {"timestamp":"2023-04-27T19:43:58.728Z"}
+info: Connected to the database. {"timestamp":"2023-04-27T19:44:05.907Z"}
+info: Connected to the database. {"timestamp":"2023-04-27T19:44:34.991Z"}
+info: Connected to the database. {"timestamp":"2023-04-27T19:44:51.103Z"}
+info: Connected to the database. {"timestamp":"2023-04-27T19:45:19.039Z"}
+info: Connected to the database. {"timestamp":"2023-04-27T19:45:33.633Z"}
+info: Connected to the database. {"timestamp":"2023-04-27T19:45:58.039Z"}
+info: Connected to the database. {"timestamp":"2023-04-27T19:45:59.988Z"}
+info: Connected to the database. {"timestamp":"2023-04-27T19:46:14.325Z"}
+info: Connected to the database. {"timestamp":"2023-04-27T19:46:26.921Z"}
+info: Connected to the database. {"timestamp":"2023-04-27T19:46:39.040Z"}
+info: Connected to the database. {"timestamp":"2023-04-27T19:46:56.928Z"}
+info: Connected to the database. {"timestamp":"2023-04-27T19:47:20.949Z"}
+info: Connected to the database. {"timestamp":"2023-04-27T19:47:32.298Z"}
+info: Connected to the database. {"timestamp":"2023-04-27T19:48:11.638Z"}
+info: Connected to the database. {"timestamp":"2023-04-27T19:48:17.715Z"}
+info: Connected to the database. {"timestamp":"2023-04-27T19:50:50.727Z"}
+info: Connected to the database. {"timestamp":"2023-04-27T19:51:02.981Z"}
+info: Connected to the database. {"timestamp":"2023-04-27T19:51:30.695Z"}
+info: Connected to the database. {"timestamp":"2023-04-27T19:51:36.117Z"}
+info: Connected to the database. {"timestamp":"2023-04-27T19:51:42.794Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-27T20:03:41.569Z"}
+info: Connected to the database. {"timestamp":"2023-04-27T20:03:41.592Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (E:\projects\E-COMMERCE-SYSTEM\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\projects\E-COMMERCE-SYSTEM\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (E:\projects\E-COMMERCE-SYSTEM\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (E:\projects\E-COMMERCE-SYSTEM\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10) 
+    url - /api/v1/category 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-27T20:03:47.696Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (E:\projects\E-COMMERCE-SYSTEM\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\projects\E-COMMERCE-SYSTEM\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (E:\projects\E-COMMERCE-SYSTEM\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (E:\projects\E-COMMERCE-SYSTEM\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10) 
+    url - /api/v1/category 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-27T20:03:47.731Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-27T20:04:09.877Z"}
+info: Connected to the database. {"timestamp":"2023-04-27T20:04:09.898Z"}
+error: 
+    status - 500 
+    message - ReferenceError: HttpStatus is not defined
+    at _callee$ (E:\projects\E-COMMERCE-SYSTEM\src\controllers\/category.controller.js:8:20)
+    at tryCatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/category 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-27T20:04:12.328Z"}
+error: 
+    status - 500 
+    message - ReferenceError: HttpStatus is not defined
+    at _callee$ (E:\projects\E-COMMERCE-SYSTEM\src\controllers\/category.controller.js:8:20)
+    at tryCatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/category 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-27T20:04:12.348Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-27T20:04:46.029Z"}
+info: Connected to the database. {"timestamp":"2023-04-27T20:04:46.055Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-27T20:05:05.438Z"}
+info: Connected to the database. {"timestamp":"2023-04-27T20:05:05.468Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-27T20:06:03.227Z"}
+info: Connected to the database. {"timestamp":"2023-04-27T20:06:03.258Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (E:\projects\E-COMMERCE-SYSTEM\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\projects\E-COMMERCE-SYSTEM\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (E:\projects\E-COMMERCE-SYSTEM\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (E:\projects\E-COMMERCE-SYSTEM\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10) 
+    url - /api/v1/product 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-27T20:42:59.912Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (E:\projects\E-COMMERCE-SYSTEM\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\projects\E-COMMERCE-SYSTEM\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (E:\projects\E-COMMERCE-SYSTEM\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (E:\projects\E-COMMERCE-SYSTEM\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10) 
+    url - /api/v1/cart 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-27T20:42:59.923Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (E:\projects\E-COMMERCE-SYSTEM\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\projects\E-COMMERCE-SYSTEM\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (E:\projects\E-COMMERCE-SYSTEM\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (E:\projects\E-COMMERCE-SYSTEM\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10) 
+    url - /api/v1/product 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-27T20:42:59.934Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (E:\projects\E-COMMERCE-SYSTEM\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\projects\E-COMMERCE-SYSTEM\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (E:\projects\E-COMMERCE-SYSTEM\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (E:\projects\E-COMMERCE-SYSTEM\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10) 
+    url - /api/v1/cart 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-27T20:42:59.947Z"}
+info: Server started at http://localhost:6060/api/v1/ {"timestamp":"2023-04-28T03:35:22.184Z"}
+info: Connected to the database. {"timestamp":"2023-04-28T03:35:22.210Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (E:\projects\E-COMMERCE-SYSTEM\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/product 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-28T05:56:09.551Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (E:\projects\E-COMMERCE-SYSTEM\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/product 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-28T05:56:09.561Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (E:\projects\E-COMMERCE-SYSTEM\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/cart 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-28T05:56:09.571Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (E:\projects\E-COMMERCE-SYSTEM\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/cart 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-28T05:56:09.593Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (E:\projects\E-COMMERCE-SYSTEM\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/product 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-28T05:56:20.721Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (E:\projects\E-COMMERCE-SYSTEM\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/product 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-28T05:56:20.731Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (E:\projects\E-COMMERCE-SYSTEM\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/cart 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-28T05:56:20.747Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (E:\projects\E-COMMERCE-SYSTEM\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/cart 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-28T05:56:20.755Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (E:\projects\E-COMMERCE-SYSTEM\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/product 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-28T05:56:21.858Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (E:\projects\E-COMMERCE-SYSTEM\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/cart 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-28T05:56:21.869Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (E:\projects\E-COMMERCE-SYSTEM\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/product 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-28T05:56:21.900Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (E:\projects\E-COMMERCE-SYSTEM\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/cart 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-28T05:56:21.913Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (E:\projects\E-COMMERCE-SYSTEM\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/product 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-28T05:56:22.053Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (E:\projects\E-COMMERCE-SYSTEM\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/product 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-28T05:56:22.061Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (E:\projects\E-COMMERCE-SYSTEM\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/cart 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-28T05:56:22.073Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (E:\projects\E-COMMERCE-SYSTEM\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/cart 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-28T05:56:22.087Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (E:\projects\E-COMMERCE-SYSTEM\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/product 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-28T05:56:22.245Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (E:\projects\E-COMMERCE-SYSTEM\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/product 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-28T05:56:22.253Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (E:\projects\E-COMMERCE-SYSTEM\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/cart 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-28T05:56:22.270Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (E:\projects\E-COMMERCE-SYSTEM\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/cart 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-28T05:56:22.283Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (E:\projects\E-COMMERCE-SYSTEM\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/product 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-28T05:56:22.472Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (E:\projects\E-COMMERCE-SYSTEM\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/cart 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-28T05:56:22.483Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (E:\projects\E-COMMERCE-SYSTEM\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/cart 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-28T05:56:22.495Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (E:\projects\E-COMMERCE-SYSTEM\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/product 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-28T05:56:22.508Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (E:\projects\E-COMMERCE-SYSTEM\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/product 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-28T05:56:22.679Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (E:\projects\E-COMMERCE-SYSTEM\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/product 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-28T05:56:22.687Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (E:\projects\E-COMMERCE-SYSTEM\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/cart 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-28T05:56:22.698Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (E:\projects\E-COMMERCE-SYSTEM\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/cart 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-28T05:56:22.709Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (E:\projects\E-COMMERCE-SYSTEM\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/product 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-28T05:56:22.874Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (E:\projects\E-COMMERCE-SYSTEM\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/product 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-28T05:56:22.882Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (E:\projects\E-COMMERCE-SYSTEM\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/cart 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-28T05:56:22.895Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (E:\projects\E-COMMERCE-SYSTEM\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/cart 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-28T05:56:22.926Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (E:\projects\E-COMMERCE-SYSTEM\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/product 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-28T05:56:23.111Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (E:\projects\E-COMMERCE-SYSTEM\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/product 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-28T05:56:23.120Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (E:\projects\E-COMMERCE-SYSTEM\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/cart 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-28T05:56:23.131Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (E:\projects\E-COMMERCE-SYSTEM\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/cart 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-28T05:56:23.140Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (E:\projects\E-COMMERCE-SYSTEM\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/product 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-28T05:56:23.290Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (E:\projects\E-COMMERCE-SYSTEM\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/product 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-28T05:56:23.300Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (E:\projects\E-COMMERCE-SYSTEM\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/cart 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-28T05:56:23.309Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (E:\projects\E-COMMERCE-SYSTEM\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/cart 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-28T05:56:23.320Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (E:\projects\E-COMMERCE-SYSTEM\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/product 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-28T06:46:23.107Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (E:\projects\E-COMMERCE-SYSTEM\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/product 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-28T06:46:23.116Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (E:\projects\E-COMMERCE-SYSTEM\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/cart 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-28T06:46:23.126Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (E:\projects\E-COMMERCE-SYSTEM\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/cart 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-28T06:46:23.135Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (E:\projects\E-COMMERCE-SYSTEM\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/product 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-28T06:46:23.909Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (E:\projects\E-COMMERCE-SYSTEM\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/cart 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-28T06:46:23.919Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (E:\projects\E-COMMERCE-SYSTEM\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/product 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-28T06:46:23.928Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (E:\projects\E-COMMERCE-SYSTEM\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (E:\projects\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (E:\projects\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at E:\projects\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/cart 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-04-28T06:46:23.939Z"}
