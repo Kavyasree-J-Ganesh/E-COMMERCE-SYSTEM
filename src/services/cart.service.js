@@ -68,7 +68,7 @@ export const getCart = async (userId) => {
     return cartDetails
 }
 
-
+// add product to cart
 export const addedToCart = async (userId, params_id) => {
     try {
         const prooo = await Product.findOne({ _id: params_id });
@@ -117,7 +117,7 @@ export const addedToCart = async (userId, params_id) => {
     } catch (error) {
         console.error(error);
         throw {
-            message: "whatever you want to send",
+            message: "whatever",
             code: "400"
         }
     }
