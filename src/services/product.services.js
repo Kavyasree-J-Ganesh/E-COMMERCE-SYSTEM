@@ -1,9 +1,13 @@
 import Product from '../models/product.model';
 
 // Get all products
-export const getAllProducts = async () => {
+export const getAllProducts = async (category) => {
+    let filter = {};
+    if(category && category != ""){
+        filter.category = category
+    }
     try {
-        const products = await Product.find();
+        const products = await Product.find(filter);
         return products;
     } catch (error) {
         throw new Error(err);
