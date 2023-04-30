@@ -127,11 +127,11 @@ export const removeProduct = async (userId, productId) => {
         console.log('If User Exists');
         let productFound = false;
         let totalPrice = 0;
-        let Productquantity = 0;
+        let productquantity = 0;
         checkCart.products.forEach((element) => {
             if (element.productId == productId) {
                 element.quantity -= 1;
-                Productquantity = element.quantity;
+                productquantity = element.quantity;
                 totalPrice -= element.price * element.quantity;
                 let indexofelement = checkCart.products.indexOf(element);
                 console.log('If product found');

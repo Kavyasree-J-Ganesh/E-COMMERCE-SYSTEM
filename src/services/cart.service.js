@@ -3,22 +3,59 @@ import Product from '../models/product.model'
 
 
 // Update cart address details
-export const updateAddressDetails = async (updatedData) => {
+// export const updateAddressDetails = async (updatedData) => {
+//     const updatedCart = await cart.findByIdAndUpdate(
+//         { _id: updatedData.cartId },
+//         {
+//             fullName: updatedData.fullName,
+//             mobile: updatedData.mobile,
+//             address: updatedData.address,
+//             town: updatedData.town,
+//             state: updatedData.state
+//         },
+//         { new: true }
+//     );
+//     return updatedCart;
+// };
+
+export const updateAddressDetails = async (cartId, updatedData) => {
     const updatedCart = await cart.findByIdAndUpdate(
-        { _id: updatedData.cartId },
+        { _id: cartId },
         {
-            fullName: updatedData.fullName,
-            mobile: updatedData.mobile,
-            address: updatedData.address,
-            town: updatedData.town,
-            state: updatedData.state
+            $set: {
+                'address.$[elem].fullName': updatedData.fullName,
+                'address.$[elem].mobile': updatedData.mobile,
+                'address.$[elem].address': updatedData.address,
+                'address.$[elem].town': updatedData.town,
+                'address.$[elem].state': updatedData.state
+            }
         },
-        { new: true }
+        {
+            arrayFilters: [{ 'elem._id': updatedData.addressId }],
+            new: true
+        }
     );
     return updatedCart;
 };
 
-// get all product of cart
+
+//get address by id
+export const getAddresses = async (userId) => {
+    const cart = await cart.findOne({ userId });
+    if (!cart) {
+        throw new Error('Cart not found');
+    }
+    return cart.address;
+};
+
+// get all address
+export const getAllAddresses = async () => {
+    const carts = await cart.find({});
+    return carts.flatMap(cart => cart.address);
+};
+
+
+// get all product
 export const getCart = async (userId) => {
     let cartDetails = await cart.findOne({ userId: userId });
     if (!cartDetails) {
@@ -103,7 +140,7 @@ export const removeproductFromCart = async (userId, params_product_id) => {
                 totalPrice = checkCart.cart_total - element.discountedPrice * 1;
                 let indexofelement = checkCart.product.indexOf(element);
                 console.log('If product found');
-                if(element.quantity ===0 ){
+                if (element.quantity === 0) {
                     checkCart.product.splice(indexofelement, 1);
                 }
                 productFound = true;

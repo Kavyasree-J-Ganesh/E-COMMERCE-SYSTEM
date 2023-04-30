@@ -5,6 +5,9 @@ import userRoute from './user.route';
 import productRoute from './product.route';
 import cartRoute from './cart.route'
 import wishlistRoute from './wishlist.route'
+import paymentRoute from './payment.route';
+
+
 import caregoryRoute from './categoryRoute'
 import paymentRoute from './payment.route';
 /**

@@ -31,28 +31,11 @@ export const login = async (body, isAdmin = false) => {
     }
 
     // If logging in as admin, make sure user.isAdmin is true
-      var token = Jwt.sign({ email: user.email, id: user._id }, process.env.USER_SECRET_KEY);
+    var token = Jwt.sign({ email: user.email, id: user._id }, process.env.USER_SECRET_KEY);
 
-    return { isAdmin:user.isAdmin, token };
+    return { isAdmin: user.isAdmin, token };
   } catch (error) {
     throw new Error(error);
   }
 };
 
-// export const login = async (body) => {
-//   try {
-//     const user = await User.findOne({ email: body.email });
-//     if (!user) throw new Error('Invalid Email');
-
-//     const validPassword = await bcrypt.compare(body.password, user.password);
-//     if (!validPassword) throw new Error('Invalid Password');
-//     else
-//       var token = Jwt.sign(
-//         { email: user.email, id: user._id },
-//         process.env.SECRET_KEY
-//       );
-//     return user, token;
-//   } catch (error) {
-//     throw new Error(error);
-//   }
-// };
