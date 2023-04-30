@@ -46,9 +46,30 @@
             "hash": "6cee9cd195654c5f94dfd11cbbed218ea9a196bb4a12a9efe2feb87f76ad8d41"
         },
         {
+<<<<<<< HEAD
+            "date": 1682572352671,
+            "name": "logs\\server\\daily\\2023-04-27.log",
+            "hash": "0519f32db1534f044861147608b8dd096fa2d4f2eaab8e98cfab82577924cc9f"
+        },
+        {
+            "date": 1682624296179,
+            "name": "logs\\server\\daily\\2023-04-28.log",
+            "hash": "5037264de479740a2f0e5df1ebf2a18311f6b6ca4bd9a0fc27d45e695d1c78d0"
+        },
+        {
+            "date": 1682789707135,
+            "name": "logs\\server\\daily\\2023-04-29.log",
+            "hash": "79bb1ce1e6301966112633036efb0382fc3ddd3d51f6e9bea7741fb80a129320"
+        },
+        {
+            "date": 1682793872531,
+            "name": "logs\\server\\daily\\2023-04-30.log",
+            "hash": "b5329fc31a4f259162bb5dde708e2f0348ff84e006028fab4f2634050aebd13f"
+=======
             "date": 1682534206724,
             "name": "logs\\server\\daily\\2023-04-27.log",
             "hash": "e7927e5319558cdd38eb6af3d0eac6c8c9460370644b1bb5c94aa17634476ce8"
+>>>>>>> 244b24cbe5b95bf2a414dc8b7b6ebe7f34017bc4
         }
     ],
     "hashType": "sha256"

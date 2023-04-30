@@ -86,13 +86,13 @@ export const addToWishlist = async (userId, productId) => {
 //     }
 // };
 
-// export const removeBook = async (userId, productId) => {
+// export const removeProduct = async (userId, productId) => {
 //     const checkCart = await Wishlist.findOne({ userId });
 //     if (checkCart) {
 //         console.log('If User Exists');
 //         let productFound = false;
 //         let totalPrice = 0;
-//         let bookquanitity = 0;
+//         let Productquanitity = 0;
 //         checkCart.item.forEach((element) => {
 //             if (element.productId == productId) {
 //                 element.quantity = element.quantity -= 1;
@@ -127,11 +127,11 @@ export const removeProduct = async (userId, productId) => {
         console.log('If User Exists');
         let productFound = false;
         let totalPrice = 0;
-        let bookquantity = 0;
+        let Productquantity = 0;
         checkCart.products.forEach((element) => {
             if (element.productId == productId) {
                 element.quantity -= 1;
-                bookquantity = element.quantity;
+                Productquantity = element.quantity;
                 totalPrice -= element.price * element.quantity;
                 let indexofelement = checkCart.products.indexOf(element);
                 console.log('If product found');
