@@ -6,6 +6,7 @@ import adminRoute from './admin.route';
 import productRoute from './product.route';
 import cartRoute from './cart.route'
 import wishlistRoute from './wishlist.route'
+import paymentRoute from './payment.route';
 /**
  * Function contains Application routes
  *
@@ -24,6 +25,8 @@ const routes = () => {
   router.use('/cart', cartRoute);
 
   router.use('/wishlist', wishlistRoute);
+
+  router.use('/payment', paymentRoute);
 
   return router;
 };
