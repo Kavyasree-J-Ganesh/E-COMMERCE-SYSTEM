@@ -9,7 +9,6 @@ import paymentRoute from './payment.route';
 
 
 import caregoryRoute from './categoryRoute'
-import paymentRoute from './payment.route';
 /**
  * Function contains Application routes
  *
