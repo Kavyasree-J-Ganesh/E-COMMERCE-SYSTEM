@@ -29,12 +29,12 @@ const productSchema = new Schema({
     },
     rating: {
         type: Number,
-        required: true,
+        required: false,
         default: 0
     },
     reviewcount: {
         type: Number,
-        required: true,
+        required: false,
         default: 0
     },
     quantity: {

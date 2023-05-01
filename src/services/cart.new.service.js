@@ -58,9 +58,9 @@ export const getAllAddresses = async () => {
 // get all product
 export const getCart = async (userId) => {
     let cartList = await cart.find({ userId: userId, isPurchased: false });
-    let cart_total = cartList.reduce((accu, currentCart)=>{
-         return accu + (parseInt(currentCart.discountedPrice) * parseInt(currentCart.quantity))
-    },0)
+    let cart_total = cartList.reduce((accu, currentCart) => {
+        return accu + (parseInt(currentCart.discountedPrice) * parseInt(currentCart.quantity))
+    }, 0)
     return {
         userId: userId,
         product: cartList,
@@ -68,17 +68,42 @@ export const getCart = async (userId) => {
     }
 }
 
-export const cartOrdersAnalysis = ()=>{
+export const cartOrdersAnalysis = () => {
     return cart.aggregate([
         {
-           $match: {
-             "isPurchased": {$eq: true}
-           }
+            $match: {
+                "isPurchased": { $eq: true }
+            }
         },
-        {$group: {
-            _id: "$category",
-            quantity: {"$sum": "$quantity"}
+        {
+            $group: {
+                _id: "$category",
+                quantity: { "$sum": "$quantity" }
+            }
         }
+    ])
+}
+
+export const cartProductAnalysis = () => {
+    return cart.aggregate([
+        {
+            $match: {
+                "isPurchased": { $eq: true }
+            }
+        },
+        {
+            $group: {
+                _id: "$title",
+                quantity: { "$sum": "$quantity" }
+            }
+        },
+        {
+            $sort: {
+                quantity: -1
+            }
+        },
+        {
+            $limit: 5
         }
     ])
 }
@@ -137,20 +162,20 @@ export const removeproductFromCart = async (userId, params_product_id) => {
             const quantity = parseInt(cartItem.quantity) - 1;
             let updatedCart;
             console.log(quantity)
-            if (quantity > 0){
-               updatedCart = await cart.findOneAndUpdate(
-                { userId: userId, isPurchased: false, productId: params_product_id },
-                { quantity },
-                { new: true})
+            if (quantity > 0) {
+                updatedCart = await cart.findOneAndUpdate(
+                    { userId: userId, isPurchased: false, productId: params_product_id },
+                    { quantity },
+                    { new: true })
             } else {
                 updatedCart = await cart.findOneAndDelete(
                     { userId: userId, isPurchased: false, productId: params_product_id }
                 );
             }
-            
+
             return updatedCart;
         } else {
-          throw new Error('product is not added to cart');
+            throw new Error('product is not added to cart');
         }
     } catch (error) {
         throw {

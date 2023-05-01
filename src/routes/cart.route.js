@@ -9,6 +9,8 @@ router.get('/', userAuth, cartController.getCart);
 
 router.get('/cart_orders_analysis', userAuth, cartController.cartOrdersAnalysis);
 
+router.get('/top_selled_products', userAuth, cartController.cartProductAnalysis);
+
 // add Products to the cart
 router.post('/:_id', userAuth, cartController.addedToCart);
 

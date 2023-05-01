@@ -75,6 +75,21 @@ export const cartOrdersAnalysis =  async (req,res, next)=>{
     }
 }
 
+export const cartProductAnalysis = async (req,res, next)=>{
+    try {
+        const data = await cartService.cartProductAnalysis(
+        );
+        res.status(HttpStatus.OK).json({
+            code: HttpStatus.OK,
+            data: data,
+            message: 'Top Selling products fetched'
+        });
+
+    } catch (error) {
+        next(error)
+    }
+}
+
 // Add Product To Card
 export const addedToCart = async (req, res, next) => {
     try {
