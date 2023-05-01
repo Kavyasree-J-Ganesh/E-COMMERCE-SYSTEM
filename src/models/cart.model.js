@@ -41,26 +41,7 @@ const cartSchema = new Schema({
     isPurchased: {
         type: Boolean,
         default: false
-    },
-    address: [
-        {
-            fullName: {
-                type: String
-            },
-            mobile: {
-                type: Number
-            },
-            address: {
-                type: String
-            },
-            town: {
-                type: String
-            },
-            state: {
-                type: String
-            }
-        }
-    ]
+    }
 
 });
 
