@@ -9,7 +9,7 @@ export const newUserValidator = (req, res, next) => {
     password: Joi.string().min(4).required(),
     confirmpassword: Joi.string(),
     companyname: Joi.string(),
-    isadmin: Joi.boolean()
+    isAdmin: Joi.boolean()
   });
   const { error, value } = schema.validate(req.body);
   if (error) {
