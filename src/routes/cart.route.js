@@ -4,15 +4,6 @@ import { userAuth } from '../middlewares/auth.middleware';
 
 const router = express.Router();
 
-// create address
-router.post('/updateAddress', userAuth, cartController.updateAddressDetails);
-
-// get address by ID
-router.get('/address/:_id', userAuth, cartController.getAddresses);
-
-// get all address
-router.get('/address', userAuth, cartController.getAllAddresses);
-
 // get all product of cart
 router.get('/', userAuth, cartController.getCart);
 

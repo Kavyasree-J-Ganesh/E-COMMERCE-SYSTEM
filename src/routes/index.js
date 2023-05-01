@@ -6,7 +6,7 @@ import productRoute from './product.route';
 import cartRoute from './cart.route'
 import wishlistRoute from './wishlist.route'
 import paymentRoute from './payment.route';
-
+import addressRoute from './address.route'
 
 import caregoryRoute from './categoryRoute'
 /**
@@ -29,7 +29,10 @@ const routes = () => {
   router.use('/wishlist', wishlistRoute);
 
   router.use('/category', caregoryRoute);
+
   router.use('/payment', paymentRoute);
+
+  router.use('/address', addressRoute);
 
   return router;
 };
