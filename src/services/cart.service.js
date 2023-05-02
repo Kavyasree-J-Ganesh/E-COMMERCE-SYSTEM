@@ -1,4 +1,4 @@
-import cart from '../models/cart.model';
+import cart from '../models/cart.new.model';
 import Product from '../models/product.model'
 
 // get all product
