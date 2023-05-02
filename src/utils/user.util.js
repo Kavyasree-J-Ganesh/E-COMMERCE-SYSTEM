@@ -57,7 +57,7 @@ const CLIENT_ID =
   '795090287571-skp802kpo5n7p5f7fdkq51lc10d186p4.apps.googleusercontent.com';
 const CLEINT_SECRET = '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';
 const REDIRECT_URI = 'https://developers.google.com/oauthplayground';
-const REFRESH_TOKEN = 'ya29.a0AWY7CkmhqnUmOTVdYs9Z8n3TTpahkHocHviv-jGWxe4L_lwEjG2ZZz3Ij501ZSQgzI-QW8y4QGQPaoNTUo1DV5CqSEdyKrY4MrXz4PJ3LPnp--oZPbGWgH1uZoKCj1BbIffC18_g58RjegnBXrPPi-ogs5UF_Z1QaCgYKAaESARESFQG1tDrpm2nP92Yi3NKHG_BiAn145A0167';
+const REFRESH_TOKEN = 'ya29.a0AWY7CklKaObVsWQXszgBgZCQxArStN2aZxUDo0na6f9sUJDjFFnSax8NEdK0_N4djd20w4h7ICbiG0CxhaUUIZGLf3tkSBWUBphRw3e0p8susgrmeN4YhUvMBJ2tc8BHKqwTG5BSqaYfHB9VxykW4MGXhiW7UyhzaCgYKAVkSARESFQG1tDrpOb76yqB1JuS-lear68xabg0167';
 
 const oAuth2Client = new google.auth.OAuth2(
   CLIENT_ID,
@@ -87,7 +87,7 @@ export async function sendMail(email, token, extraArguments) {
       to: email,
       subject: 'Hello from gmail using API',
       text: 'Hello from gmail email using API',
-      html: `<h1> Youre order is confirmed</h1> Cart Total: ${extraArguments.cartTotal
+      html: `<h1> Your order is confirmed</h1> Cart Total: ${extraArguments.cartTotal
         }, Title ${extraArguments.productList.length
           ? extraArguments.productList.map((item) => {
             return item.title + ', ';
