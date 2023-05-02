@@ -1,4 +1,3 @@
-
 const Stripe = require('stripe');
 const stripe = Stripe(
   process.env.PAYMENT_SECRET_KEY ||
