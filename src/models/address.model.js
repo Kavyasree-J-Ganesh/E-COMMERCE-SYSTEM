@@ -11,7 +11,8 @@ const addressSchema = new Schema({
     },
     address: {
         type: String,
-        required: true
+        required: true,
+        unique: true
     },
     town: {
         type: String,
@@ -20,6 +21,9 @@ const addressSchema = new Schema({
     state: {
         type: String,
         required: true
+    },
+    userId: {
+        type: String
     }
 }, {
     timestamps: true
