@@ -7390,3 +7390,515 @@ Error: invalid_grant
     at Gaxios._request (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\gaxios\src\gaxios.ts:158:15)
     at processTicksAndRejections (node:internal/process/task_queues:95:5)
     at OAuth2Client.refreshTokenNoCache (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\google-auth-library\build\src\auth\oauth2client.js:178:19) {"date":"Wed May 03 2023 15:32:06 GMT+0530 (India Standard Time)","error":{"code":"400","config":{"body":"refresh_token=ya29.a0AWY7CklKaObVsWQXszgBgZCQxArStN2aZxUDo0na6f9sUJDjFFnSax8NEdK0_N4djd20w4h7ICbiG0CxhaUUIZGLf3tkSBWUBphRw3e0p8susgrmeN4YhUvMBJ2tc8BHKqwTG5BSqaYfHB9VxykW4MGXhiW7UyhzaCgYKAVkSARESFQG1tDrpOb76yqB1JuS-lear68xabg0167&client_id=795090287571-skp802kpo5n7p5f7fdkq51lc10d186p4.apps.googleusercontent.com&client_secret=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&grant_type=refresh_token","data":"refresh_token=ya29.a0AWY7CklKaObVsWQXszgBgZCQxArStN2aZxUDo0na6f9sUJDjFFnSax8NEdK0_N4djd20w4h7ICbiG0CxhaUUIZGLf3tkSBWUBphRw3e0p8susgrmeN4YhUvMBJ2tc8BHKqwTG5BSqaYfHB9VxykW4MGXhiW7UyhzaCgYKAVkSARESFQG1tDrpOb76yqB1JuS-lear68xabg0167&client_id=795090287571-skp802kpo5n7p5f7fdkq51lc10d186p4.apps.googleusercontent.com&client_secret=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&grant_type=refresh_token","headers":{"Accept":"application/json","Content-Type":"application/x-www-form-urlencoded","User-Agent":"google-api-nodejs-client/8.7.0","x-goog-api-client":"gl-node/18.15.0 auth/8.7.0"},"method":"POST","responseType":"json","url":"https://oauth2.googleapis.com/token"},"response":{"config":{"body":"refresh_token=ya29.a0AWY7CklKaObVsWQXszgBgZCQxArStN2aZxUDo0na6f9sUJDjFFnSax8NEdK0_N4djd20w4h7ICbiG0CxhaUUIZGLf3tkSBWUBphRw3e0p8susgrmeN4YhUvMBJ2tc8BHKqwTG5BSqaYfHB9VxykW4MGXhiW7UyhzaCgYKAVkSARESFQG1tDrpOb76yqB1JuS-lear68xabg0167&client_id=795090287571-skp802kpo5n7p5f7fdkq51lc10d186p4.apps.googleusercontent.com&client_secret=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&grant_type=refresh_token","data":"refresh_token=ya29.a0AWY7CklKaObVsWQXszgBgZCQxArStN2aZxUDo0na6f9sUJDjFFnSax8NEdK0_N4djd20w4h7ICbiG0CxhaUUIZGLf3tkSBWUBphRw3e0p8susgrmeN4YhUvMBJ2tc8BHKqwTG5BSqaYfHB9VxykW4MGXhiW7UyhzaCgYKAVkSARESFQG1tDrpOb76yqB1JuS-lear68xabg0167&client_id=795090287571-skp802kpo5n7p5f7fdkq51lc10d186p4.apps.googleusercontent.com&client_secret=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&grant_type=refresh_token","headers":{"Accept":"application/json","Content-Type":"application/x-www-form-urlencoded","User-Agent":"google-api-nodejs-client/8.7.0","x-goog-api-client":"gl-node/18.15.0 auth/8.7.0"},"method":"POST","responseType":"json","url":"https://oauth2.googleapis.com/token"},"data":{"error":"invalid_grant","error_description":"Token has been expired or revoked."},"headers":{"alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000","cache-control":"no-cache, no-store, max-age=0, must-revalidate","connection":"close","content-encoding":"gzip","content-type":"application/json; charset=utf-8","date":"Wed, 03 May 2023 10:02:06 GMT","expires":"Mon, 01 Jan 1990 00:00:00 GMT","pragma":"no-cache","server":"scaffolding on HTTPServer2","transfer-encoding":"chunked","vary":"Origin, X-Origin, Referer","x-content-type-options":"nosniff","x-frame-options":"SAMEORIGIN","x-xss-protection":"0"},"request":{"responseURL":"https://oauth2.googleapis.com/token"},"status":400,"statusText":"Bad Request"}},"exception":true,"os":{"loadavg":[0,0,0],"uptime":73212.593},"process":{"argv":["node","D:\\Backend new\\E-COMMERCE-SYSTEM\\src\\index.js"],"cwd":"D:\\Backend new\\E-COMMERCE-SYSTEM","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18529161,"external":21382958,"heapTotal":99647488,"heapUsed":94572168,"rss":145436672},"pid":21588,"uid":null,"version":"v18.15.0"},"stack":"Error: invalid_grant\n    at Gaxios._request (D:\\Backend new\\E-COMMERCE-SYSTEM\\node_modules\\gaxios\\src\\gaxios.ts:158:15)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at OAuth2Client.refreshTokenNoCache (D:\\Backend new\\E-COMMERCE-SYSTEM\\node_modules\\google-auth-library\\build\\src\\auth\\oauth2client.js:178:19)","trace":[{"column":15,"file":"D:\\Backend new\\E-COMMERCE-SYSTEM\\node_modules\\gaxios\\src\\gaxios.ts","function":"Gaxios._request","line":158,"method":"_request","native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false},{"column":19,"file":"D:\\Backend new\\E-COMMERCE-SYSTEM\\node_modules\\google-auth-library\\build\\src\\auth\\oauth2client.js","function":"OAuth2Client.refreshTokenNoCache","line":178,"method":"refreshTokenNoCache","native":false}]}
+info: ::1 - - [03/May/2023:10:38:22 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:10:38:29 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:10:38:29 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:10:39:35 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:10:44:26 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:10:44:26 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:10:44:28 +0000] "GET /api/v1/product?category= HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:10:44:28 +0000] "GET /api/v1/category HTTP/1.1" 202 1063 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:10:44:28 +0000] "GET /api/v1/cart HTTP/1.1" 201 739 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:10:44:29 +0000] "GET /api/v1/product?category= HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:10:44:29 +0000] "GET /api/v1/category HTTP/1.1" 202 1063 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:10:44:29 +0000] "GET /api/v1/cart HTTP/1.1" 201 739 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:10:44:29 +0000] "GET /api/v1/product?category= HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:10:44:29 +0000] "GET /api/v1/product?category= HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:10:44:35 +0000] "GET /api/v1/cart HTTP/1.1" 201 739 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:10:44:35 +0000] "GET /api/v1/category HTTP/1.1" 202 1063 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:10:44:35 +0000] "GET /api/v1/product?category= HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:10:44:35 +0000] "GET /api/v1/cart HTTP/1.1" 201 739 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:10:44:35 +0000] "GET /api/v1/category HTTP/1.1" 202 1063 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:10:44:35 +0000] "GET /api/v1/product?category= HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:10:44:35 +0000] "GET /api/v1/product?category= HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:10:44:35 +0000] "GET /api/v1/product?category= HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:10:44:43 +0000] "GET /api/v1/product/645073827aa4b2aa649d5ac4 HTTP/1.1" 202 562 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:10:44:43 +0000] "GET /api/v1/product/645073827aa4b2aa649d5ac4 HTTP/1.1" 202 562 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:10:44:45 +0000] "POST /api/v1/cart/645073827aa4b2aa649d5ac4 HTTP/1.1" 202 615 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:10:44:45 +0000] "GET /api/v1/cart HTTP/1.1" 201 1296 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:10:44:45 +0000] "GET /api/v1/cart HTTP/1.1" 201 1296 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:10:44:45 +0000] "GET /api/v1/cart HTTP/1.1" 201 1296 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:10:44:46 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:10:44:46 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:10:46:19 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:10:46:23 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:10:46:24 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:10:46:24 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:10:46:30 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:10:46:41 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:10:47:20 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:10:51:17 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:10:52:15 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:11:35:18 +0000] "GET /api/v1/cart HTTP/1.1" 201 1296 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:11:35:18 +0000] "GET /api/v1/cart HTTP/1.1" 201 1296 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:11:38:33 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:11:38:33 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:11:45:05 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:11:48:13 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:11:48:20 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:11:48:53 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:11:48:55 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:11:51:47 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:11:52:21 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:11:53:17 +0000] "GET /api/v1/cart HTTP/1.1" 201 1296 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:11:53:17 +0000] "GET /api/v1/cart HTTP/1.1" 201 1296 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:11:53:22 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:11:53:22 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:11:53:22 +0000] "GET /api/v1/cart HTTP/1.1" 201 1296 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:11:53:22 +0000] "GET /api/v1/cart HTTP/1.1" 201 1296 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:11:54:11 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:11:54:11 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:11:55:29 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:11:55:35 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:11:57:04 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:04:33 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:04:52 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:04:52 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:05:15 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:05:15 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:09:27 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:09:27 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:09:51 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:09:53 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:09:53 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:10:28 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:10:28 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:10:41 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:10:58 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:11:02 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:11:02 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:16:00 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:16:00 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:16:00 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:16:00 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:16:57 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:16:57 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:17:25 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:17:32 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:17:49 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:17:52 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:17:59 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:18:06 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:18:06 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:18:15 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:18:15 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:18:20 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:18:21 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:18:28 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:19:36 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:22:51 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:23:05 +0000] "DELETE /api/v1/cart/undefined HTTP/1.1" 404 47 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:23:05 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:23:21 +0000] "DELETE /api/v1/cart/undefined HTTP/1.1" 404 47 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:23:21 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:23:22 +0000] "DELETE /api/v1/cart/undefined HTTP/1.1" 404 47 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:23:22 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:26:47 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:26:53 +0000] "DELETE /api/v1/delete/undefined HTTP/1.1" 404 47 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:26:53 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:26:55 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:26:55 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:27:05 +0000] "DELETE /api/v1/delete/undefined HTTP/1.1" 404 47 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:27:05 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:27:19 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:27:25 +0000] "PUT /api/v1/delete/undefined HTTP/1.1" 404 47 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:27:25 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:28:07 +0000] "PUT /api/v1/delete/undefined HTTP/1.1" 404 47 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:28:07 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:42:34 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:42:42 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:42:47 +0000] "PUT /api/v1/delete/undefined HTTP/1.1" 404 47 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:42:47 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:42:53 +0000] "GET /api/v1/delete/undefined HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:42:53 +0000] "GET /favicon.ico HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:43:00 +0000] "PUT /api/v1/delete/undefined HTTP/1.1" 404 47 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:43:01 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:43:28 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:43:38 +0000] "PUT /api/v1/delete/undefined HTTP/1.1" 404 47 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:43:38 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:43:56 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:43:58 +0000] "PUT /api/v1/address/delete/undefined HTTP/1.1" 400 56 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:43:58 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:44:24 +0000] "GET /api/v1/category HTTP/1.1" 202 1063 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:44:24 +0000] "GET /api/v1/category HTTP/1.1" 202 1063 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:44:31 +0000] "POST /api/v1/users/login HTTP/1.1" 202 274 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:44:31 +0000] "GET /api/v1/cart HTTP/1.1" 500 48 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:44:31 +0000] "GET /api/v1/cart HTTP/1.1" 500 48 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:44:31 +0000] "GET /api/v1/category HTTP/1.1" 202 1063 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:44:31 +0000] "GET /api/v1/product?category=Electronics HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:44:31 +0000] "GET /api/v1/category HTTP/1.1" 202 1063 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:44:31 +0000] "GET /api/v1/product?category=Electronics HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:44:31 +0000] "GET /api/v1/product?category=Electronics HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:44:31 +0000] "GET /api/v1/product?category=Electronics HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:44:32 +0000] "GET /api/v1/product/645073827aa4b2aa649d5aca HTTP/1.1" 202 607 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:44:32 +0000] "GET /api/v1/product/645073827aa4b2aa649d5aca HTTP/1.1" 202 607 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:44:34 +0000] "POST /api/v1/cart/645073827aa4b2aa649d5aca HTTP/1.1" 500 48 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:44:34 +0000] "POST /api/v1/cart/645073827aa4b2aa649d5aca HTTP/1.1" 500 48 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:44:36 +0000] "GET /api/v1/product/645073827aa4b2aa649d5aca HTTP/1.1" 202 607 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:44:36 +0000] "GET /api/v1/product/645073827aa4b2aa649d5aca HTTP/1.1" 202 607 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:44:36 +0000] "POST /api/v1/cart/645073827aa4b2aa649d5aca HTTP/1.1" 202 664 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:44:36 +0000] "GET /api/v1/cart HTTP/1.1" 201 2445 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:44:37 +0000] "GET /api/v1/cart HTTP/1.1" 201 2445 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:44:37 +0000] "GET /api/v1/cart HTTP/1.1" 201 2445 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:44:38 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:44:38 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:44:48 +0000] "PUT /api/v1/address/delete/undefined HTTP/1.1" 400 56 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:44:48 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:45:17 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:45:17 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:45:40 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:45:47 +0000] "PUT /api/v1/address/delete/undefined HTTP/1.1" 201 287 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:45:47 +0000] "GET /api/v1/address HTTP/1.1" 200 301 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:46:05 +0000] "GET /api/v1/category HTTP/1.1" 202 1063 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:46:05 +0000] "GET /api/v1/cart HTTP/1.1" 201 2445 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:46:05 +0000] "GET /api/v1/product?category= HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:46:05 +0000] "GET /api/v1/category HTTP/1.1" 202 1063 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:46:05 +0000] "GET /api/v1/cart HTTP/1.1" 201 2445 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:46:05 +0000] "GET /api/v1/product?category= HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:46:05 +0000] "GET /api/v1/product?category= HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:46:05 +0000] "GET /api/v1/product?category= HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:46:12 +0000] "GET /api/v1/category HTTP/1.1" 202 1063 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:46:12 +0000] "GET /api/v1/product?category= HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:46:12 +0000] "GET /api/v1/cart HTTP/1.1" 201 2445 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:46:12 +0000] "GET /api/v1/category HTTP/1.1" 202 1063 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:46:12 +0000] "GET /api/v1/product?category= HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:46:12 +0000] "GET /api/v1/cart HTTP/1.1" 201 2445 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:46:12 +0000] "GET /api/v1/product?category= HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:46:12 +0000] "GET /api/v1/product?category= HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:46:17 +0000] "GET /api/v1/category HTTP/1.1" 202 1063 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:46:17 +0000] "GET /api/v1/product?category= HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:46:17 +0000] "GET /api/v1/cart HTTP/1.1" 201 2445 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:46:17 +0000] "GET /api/v1/category HTTP/1.1" 202 1063 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:46:17 +0000] "GET /api/v1/product?category= HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:46:17 +0000] "GET /api/v1/cart HTTP/1.1" 201 2445 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:46:17 +0000] "GET /api/v1/product?category= HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:46:17 +0000] "GET /api/v1/product?category= HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:46:20 +0000] "GET /api/v1/cart HTTP/1.1" 201 2445 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:46:20 +0000] "GET /api/v1/cart HTTP/1.1" 201 2445 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:46:24 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:46:24 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:47:56 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:48:22 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:48:35 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:48:48 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:48:49 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:49:03 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:49:58 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:50:00 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:50:04 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:50:24 +0000] "POST /api/v1/payment/createPaymentIntent HTTP/1.1" 200 121 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:50:24 +0000] "POST /api/v1/payment/createPaymentIntent HTTP/1.1" 200 121 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+error: uncaughtException: invalid_grant
+Error: invalid_grant
+    at Gaxios._request (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\gaxios\src\gaxios.ts:158:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at OAuth2Client.refreshTokenNoCache (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\google-auth-library\build\src\auth\oauth2client.js:178:19) {"date":"Wed May 03 2023 18:20:24 GMT+0530 (India Standard Time)","error":{"code":"400","config":{"body":"refresh_token=ya29.a0AWY7CklKaObVsWQXszgBgZCQxArStN2aZxUDo0na6f9sUJDjFFnSax8NEdK0_N4djd20w4h7ICbiG0CxhaUUIZGLf3tkSBWUBphRw3e0p8susgrmeN4YhUvMBJ2tc8BHKqwTG5BSqaYfHB9VxykW4MGXhiW7UyhzaCgYKAVkSARESFQG1tDrpOb76yqB1JuS-lear68xabg0167&client_id=795090287571-skp802kpo5n7p5f7fdkq51lc10d186p4.apps.googleusercontent.com&client_secret=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&grant_type=refresh_token","data":"refresh_token=ya29.a0AWY7CklKaObVsWQXszgBgZCQxArStN2aZxUDo0na6f9sUJDjFFnSax8NEdK0_N4djd20w4h7ICbiG0CxhaUUIZGLf3tkSBWUBphRw3e0p8susgrmeN4YhUvMBJ2tc8BHKqwTG5BSqaYfHB9VxykW4MGXhiW7UyhzaCgYKAVkSARESFQG1tDrpOb76yqB1JuS-lear68xabg0167&client_id=795090287571-skp802kpo5n7p5f7fdkq51lc10d186p4.apps.googleusercontent.com&client_secret=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&grant_type=refresh_token","headers":{"Accept":"application/json","Content-Type":"application/x-www-form-urlencoded","User-Agent":"google-api-nodejs-client/8.7.0","x-goog-api-client":"gl-node/18.15.0 auth/8.7.0"},"method":"POST","responseType":"json","url":"https://oauth2.googleapis.com/token"},"response":{"config":{"body":"refresh_token=ya29.a0AWY7CklKaObVsWQXszgBgZCQxArStN2aZxUDo0na6f9sUJDjFFnSax8NEdK0_N4djd20w4h7ICbiG0CxhaUUIZGLf3tkSBWUBphRw3e0p8susgrmeN4YhUvMBJ2tc8BHKqwTG5BSqaYfHB9VxykW4MGXhiW7UyhzaCgYKAVkSARESFQG1tDrpOb76yqB1JuS-lear68xabg0167&client_id=795090287571-skp802kpo5n7p5f7fdkq51lc10d186p4.apps.googleusercontent.com&client_secret=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&grant_type=refresh_token","data":"refresh_token=ya29.a0AWY7CklKaObVsWQXszgBgZCQxArStN2aZxUDo0na6f9sUJDjFFnSax8NEdK0_N4djd20w4h7ICbiG0CxhaUUIZGLf3tkSBWUBphRw3e0p8susgrmeN4YhUvMBJ2tc8BHKqwTG5BSqaYfHB9VxykW4MGXhiW7UyhzaCgYKAVkSARESFQG1tDrpOb76yqB1JuS-lear68xabg0167&client_id=795090287571-skp802kpo5n7p5f7fdkq51lc10d186p4.apps.googleusercontent.com&client_secret=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&grant_type=refresh_token","headers":{"Accept":"application/json","Content-Type":"application/x-www-form-urlencoded","User-Agent":"google-api-nodejs-client/8.7.0","x-goog-api-client":"gl-node/18.15.0 auth/8.7.0"},"method":"POST","responseType":"json","url":"https://oauth2.googleapis.com/token"},"data":{"error":"invalid_grant","error_description":"Token has been expired or revoked."},"headers":{"alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000","cache-control":"no-cache, no-store, max-age=0, must-revalidate","connection":"close","content-encoding":"gzip","content-type":"application/json; charset=utf-8","date":"Wed, 03 May 2023 12:50:24 GMT","expires":"Mon, 01 Jan 1990 00:00:00 GMT","pragma":"no-cache","server":"scaffolding on HTTPServer2","transfer-encoding":"chunked","vary":"Origin, X-Origin, Referer","x-content-type-options":"nosniff","x-frame-options":"SAMEORIGIN","x-xss-protection":"0"},"request":{"responseURL":"https://oauth2.googleapis.com/token"},"status":400,"statusText":"Bad Request"}},"exception":true,"os":{"loadavg":[0,0,0],"uptime":7729.109},"process":{"argv":["node","D:\\Backend new\\E-COMMERCE-SYSTEM\\src\\index.js"],"cwd":"D:\\Backend new\\E-COMMERCE-SYSTEM","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18373343,"external":21227140,"heapTotal":101744640,"heapUsed":90753432,"rss":148103168},"pid":11648,"uid":null,"version":"v18.15.0"},"stack":"Error: invalid_grant\n    at Gaxios._request (D:\\Backend new\\E-COMMERCE-SYSTEM\\node_modules\\gaxios\\src\\gaxios.ts:158:15)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at OAuth2Client.refreshTokenNoCache (D:\\Backend new\\E-COMMERCE-SYSTEM\\node_modules\\google-auth-library\\build\\src\\auth\\oauth2client.js:178:19)","trace":[{"column":15,"file":"D:\\Backend new\\E-COMMERCE-SYSTEM\\node_modules\\gaxios\\src\\gaxios.ts","function":"Gaxios._request","line":158,"method":"_request","native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false},{"column":19,"file":"D:\\Backend new\\E-COMMERCE-SYSTEM\\node_modules\\google-auth-library\\build\\src\\auth\\oauth2client.js","function":"OAuth2Client.refreshTokenNoCache","line":178,"method":"refreshTokenNoCache","native":false}]}
+error: uncaughtException: invalid_grant
+Error: invalid_grant
+    at Gaxios._request (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\gaxios\src\gaxios.ts:158:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at OAuth2Client.refreshTokenNoCache (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\google-auth-library\build\src\auth\oauth2client.js:178:19) {"date":"Wed May 03 2023 18:20:24 GMT+0530 (India Standard Time)","error":{"code":"400","config":{"body":"refresh_token=ya29.a0AWY7CklKaObVsWQXszgBgZCQxArStN2aZxUDo0na6f9sUJDjFFnSax8NEdK0_N4djd20w4h7ICbiG0CxhaUUIZGLf3tkSBWUBphRw3e0p8susgrmeN4YhUvMBJ2tc8BHKqwTG5BSqaYfHB9VxykW4MGXhiW7UyhzaCgYKAVkSARESFQG1tDrpOb76yqB1JuS-lear68xabg0167&client_id=795090287571-skp802kpo5n7p5f7fdkq51lc10d186p4.apps.googleusercontent.com&client_secret=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&grant_type=refresh_token","data":"refresh_token=ya29.a0AWY7CklKaObVsWQXszgBgZCQxArStN2aZxUDo0na6f9sUJDjFFnSax8NEdK0_N4djd20w4h7ICbiG0CxhaUUIZGLf3tkSBWUBphRw3e0p8susgrmeN4YhUvMBJ2tc8BHKqwTG5BSqaYfHB9VxykW4MGXhiW7UyhzaCgYKAVkSARESFQG1tDrpOb76yqB1JuS-lear68xabg0167&client_id=795090287571-skp802kpo5n7p5f7fdkq51lc10d186p4.apps.googleusercontent.com&client_secret=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&grant_type=refresh_token","headers":{"Accept":"application/json","Content-Type":"application/x-www-form-urlencoded","User-Agent":"google-api-nodejs-client/8.7.0","x-goog-api-client":"gl-node/18.15.0 auth/8.7.0"},"method":"POST","responseType":"json","url":"https://oauth2.googleapis.com/token"},"response":{"config":{"body":"refresh_token=ya29.a0AWY7CklKaObVsWQXszgBgZCQxArStN2aZxUDo0na6f9sUJDjFFnSax8NEdK0_N4djd20w4h7ICbiG0CxhaUUIZGLf3tkSBWUBphRw3e0p8susgrmeN4YhUvMBJ2tc8BHKqwTG5BSqaYfHB9VxykW4MGXhiW7UyhzaCgYKAVkSARESFQG1tDrpOb76yqB1JuS-lear68xabg0167&client_id=795090287571-skp802kpo5n7p5f7fdkq51lc10d186p4.apps.googleusercontent.com&client_secret=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&grant_type=refresh_token","data":"refresh_token=ya29.a0AWY7CklKaObVsWQXszgBgZCQxArStN2aZxUDo0na6f9sUJDjFFnSax8NEdK0_N4djd20w4h7ICbiG0CxhaUUIZGLf3tkSBWUBphRw3e0p8susgrmeN4YhUvMBJ2tc8BHKqwTG5BSqaYfHB9VxykW4MGXhiW7UyhzaCgYKAVkSARESFQG1tDrpOb76yqB1JuS-lear68xabg0167&client_id=795090287571-skp802kpo5n7p5f7fdkq51lc10d186p4.apps.googleusercontent.com&client_secret=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&grant_type=refresh_token","headers":{"Accept":"application/json","Content-Type":"application/x-www-form-urlencoded","User-Agent":"google-api-nodejs-client/8.7.0","x-goog-api-client":"gl-node/18.15.0 auth/8.7.0"},"method":"POST","responseType":"json","url":"https://oauth2.googleapis.com/token"},"data":{"error":"invalid_grant","error_description":"Token has been expired or revoked."},"headers":{"alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000","cache-control":"no-cache, no-store, max-age=0, must-revalidate","connection":"close","content-encoding":"gzip","content-type":"application/json; charset=utf-8","date":"Wed, 03 May 2023 12:50:24 GMT","expires":"Mon, 01 Jan 1990 00:00:00 GMT","pragma":"no-cache","server":"scaffolding on HTTPServer2","transfer-encoding":"chunked","vary":"Origin, X-Origin, Referer","x-content-type-options":"nosniff","x-frame-options":"SAMEORIGIN","x-xss-protection":"0"},"request":{"responseURL":"https://oauth2.googleapis.com/token"},"status":400,"statusText":"Bad Request"}},"exception":true,"os":{"loadavg":[0,0,0],"uptime":7729.125},"process":{"argv":["node","D:\\Backend new\\E-COMMERCE-SYSTEM\\src\\index.js"],"cwd":"D:\\Backend new\\E-COMMERCE-SYSTEM","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18387422,"external":21241219,"heapTotal":101744640,"heapUsed":90879984,"rss":148234240},"pid":11648,"uid":null,"version":"v18.15.0"},"stack":"Error: invalid_grant\n    at Gaxios._request (D:\\Backend new\\E-COMMERCE-SYSTEM\\node_modules\\gaxios\\src\\gaxios.ts:158:15)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at OAuth2Client.refreshTokenNoCache (D:\\Backend new\\E-COMMERCE-SYSTEM\\node_modules\\google-auth-library\\build\\src\\auth\\oauth2client.js:178:19)","trace":[{"column":15,"file":"D:\\Backend new\\E-COMMERCE-SYSTEM\\node_modules\\gaxios\\src\\gaxios.ts","function":"Gaxios._request","line":158,"method":"_request","native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false},{"column":19,"file":"D:\\Backend new\\E-COMMERCE-SYSTEM\\node_modules\\google-auth-library\\build\\src\\auth\\oauth2client.js","function":"OAuth2Client.refreshTokenNoCache","line":178,"method":"refreshTokenNoCache","native":false}]}
+info: ::1 - - [03/May/2023:12:52:07 +0000] "GET /api/v1/category HTTP/1.1" 202 1063 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:52:07 +0000] "GET /api/v1/category HTTP/1.1" 202 1063 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:52:13 +0000] "POST /api/v1/users/login HTTP/1.1" 202 274 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:52:13 +0000] "GET /api/v1/category HTTP/1.1" 202 1063 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:52:13 +0000] "GET /api/v1/product?category=Kids+%26+Babies HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:52:13 +0000] "GET /api/v1/cart HTTP/1.1" 201 2445 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:52:13 +0000] "GET /api/v1/category HTTP/1.1" 202 1063 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:52:13 +0000] "GET /api/v1/product?category=Kids+%26+Babies HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:52:13 +0000] "GET /api/v1/cart HTTP/1.1" 201 2445 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:52:13 +0000] "GET /api/v1/product?category=Kids+%26+Babies HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:52:13 +0000] "GET /api/v1/product?category=Kids+%26+Babies HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:52:15 +0000] "GET /api/v1/product/645073827aa4b2aa649d5b06 HTTP/1.1" 202 503 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:52:15 +0000] "GET /api/v1/product/645073827aa4b2aa649d5b06 HTTP/1.1" 202 503 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:52:19 +0000] "GET /api/v1/cart HTTP/1.1" 201 2445 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:52:19 +0000] "GET /api/v1/cart HTTP/1.1" 201 2445 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:52:20 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:52:20 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:52:23 +0000] "POST /api/v1/payment/createPaymentIntent HTTP/1.1" 200 121 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:52:23 +0000] "POST /api/v1/payment/createPaymentIntent HTTP/1.1" 200 121 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+error: uncaughtException: invalid_grant
+Error: invalid_grant
+    at Gaxios._request (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\gaxios\src\gaxios.ts:158:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at OAuth2Client.refreshTokenNoCache (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\google-auth-library\build\src\auth\oauth2client.js:178:19) {"date":"Wed May 03 2023 18:22:23 GMT+0530 (India Standard Time)","error":{"code":"400","config":{"body":"refresh_token=ya29.a0AWY7CklKaObVsWQXszgBgZCQxArStN2aZxUDo0na6f9sUJDjFFnSax8NEdK0_N4djd20w4h7ICbiG0CxhaUUIZGLf3tkSBWUBphRw3e0p8susgrmeN4YhUvMBJ2tc8BHKqwTG5BSqaYfHB9VxykW4MGXhiW7UyhzaCgYKAVkSARESFQG1tDrpOb76yqB1JuS-lear68xabg0167&client_id=795090287571-skp802kpo5n7p5f7fdkq51lc10d186p4.apps.googleusercontent.com&client_secret=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&grant_type=refresh_token","data":"refresh_token=ya29.a0AWY7CklKaObVsWQXszgBgZCQxArStN2aZxUDo0na6f9sUJDjFFnSax8NEdK0_N4djd20w4h7ICbiG0CxhaUUIZGLf3tkSBWUBphRw3e0p8susgrmeN4YhUvMBJ2tc8BHKqwTG5BSqaYfHB9VxykW4MGXhiW7UyhzaCgYKAVkSARESFQG1tDrpOb76yqB1JuS-lear68xabg0167&client_id=795090287571-skp802kpo5n7p5f7fdkq51lc10d186p4.apps.googleusercontent.com&client_secret=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&grant_type=refresh_token","headers":{"Accept":"application/json","Content-Type":"application/x-www-form-urlencoded","User-Agent":"google-api-nodejs-client/8.7.0","x-goog-api-client":"gl-node/18.15.0 auth/8.7.0"},"method":"POST","responseType":"json","url":"https://oauth2.googleapis.com/token"},"response":{"config":{"body":"refresh_token=ya29.a0AWY7CklKaObVsWQXszgBgZCQxArStN2aZxUDo0na6f9sUJDjFFnSax8NEdK0_N4djd20w4h7ICbiG0CxhaUUIZGLf3tkSBWUBphRw3e0p8susgrmeN4YhUvMBJ2tc8BHKqwTG5BSqaYfHB9VxykW4MGXhiW7UyhzaCgYKAVkSARESFQG1tDrpOb76yqB1JuS-lear68xabg0167&client_id=795090287571-skp802kpo5n7p5f7fdkq51lc10d186p4.apps.googleusercontent.com&client_secret=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&grant_type=refresh_token","data":"refresh_token=ya29.a0AWY7CklKaObVsWQXszgBgZCQxArStN2aZxUDo0na6f9sUJDjFFnSax8NEdK0_N4djd20w4h7ICbiG0CxhaUUIZGLf3tkSBWUBphRw3e0p8susgrmeN4YhUvMBJ2tc8BHKqwTG5BSqaYfHB9VxykW4MGXhiW7UyhzaCgYKAVkSARESFQG1tDrpOb76yqB1JuS-lear68xabg0167&client_id=795090287571-skp802kpo5n7p5f7fdkq51lc10d186p4.apps.googleusercontent.com&client_secret=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&grant_type=refresh_token","headers":{"Accept":"application/json","Content-Type":"application/x-www-form-urlencoded","User-Agent":"google-api-nodejs-client/8.7.0","x-goog-api-client":"gl-node/18.15.0 auth/8.7.0"},"method":"POST","responseType":"json","url":"https://oauth2.googleapis.com/token"},"data":{"error":"invalid_grant","error_description":"Token has been expired or revoked."},"headers":{"alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000","cache-control":"no-cache, no-store, max-age=0, must-revalidate","connection":"close","content-encoding":"gzip","content-type":"application/json; charset=utf-8","date":"Wed, 03 May 2023 12:52:23 GMT","expires":"Mon, 01 Jan 1990 00:00:00 GMT","pragma":"no-cache","server":"scaffolding on HTTPServer2","transfer-encoding":"chunked","vary":"Origin, X-Origin, Referer","x-content-type-options":"nosniff","x-frame-options":"SAMEORIGIN","x-xss-protection":"0"},"request":{"responseURL":"https://oauth2.googleapis.com/token"},"status":400,"statusText":"Bad Request"}},"exception":true,"os":{"loadavg":[0,0,0],"uptime":7848.156},"process":{"argv":["node","D:\\Backend new\\E-COMMERCE-SYSTEM\\src\\index.js"],"cwd":"D:\\Backend new\\E-COMMERCE-SYSTEM","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18334285,"external":21188082,"heapTotal":97026048,"heapUsed":91700656,"rss":143458304},"pid":7368,"uid":null,"version":"v18.15.0"},"stack":"Error: invalid_grant\n    at Gaxios._request (D:\\Backend new\\E-COMMERCE-SYSTEM\\node_modules\\gaxios\\src\\gaxios.ts:158:15)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at OAuth2Client.refreshTokenNoCache (D:\\Backend new\\E-COMMERCE-SYSTEM\\node_modules\\google-auth-library\\build\\src\\auth\\oauth2client.js:178:19)","trace":[{"column":15,"file":"D:\\Backend new\\E-COMMERCE-SYSTEM\\node_modules\\gaxios\\src\\gaxios.ts","function":"Gaxios._request","line":158,"method":"_request","native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false},{"column":19,"file":"D:\\Backend new\\E-COMMERCE-SYSTEM\\node_modules\\google-auth-library\\build\\src\\auth\\oauth2client.js","function":"OAuth2Client.refreshTokenNoCache","line":178,"method":"refreshTokenNoCache","native":false}]}
+error: uncaughtException: invalid_grant
+Error: invalid_grant
+    at Gaxios._request (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\gaxios\src\gaxios.ts:158:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at OAuth2Client.refreshTokenNoCache (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\google-auth-library\build\src\auth\oauth2client.js:178:19) {"date":"Wed May 03 2023 18:22:23 GMT+0530 (India Standard Time)","error":{"code":"400","config":{"body":"refresh_token=ya29.a0AWY7CklKaObVsWQXszgBgZCQxArStN2aZxUDo0na6f9sUJDjFFnSax8NEdK0_N4djd20w4h7ICbiG0CxhaUUIZGLf3tkSBWUBphRw3e0p8susgrmeN4YhUvMBJ2tc8BHKqwTG5BSqaYfHB9VxykW4MGXhiW7UyhzaCgYKAVkSARESFQG1tDrpOb76yqB1JuS-lear68xabg0167&client_id=795090287571-skp802kpo5n7p5f7fdkq51lc10d186p4.apps.googleusercontent.com&client_secret=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&grant_type=refresh_token","data":"refresh_token=ya29.a0AWY7CklKaObVsWQXszgBgZCQxArStN2aZxUDo0na6f9sUJDjFFnSax8NEdK0_N4djd20w4h7ICbiG0CxhaUUIZGLf3tkSBWUBphRw3e0p8susgrmeN4YhUvMBJ2tc8BHKqwTG5BSqaYfHB9VxykW4MGXhiW7UyhzaCgYKAVkSARESFQG1tDrpOb76yqB1JuS-lear68xabg0167&client_id=795090287571-skp802kpo5n7p5f7fdkq51lc10d186p4.apps.googleusercontent.com&client_secret=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&grant_type=refresh_token","headers":{"Accept":"application/json","Content-Type":"application/x-www-form-urlencoded","User-Agent":"google-api-nodejs-client/8.7.0","x-goog-api-client":"gl-node/18.15.0 auth/8.7.0"},"method":"POST","responseType":"json","url":"https://oauth2.googleapis.com/token"},"response":{"config":{"body":"refresh_token=ya29.a0AWY7CklKaObVsWQXszgBgZCQxArStN2aZxUDo0na6f9sUJDjFFnSax8NEdK0_N4djd20w4h7ICbiG0CxhaUUIZGLf3tkSBWUBphRw3e0p8susgrmeN4YhUvMBJ2tc8BHKqwTG5BSqaYfHB9VxykW4MGXhiW7UyhzaCgYKAVkSARESFQG1tDrpOb76yqB1JuS-lear68xabg0167&client_id=795090287571-skp802kpo5n7p5f7fdkq51lc10d186p4.apps.googleusercontent.com&client_secret=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&grant_type=refresh_token","data":"refresh_token=ya29.a0AWY7CklKaObVsWQXszgBgZCQxArStN2aZxUDo0na6f9sUJDjFFnSax8NEdK0_N4djd20w4h7ICbiG0CxhaUUIZGLf3tkSBWUBphRw3e0p8susgrmeN4YhUvMBJ2tc8BHKqwTG5BSqaYfHB9VxykW4MGXhiW7UyhzaCgYKAVkSARESFQG1tDrpOb76yqB1JuS-lear68xabg0167&client_id=795090287571-skp802kpo5n7p5f7fdkq51lc10d186p4.apps.googleusercontent.com&client_secret=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&grant_type=refresh_token","headers":{"Accept":"application/json","Content-Type":"application/x-www-form-urlencoded","User-Agent":"google-api-nodejs-client/8.7.0","x-goog-api-client":"gl-node/18.15.0 auth/8.7.0"},"method":"POST","responseType":"json","url":"https://oauth2.googleapis.com/token"},"data":{"error":"invalid_grant","error_description":"Token has been expired or revoked."},"headers":{"alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000","cache-control":"no-cache, no-store, max-age=0, must-revalidate","connection":"close","content-encoding":"gzip","content-type":"application/json; charset=utf-8","date":"Wed, 03 May 2023 12:52:23 GMT","expires":"Mon, 01 Jan 1990 00:00:00 GMT","pragma":"no-cache","server":"scaffolding on HTTPServer2","transfer-encoding":"chunked","vary":"Origin, X-Origin, Referer","x-content-type-options":"nosniff","x-frame-options":"SAMEORIGIN","x-xss-protection":"0"},"request":{"responseURL":"https://oauth2.googleapis.com/token"},"status":400,"statusText":"Bad Request"}},"exception":true,"os":{"loadavg":[0,0,0],"uptime":7848.171},"process":{"argv":["node","D:\\Backend new\\E-COMMERCE-SYSTEM\\src\\index.js"],"cwd":"D:\\Backend new\\E-COMMERCE-SYSTEM","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18348358,"external":21202155,"heapTotal":97026048,"heapUsed":91828816,"rss":143585280},"pid":7368,"uid":null,"version":"v18.15.0"},"stack":"Error: invalid_grant\n    at Gaxios._request (D:\\Backend new\\E-COMMERCE-SYSTEM\\node_modules\\gaxios\\src\\gaxios.ts:158:15)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at OAuth2Client.refreshTokenNoCache (D:\\Backend new\\E-COMMERCE-SYSTEM\\node_modules\\google-auth-library\\build\\src\\auth\\oauth2client.js:178:19)","trace":[{"column":15,"file":"D:\\Backend new\\E-COMMERCE-SYSTEM\\node_modules\\gaxios\\src\\gaxios.ts","function":"Gaxios._request","line":158,"method":"_request","native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false},{"column":19,"file":"D:\\Backend new\\E-COMMERCE-SYSTEM\\node_modules\\google-auth-library\\build\\src\\auth\\oauth2client.js","function":"OAuth2Client.refreshTokenNoCache","line":178,"method":"refreshTokenNoCache","native":false}]}
+info: ::1 - - [03/May/2023:12:54:03 +0000] "POST /api/v1/address HTTP/1.1" 201 272 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [03/May/2023:12:54:06 +0000] "POST /api/v1/address HTTP/1.1" 500 61 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [03/May/2023:12:54:17 +0000] "POST /api/v1/address HTTP/1.1" 201 287 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [03/May/2023:12:54:23 +0000] "GET /api/v1/cart HTTP/1.1" 201 2445 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:54:23 +0000] "GET /api/v1/cart HTTP/1.1" 201 2445 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:54:23 +0000] "GET /api/v1/address HTTP/1.1" 200 766 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:54:23 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:54:29 +0000] "PUT /api/v1/address/delete/undefined HTTP/1.1" 201 292 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:54:29 +0000] "GET /api/v1/address HTTP/1.1" 200 533 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:54:30 +0000] "POST /api/v1/payment/createPaymentIntent HTTP/1.1" 200 121 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:54:30 +0000] "POST /api/v1/payment/createPaymentIntent HTTP/1.1" 200 121 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+error: uncaughtException: invalid_grant
+Error: invalid_grant
+    at Gaxios._request (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\gaxios\src\gaxios.ts:158:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at OAuth2Client.refreshTokenNoCache (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\google-auth-library\build\src\auth\oauth2client.js:178:19) {"date":"Wed May 03 2023 18:24:31 GMT+0530 (India Standard Time)","error":{"code":"400","config":{"body":"refresh_token=ya29.a0AWY7CklKaObVsWQXszgBgZCQxArStN2aZxUDo0na6f9sUJDjFFnSax8NEdK0_N4djd20w4h7ICbiG0CxhaUUIZGLf3tkSBWUBphRw3e0p8susgrmeN4YhUvMBJ2tc8BHKqwTG5BSqaYfHB9VxykW4MGXhiW7UyhzaCgYKAVkSARESFQG1tDrpOb76yqB1JuS-lear68xabg0167&client_id=795090287571-skp802kpo5n7p5f7fdkq51lc10d186p4.apps.googleusercontent.com&client_secret=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&grant_type=refresh_token","data":"refresh_token=ya29.a0AWY7CklKaObVsWQXszgBgZCQxArStN2aZxUDo0na6f9sUJDjFFnSax8NEdK0_N4djd20w4h7ICbiG0CxhaUUIZGLf3tkSBWUBphRw3e0p8susgrmeN4YhUvMBJ2tc8BHKqwTG5BSqaYfHB9VxykW4MGXhiW7UyhzaCgYKAVkSARESFQG1tDrpOb76yqB1JuS-lear68xabg0167&client_id=795090287571-skp802kpo5n7p5f7fdkq51lc10d186p4.apps.googleusercontent.com&client_secret=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&grant_type=refresh_token","headers":{"Accept":"application/json","Content-Type":"application/x-www-form-urlencoded","User-Agent":"google-api-nodejs-client/8.7.0","x-goog-api-client":"gl-node/18.15.0 auth/8.7.0"},"method":"POST","responseType":"json","url":"https://oauth2.googleapis.com/token"},"response":{"config":{"body":"refresh_token=ya29.a0AWY7CklKaObVsWQXszgBgZCQxArStN2aZxUDo0na6f9sUJDjFFnSax8NEdK0_N4djd20w4h7ICbiG0CxhaUUIZGLf3tkSBWUBphRw3e0p8susgrmeN4YhUvMBJ2tc8BHKqwTG5BSqaYfHB9VxykW4MGXhiW7UyhzaCgYKAVkSARESFQG1tDrpOb76yqB1JuS-lear68xabg0167&client_id=795090287571-skp802kpo5n7p5f7fdkq51lc10d186p4.apps.googleusercontent.com&client_secret=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&grant_type=refresh_token","data":"refresh_token=ya29.a0AWY7CklKaObVsWQXszgBgZCQxArStN2aZxUDo0na6f9sUJDjFFnSax8NEdK0_N4djd20w4h7ICbiG0CxhaUUIZGLf3tkSBWUBphRw3e0p8susgrmeN4YhUvMBJ2tc8BHKqwTG5BSqaYfHB9VxykW4MGXhiW7UyhzaCgYKAVkSARESFQG1tDrpOb76yqB1JuS-lear68xabg0167&client_id=795090287571-skp802kpo5n7p5f7fdkq51lc10d186p4.apps.googleusercontent.com&client_secret=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&grant_type=refresh_token","headers":{"Accept":"application/json","Content-Type":"application/x-www-form-urlencoded","User-Agent":"google-api-nodejs-client/8.7.0","x-goog-api-client":"gl-node/18.15.0 auth/8.7.0"},"method":"POST","responseType":"json","url":"https://oauth2.googleapis.com/token"},"data":{"error":"invalid_grant","error_description":"Token has been expired or revoked."},"headers":{"alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000","cache-control":"no-cache, no-store, max-age=0, must-revalidate","connection":"close","content-encoding":"gzip","content-type":"application/json; charset=utf-8","date":"Wed, 03 May 2023 12:54:31 GMT","expires":"Mon, 01 Jan 1990 00:00:00 GMT","pragma":"no-cache","server":"scaffolding on HTTPServer2","transfer-encoding":"chunked","vary":"Origin, X-Origin, Referer","x-content-type-options":"nosniff","x-frame-options":"SAMEORIGIN","x-xss-protection":"0"},"request":{"responseURL":"https://oauth2.googleapis.com/token"},"status":400,"statusText":"Bad Request"}},"exception":true,"os":{"loadavg":[0,0,0],"uptime":7975.812},"process":{"argv":["node","D:\\Backend new\\E-COMMERCE-SYSTEM\\src\\index.js"],"cwd":"D:\\Backend new\\E-COMMERCE-SYSTEM","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18317888,"external":21171685,"heapTotal":97026048,"heapUsed":91080968,"rss":143253504},"pid":7312,"uid":null,"version":"v18.15.0"},"stack":"Error: invalid_grant\n    at Gaxios._request (D:\\Backend new\\E-COMMERCE-SYSTEM\\node_modules\\gaxios\\src\\gaxios.ts:158:15)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at OAuth2Client.refreshTokenNoCache (D:\\Backend new\\E-COMMERCE-SYSTEM\\node_modules\\google-auth-library\\build\\src\\auth\\oauth2client.js:178:19)","trace":[{"column":15,"file":"D:\\Backend new\\E-COMMERCE-SYSTEM\\node_modules\\gaxios\\src\\gaxios.ts","function":"Gaxios._request","line":158,"method":"_request","native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false},{"column":19,"file":"D:\\Backend new\\E-COMMERCE-SYSTEM\\node_modules\\google-auth-library\\build\\src\\auth\\oauth2client.js","function":"OAuth2Client.refreshTokenNoCache","line":178,"method":"refreshTokenNoCache","native":false}]}
+error: uncaughtException: invalid_grant
+Error: invalid_grant
+    at Gaxios._request (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\gaxios\src\gaxios.ts:158:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at OAuth2Client.refreshTokenNoCache (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\google-auth-library\build\src\auth\oauth2client.js:178:19) {"date":"Wed May 03 2023 18:24:31 GMT+0530 (India Standard Time)","error":{"code":"400","config":{"body":"refresh_token=ya29.a0AWY7CklKaObVsWQXszgBgZCQxArStN2aZxUDo0na6f9sUJDjFFnSax8NEdK0_N4djd20w4h7ICbiG0CxhaUUIZGLf3tkSBWUBphRw3e0p8susgrmeN4YhUvMBJ2tc8BHKqwTG5BSqaYfHB9VxykW4MGXhiW7UyhzaCgYKAVkSARESFQG1tDrpOb76yqB1JuS-lear68xabg0167&client_id=795090287571-skp802kpo5n7p5f7fdkq51lc10d186p4.apps.googleusercontent.com&client_secret=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&grant_type=refresh_token","data":"refresh_token=ya29.a0AWY7CklKaObVsWQXszgBgZCQxArStN2aZxUDo0na6f9sUJDjFFnSax8NEdK0_N4djd20w4h7ICbiG0CxhaUUIZGLf3tkSBWUBphRw3e0p8susgrmeN4YhUvMBJ2tc8BHKqwTG5BSqaYfHB9VxykW4MGXhiW7UyhzaCgYKAVkSARESFQG1tDrpOb76yqB1JuS-lear68xabg0167&client_id=795090287571-skp802kpo5n7p5f7fdkq51lc10d186p4.apps.googleusercontent.com&client_secret=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&grant_type=refresh_token","headers":{"Accept":"application/json","Content-Type":"application/x-www-form-urlencoded","User-Agent":"google-api-nodejs-client/8.7.0","x-goog-api-client":"gl-node/18.15.0 auth/8.7.0"},"method":"POST","responseType":"json","url":"https://oauth2.googleapis.com/token"},"response":{"config":{"body":"refresh_token=ya29.a0AWY7CklKaObVsWQXszgBgZCQxArStN2aZxUDo0na6f9sUJDjFFnSax8NEdK0_N4djd20w4h7ICbiG0CxhaUUIZGLf3tkSBWUBphRw3e0p8susgrmeN4YhUvMBJ2tc8BHKqwTG5BSqaYfHB9VxykW4MGXhiW7UyhzaCgYKAVkSARESFQG1tDrpOb76yqB1JuS-lear68xabg0167&client_id=795090287571-skp802kpo5n7p5f7fdkq51lc10d186p4.apps.googleusercontent.com&client_secret=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&grant_type=refresh_token","data":"refresh_token=ya29.a0AWY7CklKaObVsWQXszgBgZCQxArStN2aZxUDo0na6f9sUJDjFFnSax8NEdK0_N4djd20w4h7ICbiG0CxhaUUIZGLf3tkSBWUBphRw3e0p8susgrmeN4YhUvMBJ2tc8BHKqwTG5BSqaYfHB9VxykW4MGXhiW7UyhzaCgYKAVkSARESFQG1tDrpOb76yqB1JuS-lear68xabg0167&client_id=795090287571-skp802kpo5n7p5f7fdkq51lc10d186p4.apps.googleusercontent.com&client_secret=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&grant_type=refresh_token","headers":{"Accept":"application/json","Content-Type":"application/x-www-form-urlencoded","User-Agent":"google-api-nodejs-client/8.7.0","x-goog-api-client":"gl-node/18.15.0 auth/8.7.0"},"method":"POST","responseType":"json","url":"https://oauth2.googleapis.com/token"},"data":{"error":"invalid_grant","error_description":"Token has been expired or revoked."},"headers":{"alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000","cache-control":"no-cache, no-store, max-age=0, must-revalidate","connection":"close","content-encoding":"gzip","content-type":"application/json; charset=utf-8","date":"Wed, 03 May 2023 12:54:31 GMT","expires":"Mon, 01 Jan 1990 00:00:00 GMT","pragma":"no-cache","server":"scaffolding on HTTPServer2","transfer-encoding":"chunked","vary":"Origin, X-Origin, Referer","x-content-type-options":"nosniff","x-frame-options":"SAMEORIGIN","x-xss-protection":"0"},"request":{"responseURL":"https://oauth2.googleapis.com/token"},"status":400,"statusText":"Bad Request"}},"exception":true,"os":{"loadavg":[0,0,0],"uptime":7975.828},"process":{"argv":["node","D:\\Backend new\\E-COMMERCE-SYSTEM\\src\\index.js"],"cwd":"D:\\Backend new\\E-COMMERCE-SYSTEM","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18331961,"external":21185758,"heapTotal":97026048,"heapUsed":91208984,"rss":143388672},"pid":7312,"uid":null,"version":"v18.15.0"},"stack":"Error: invalid_grant\n    at Gaxios._request (D:\\Backend new\\E-COMMERCE-SYSTEM\\node_modules\\gaxios\\src\\gaxios.ts:158:15)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at OAuth2Client.refreshTokenNoCache (D:\\Backend new\\E-COMMERCE-SYSTEM\\node_modules\\google-auth-library\\build\\src\\auth\\oauth2client.js:178:19)","trace":[{"column":15,"file":"D:\\Backend new\\E-COMMERCE-SYSTEM\\node_modules\\gaxios\\src\\gaxios.ts","function":"Gaxios._request","line":158,"method":"_request","native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false},{"column":19,"file":"D:\\Backend new\\E-COMMERCE-SYSTEM\\node_modules\\google-auth-library\\build\\src\\auth\\oauth2client.js","function":"OAuth2Client.refreshTokenNoCache","line":178,"method":"refreshTokenNoCache","native":false}]}
+info: ::1 - - [03/May/2023:12:55:59 +0000] "PUT /api/v1/cart/645073827aa4b2aa649d5aca HTTP/1.1" 202 676 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:55:59 +0000] "GET /api/v1/cart HTTP/1.1" 201 2445 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:56:01 +0000] "PUT /api/v1/cart/645073827aa4b2aa649d5aca HTTP/1.1" 202 676 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:56:01 +0000] "GET /api/v1/cart HTTP/1.1" 201 1839 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:57:28 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:57:28 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:57:38 +0000] "POST /api/v1/payment/createPaymentIntent HTTP/1.1" 200 121 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/May/2023:12:57:38 +0000] "POST /api/v1/payment/createPaymentIntent HTTP/1.1" 200 121 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+error: uncaughtException: invalid_grant
+Error: invalid_grant
+    at Gaxios._request (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\gaxios\src\gaxios.ts:158:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at OAuth2Client.refreshTokenNoCache (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\google-auth-library\build\src\auth\oauth2client.js:178:19) {"date":"Wed May 03 2023 18:27:38 GMT+0530 (India Standard Time)","error":{"code":"400","config":{"body":"refresh_token=ya29.a0AWY7CklKaObVsWQXszgBgZCQxArStN2aZxUDo0na6f9sUJDjFFnSax8NEdK0_N4djd20w4h7ICbiG0CxhaUUIZGLf3tkSBWUBphRw3e0p8susgrmeN4YhUvMBJ2tc8BHKqwTG5BSqaYfHB9VxykW4MGXhiW7UyhzaCgYKAVkSARESFQG1tDrpOb76yqB1JuS-lear68xabg0167&client_id=795090287571-skp802kpo5n7p5f7fdkq51lc10d186p4.apps.googleusercontent.com&client_secret=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&grant_type=refresh_token","data":"refresh_token=ya29.a0AWY7CklKaObVsWQXszgBgZCQxArStN2aZxUDo0na6f9sUJDjFFnSax8NEdK0_N4djd20w4h7ICbiG0CxhaUUIZGLf3tkSBWUBphRw3e0p8susgrmeN4YhUvMBJ2tc8BHKqwTG5BSqaYfHB9VxykW4MGXhiW7UyhzaCgYKAVkSARESFQG1tDrpOb76yqB1JuS-lear68xabg0167&client_id=795090287571-skp802kpo5n7p5f7fdkq51lc10d186p4.apps.googleusercontent.com&client_secret=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&grant_type=refresh_token","headers":{"Accept":"application/json","Content-Type":"application/x-www-form-urlencoded","User-Agent":"google-api-nodejs-client/8.7.0","x-goog-api-client":"gl-node/18.15.0 auth/8.7.0"},"method":"POST","responseType":"json","url":"https://oauth2.googleapis.com/token"},"response":{"config":{"body":"refresh_token=ya29.a0AWY7CklKaObVsWQXszgBgZCQxArStN2aZxUDo0na6f9sUJDjFFnSax8NEdK0_N4djd20w4h7ICbiG0CxhaUUIZGLf3tkSBWUBphRw3e0p8susgrmeN4YhUvMBJ2tc8BHKqwTG5BSqaYfHB9VxykW4MGXhiW7UyhzaCgYKAVkSARESFQG1tDrpOb76yqB1JuS-lear68xabg0167&client_id=795090287571-skp802kpo5n7p5f7fdkq51lc10d186p4.apps.googleusercontent.com&client_secret=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&grant_type=refresh_token","data":"refresh_token=ya29.a0AWY7CklKaObVsWQXszgBgZCQxArStN2aZxUDo0na6f9sUJDjFFnSax8NEdK0_N4djd20w4h7ICbiG0CxhaUUIZGLf3tkSBWUBphRw3e0p8susgrmeN4YhUvMBJ2tc8BHKqwTG5BSqaYfHB9VxykW4MGXhiW7UyhzaCgYKAVkSARESFQG1tDrpOb76yqB1JuS-lear68xabg0167&client_id=795090287571-skp802kpo5n7p5f7fdkq51lc10d186p4.apps.googleusercontent.com&client_secret=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&grant_type=refresh_token","headers":{"Accept":"application/json","Content-Type":"application/x-www-form-urlencoded","User-Agent":"google-api-nodejs-client/8.7.0","x-goog-api-client":"gl-node/18.15.0 auth/8.7.0"},"method":"POST","responseType":"json","url":"https://oauth2.googleapis.com/token"},"data":{"error":"invalid_grant","error_description":"Token has been expired or revoked."},"headers":{"alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000","cache-control":"no-cache, no-store, max-age=0, must-revalidate","connection":"close","content-encoding":"gzip","content-type":"application/json; charset=utf-8","date":"Wed, 03 May 2023 12:57:38 GMT","expires":"Mon, 01 Jan 1990 00:00:00 GMT","pragma":"no-cache","server":"scaffolding on HTTPServer2","transfer-encoding":"chunked","vary":"Origin, X-Origin, Referer","x-content-type-options":"nosniff","x-frame-options":"SAMEORIGIN","x-xss-protection":"0"},"request":{"responseURL":"https://oauth2.googleapis.com/token"},"status":400,"statusText":"Bad Request"}},"exception":true,"os":{"loadavg":[0,0,0],"uptime":8163.171},"process":{"argv":["node","D:\\Backend new\\E-COMMERCE-SYSTEM\\src\\index.js"],"cwd":"D:\\Backend new\\E-COMMERCE-SYSTEM","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18317889,"external":21171686,"heapTotal":96501760,"heapUsed":90802640,"rss":142950400},"pid":1452,"uid":null,"version":"v18.15.0"},"stack":"Error: invalid_grant\n    at Gaxios._request (D:\\Backend new\\E-COMMERCE-SYSTEM\\node_modules\\gaxios\\src\\gaxios.ts:158:15)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at OAuth2Client.refreshTokenNoCache (D:\\Backend new\\E-COMMERCE-SYSTEM\\node_modules\\google-auth-library\\build\\src\\auth\\oauth2client.js:178:19)","trace":[{"column":15,"file":"D:\\Backend new\\E-COMMERCE-SYSTEM\\node_modules\\gaxios\\src\\gaxios.ts","function":"Gaxios._request","line":158,"method":"_request","native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false},{"column":19,"file":"D:\\Backend new\\E-COMMERCE-SYSTEM\\node_modules\\google-auth-library\\build\\src\\auth\\oauth2client.js","function":"OAuth2Client.refreshTokenNoCache","line":178,"method":"refreshTokenNoCache","native":false}]}
+error: uncaughtException: invalid_grant
+Error: invalid_grant
+    at Gaxios._request (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\gaxios\src\gaxios.ts:158:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at OAuth2Client.refreshTokenNoCache (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\google-auth-library\build\src\auth\oauth2client.js:178:19) {"date":"Wed May 03 2023 18:27:38 GMT+0530 (India Standard Time)","error":{"code":"400","config":{"body":"refresh_token=ya29.a0AWY7CklKaObVsWQXszgBgZCQxArStN2aZxUDo0na6f9sUJDjFFnSax8NEdK0_N4djd20w4h7ICbiG0CxhaUUIZGLf3tkSBWUBphRw3e0p8susgrmeN4YhUvMBJ2tc8BHKqwTG5BSqaYfHB9VxykW4MGXhiW7UyhzaCgYKAVkSARESFQG1tDrpOb76yqB1JuS-lear68xabg0167&client_id=795090287571-skp802kpo5n7p5f7fdkq51lc10d186p4.apps.googleusercontent.com&client_secret=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&grant_type=refresh_token","data":"refresh_token=ya29.a0AWY7CklKaObVsWQXszgBgZCQxArStN2aZxUDo0na6f9sUJDjFFnSax8NEdK0_N4djd20w4h7ICbiG0CxhaUUIZGLf3tkSBWUBphRw3e0p8susgrmeN4YhUvMBJ2tc8BHKqwTG5BSqaYfHB9VxykW4MGXhiW7UyhzaCgYKAVkSARESFQG1tDrpOb76yqB1JuS-lear68xabg0167&client_id=795090287571-skp802kpo5n7p5f7fdkq51lc10d186p4.apps.googleusercontent.com&client_secret=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&grant_type=refresh_token","headers":{"Accept":"application/json","Content-Type":"application/x-www-form-urlencoded","User-Agent":"google-api-nodejs-client/8.7.0","x-goog-api-client":"gl-node/18.15.0 auth/8.7.0"},"method":"POST","responseType":"json","url":"https://oauth2.googleapis.com/token"},"response":{"config":{"body":"refresh_token=ya29.a0AWY7CklKaObVsWQXszgBgZCQxArStN2aZxUDo0na6f9sUJDjFFnSax8NEdK0_N4djd20w4h7ICbiG0CxhaUUIZGLf3tkSBWUBphRw3e0p8susgrmeN4YhUvMBJ2tc8BHKqwTG5BSqaYfHB9VxykW4MGXhiW7UyhzaCgYKAVkSARESFQG1tDrpOb76yqB1JuS-lear68xabg0167&client_id=795090287571-skp802kpo5n7p5f7fdkq51lc10d186p4.apps.googleusercontent.com&client_secret=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&grant_type=refresh_token","data":"refresh_token=ya29.a0AWY7CklKaObVsWQXszgBgZCQxArStN2aZxUDo0na6f9sUJDjFFnSax8NEdK0_N4djd20w4h7ICbiG0CxhaUUIZGLf3tkSBWUBphRw3e0p8susgrmeN4YhUvMBJ2tc8BHKqwTG5BSqaYfHB9VxykW4MGXhiW7UyhzaCgYKAVkSARESFQG1tDrpOb76yqB1JuS-lear68xabg0167&client_id=795090287571-skp802kpo5n7p5f7fdkq51lc10d186p4.apps.googleusercontent.com&client_secret=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&grant_type=refresh_token","headers":{"Accept":"application/json","Content-Type":"application/x-www-form-urlencoded","User-Agent":"google-api-nodejs-client/8.7.0","x-goog-api-client":"gl-node/18.15.0 auth/8.7.0"},"method":"POST","responseType":"json","url":"https://oauth2.googleapis.com/token"},"data":{"error":"invalid_grant","error_description":"Token has been expired or revoked."},"headers":{"alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000","cache-control":"no-cache, no-store, max-age=0, must-revalidate","connection":"close","content-encoding":"gzip","content-type":"application/json; charset=utf-8","date":"Wed, 03 May 2023 12:57:38 GMT","expires":"Mon, 01 Jan 1990 00:00:00 GMT","pragma":"no-cache","server":"scaffolding on HTTPServer2","transfer-encoding":"chunked","vary":"Origin, X-Origin, Referer","x-content-type-options":"nosniff","x-frame-options":"SAMEORIGIN","x-xss-protection":"0"},"request":{"responseURL":"https://oauth2.googleapis.com/token"},"status":400,"statusText":"Bad Request"}},"exception":true,"os":{"loadavg":[0,0,0],"uptime":8163.187},"process":{"argv":["node","D:\\Backend new\\E-COMMERCE-SYSTEM\\src\\index.js"],"cwd":"D:\\Backend new\\E-COMMERCE-SYSTEM","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18331962,"external":21185759,"heapTotal":96501760,"heapUsed":90934368,"rss":143093760},"pid":1452,"uid":null,"version":"v18.15.0"},"stack":"Error: invalid_grant\n    at Gaxios._request (D:\\Backend new\\E-COMMERCE-SYSTEM\\node_modules\\gaxios\\src\\gaxios.ts:158:15)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at OAuth2Client.refreshTokenNoCache (D:\\Backend new\\E-COMMERCE-SYSTEM\\node_modules\\google-auth-library\\build\\src\\auth\\oauth2client.js:178:19)","trace":[{"column":15,"file":"D:\\Backend new\\E-COMMERCE-SYSTEM\\node_modules\\gaxios\\src\\gaxios.ts","function":"Gaxios._request","line":158,"method":"_request","native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false},{"column":19,"file":"D:\\Backend new\\E-COMMERCE-SYSTEM\\node_modules\\google-auth-library\\build\\src\\auth\\oauth2client.js","function":"OAuth2Client.refreshTokenNoCache","line":178,"method":"refreshTokenNoCache","native":false}]}

@@ -18,7 +18,7 @@ router.get('/', userAuth, addressController.getAllAddresses);
 router.put('/:_id', userAuth, addressController.updateAddress);
 
 // delete address by id
-router.delete('/:_id', userAuth, addressController.deleteAddress);
+router.put('/delete/:_id', userAuth, addressController.deleteAddress);
 
 
 // get all address
