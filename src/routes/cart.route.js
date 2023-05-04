@@ -17,6 +17,9 @@ router.post('/:_id', userAuth, cartController.addedToCart);
 //remove Products from the cart
 router.put('/:_id/', userAuth, cartController.removeProductFromCart);
 
+// delete product from cart
+router.delete('/:_id', userAuth, cartController.deleteProductFromCart)
+
 // purchase Products from cart
 router.post('/purchase/:_id', userAuth, cartController.purchaseById);
 

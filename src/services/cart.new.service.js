@@ -149,6 +149,11 @@ export const addedToCart = async (userId, params_id) => {
     }
 };
 
+export const deleteProductFromCart = async(userId, productId) =>{
+    const result = await cart.findOneAndDelete({userId, _id: productId })
+    return result;
+}
+
 
 
 // Remove product from cart

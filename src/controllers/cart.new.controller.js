@@ -129,6 +129,28 @@ export const removeProductFromCart = async (req, res) => {
 };
 
 
+
+// Remove Product From Cart
+export const deleteProductFromCart = async (req, res) => {
+    try {
+        const data = await cartService.removeproductFromCart(
+            req.body.userId,
+            req.params._id
+        );
+        res.status(HttpStatus.OK).json({
+            code: HttpStatus.ACCEPTED,
+            data: data,
+            message: 'Product removed from cart successfully'
+        });
+    } catch (error) {
+        res.status(HttpStatus.BAD_REQUEST).json({
+            code: HttpStatus.BAD_REQUEST,
+            message: `${error}`
+        });
+    }
+};
+
+
 // purchase Product by id
 export const purchaseById = async (req, res) => {
     try {
