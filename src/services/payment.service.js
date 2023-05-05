@@ -1,7 +1,7 @@
 const Stripe = require('stripe');
 const stripe = Stripe(
   process.env.PAYMENT_SECRET_KEY ||
-  'sk_test_51N12BsSHL3ZIWrpnYrt2oBZigHN5hVGOmEJAFPeOsc1qNhDgMkKxtUrInFfLyMlChF5jlQby4qb6BlMsqFuRWTaN007kCWWHTQ'
+    'sk_test_51N12BsSHL3ZIWrpnYrt2oBZigHN5hVGOmEJAFPeOsc1qNhDgMkKxtUrInFfLyMlChF5jlQby4qb6BlMsqFuRWTaN007kCWWHTQ'
 );
 
 import { sendMail } from '../utils/user.util';
@@ -55,11 +55,11 @@ export const createPaymentIntend = async (
     });
     let cart = await getCart(userId);
     console.log('cart', cart);
-    sendMail(
-      userId,
-      'ya29.a0AWY7CkmhqnUmOTVdYs9Z8n3TTpahkHocHviv-jGWxe4L_lwEjG2ZZz3Ij501ZSQgzI-QW8y4QGQPaoNTUo1DV5CqSEdyKrY4MrXz4PJ3LPnp--oZPbGWgH1uZoKCj1BbIffC18_g58RjegnBXrPPi-ogs5UF_Z1QaCgYKAaESARESFQG1tDrpm2nP92Yi3NKHG_BiAn145A0167',
-      { cartTotal: cart.cart_total, productList: cart.product }
-    );
+    // sendMail(
+    //   userId,
+    //   'ya29.a0AWY7CkmhqnUmOTVdYs9Z8n3TTpahkHocHviv-jGWxe4L_lwEjG2ZZz3Ij501ZSQgzI-QW8y4QGQPaoNTUo1DV5CqSEdyKrY4MrXz4PJ3LPnp--oZPbGWgH1uZoKCj1BbIffC18_g58RjegnBXrPPi-ogs5UF_Z1QaCgYKAaESARESFQG1tDrpm2nP92Yi3NKHG_BiAn145A0167',
+    //   { cartTotal: cart.cart_total, productList: cart.product }
+    // );
     return { clientSecret: customer.client_secret };
   } catch (error) {
     throw error;
