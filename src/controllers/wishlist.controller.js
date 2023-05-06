@@ -5,7 +5,7 @@ import * as wishlistService from '../services/wishlist.service'
 // Add to wishlist
 export const addToWishlistController = async (req, res, next) => {
     try {
-        const userId = req.body.userId;
+        const { userId } = req.body;
         const productId = req.params._id;
 
         const result = await wishlistService.addToWishlist(userId, productId);
@@ -24,7 +24,7 @@ export const addToWishlistController = async (req, res, next) => {
 //remove from wishlist 
 export const removeProduct = async (req, res, next) => {
     try {
-        const userId = req.body.userId;
+        const { userId } = req.body;
         const productId = req.params._id;
 
         const result = await wishlistService.removeProduct(userId, productId);
