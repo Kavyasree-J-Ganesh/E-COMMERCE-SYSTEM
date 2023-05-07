@@ -20,8 +20,6 @@ const routes = () => {
   });
   router.use('/users', userRoute);
 
-  // router.use('/admin', adminRoute);
-
   router.use('/product', productRoute);
 
   router.use('/cart', cartRoute);
