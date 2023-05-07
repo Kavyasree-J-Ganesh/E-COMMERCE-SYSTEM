@@ -18,8 +18,8 @@ export const makePayment = async (req, res, next) => {
 
 export const createPaymentIntend = async (req, res, next) => {
   try {
-    console.log('josidninni', req.body);
     const { amount, token, demoProduct, userId } = req.body;
+    console.log("email outttt", userId)
     const charge = await stripService.createPaymentIntend(
       amount,
       token,

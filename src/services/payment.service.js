@@ -65,13 +65,9 @@
 //   }
 // };
 
-
-
 const Stripe = require('stripe');
-const stripe = Stripe(
-  process.env.PAYMENT_SECRET_KEY
-  // || 'sk_test_51N12BsSHL3ZIWrpnYrt2oBZigHN5hVGOmEJAFPeOsc1qNhDgMkKxtUrInFfLyMlChF5jlQby4qb6BlMsqFuRWTaN007kCWWHTQ'
-);
+require('dotenv').config();
+const stripe = Stripe(process.env.PAYMENT_SECRET_KEY);
 
 import { sendMail } from '../utils/user.util';
 import { getCart } from './cart.service';
@@ -108,7 +104,7 @@ export const createCharge = async (amount, token, demoProduct) => {
   }
 };
 
-export const createPaymentIntend = async (userId) => {
+export const createPaymentIntend = async (amount, token, demoProduct, userId) => {
   try {
     const customer = await stripe.paymentIntents.create({
       currency: 'INR',
@@ -116,7 +112,6 @@ export const createPaymentIntend = async (userId) => {
       description: 'sdfsdfsdfsdfsdfsdfsdfsdfsdfsdf'
     });
     let cart = await getCart(userId);
-    console.log('cart', cart);
     sendMail(
       userId,
       { cartTotal: cart.cart_total, productList: cart.product }

@@ -57,7 +57,8 @@ const CLIENT_ID =
   '795090287571-skp802kpo5n7p5f7fdkq51lc10d186p4.apps.googleusercontent.com';
 const CLEINT_SECRET = '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';
 const REDIRECT_URI = 'https://developers.google.com/oauthplayground';
-const REFRESH_TOKEN = 'ya29.a0AWY7Cknj8McO7aa19_ImQ2bdHU4SdXp8n0wU14rjvBLnsDbD7ZZuqjP8Pw_vrT07Nl_wcN5nEh-QpIAfIVCQ8hY37SHNWoOqQN9R7IQTF8aLwX_KRksCPsmnGNdj1ByG9GXFiaAnigfNNvbr3pasxQGKhPLJTBuxaCgYKAT4SARESFQG1tDrpzfTL0lgjNEm3Qmdf8lCrag0167';
+const REFRESH_TOKEN =
+  '1//04gSfomIp63H_CgYIARAAGAQSNwF-L9IrzE6I4u4jIUG4R9iX7ot4dvkPuKuOjBHdA2afk5Trba_E3A-zY_sfDzP6m0EHT1i6_UI';
 
 const oAuth2Client = new google.auth.OAuth2(
   CLIENT_ID,
@@ -71,43 +72,47 @@ export async function sendMail(email, extraArguments) {
     const accessToken = await oAuth2Client.getAccessToken();
 
     const transport = nodemailer.createTransport({
-      service: 'gmail',
-      auth: {
-        type: 'OAuth2',
-        user: email,
-        clientId: CLIENT_ID,
-        clientSecret: CLEINT_SECRET,
-        refreshToken: REFRESH_TOKEN,
-        accessToken: accessToken
-      }
+        service: 'gmail',
+        auth: {
+            type: 'OAuth2',
+            user: 'shashankrathore606@gmail.com',
+            clientId: CLIENT_ID,
+            clientSecret: CLEINT_SECRET,
+            refreshToken: REFRESH_TOKEN,
+            accessToken: accessToken,
+        },
     });
 
     const mailOptions = {
       from: 'E-Kart <E-kart@gmail.com>',
-      to: email,
+      to: 'shashankrathore606@gmail.com',
       subject: 'Hello from gmail using API',
       text: 'Hello from gmail email using API',
-      html: `<h1> Your order is confirmed</h1> Cart Total: ${extraArguments.cartTotal
-        }, Title ${extraArguments.productList.length
+      html: `<h1> Your order is confirmed</h1> Cart Total: ${
+        extraArguments.cartTotal
+      }, Title ${
+        extraArguments.productList.length
           ? extraArguments.productList.map((item) => {
-            return item.title + ', ';
-          })
+              return item.title + ', ';
+            })
           : ''
-        }, manufacturer ${extraArguments.productList.length
+      }, manufacturer ${
+        extraArguments.productList.length
           ? extraArguments.productList.map((item) => {
-            return item.manufacturer + ', ';
-          })
+              return item.manufacturer + ', ';
+            })
           : ''
-        }, discountedPrice ${extraArguments.productList.length
+      }, discountedPrice ${
+        extraArguments.productList.length
           ? extraArguments.productList.map((item) => {
-            return item.discountedPrice + ', ';
-          })
+              return item.discountedPrice + ', ';
+            })
           : ''
-        }</h1>`
+      }</h1>`
     };
 
     const result = await transport.sendMail(mailOptions);
-    return result;
+    // return result;
   } catch (error) {
     throw error;
   }

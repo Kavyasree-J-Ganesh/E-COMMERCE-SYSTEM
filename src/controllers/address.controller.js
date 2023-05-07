@@ -93,7 +93,6 @@ export const deleteAddress = async (req, res, next) => {
 export const getAllAddresses = async (req, res, next) => {
   try {
     const { userId } = req.body;
-    console.log('console in controller', userId);
     const addresses = await addressService.getAllAddresses(userId);
     res.status(HttpStatus.OK).json({
       code: HttpStatus.OK,
