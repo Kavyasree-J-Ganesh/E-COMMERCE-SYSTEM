@@ -35,8 +35,8 @@ export async function sendMail(email, extraArguments) {
     const mailOptions = {
       from: 'E-Kart <E-kart@gmail.com>',
       to: email,
-      subject: 'Hello from gmail using API',
-      text: 'Hello from gmail email using API',
+      subject: 'E-Kart Order succesfull',
+      text: 'Hello from E-KART email',
       html: `<h1> Your order is confirmed</h1> Cart Total: ${extraArguments.cartTotal
         }, Title ${extraArguments.productList.length
           ? extraArguments.productList.map((item) => {
