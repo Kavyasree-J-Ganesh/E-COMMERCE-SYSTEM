@@ -1,7 +1,7 @@
 const nodemailer = require('nodemailer');
 const { google } = require('googleapis');
 
-// These id's and secrets should come from .env file.
+
 const CLIENT_ID =
   '795090287571-skp802kpo5n7p5f7fdkq51lc10d186p4.apps.googleusercontent.com';
 const CLEINT_SECRET = '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';
