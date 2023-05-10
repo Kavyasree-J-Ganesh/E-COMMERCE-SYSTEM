@@ -14293,3 +14293,115 @@ error:
     method - POST 
     IP - ::1
    {"timestamp":"2023-05-04T18:16:57.932Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/cart/undefined 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-09T05:00:47.020Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/cart/undefined 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-09T05:00:47.487Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/cart/undefined 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-09T05:00:47.764Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/cart/undefined 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-09T05:00:56.889Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/cart/undefined 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-09T05:01:21.016Z"}
+error: 
+      status - 500
+      message - Failed to add product to wishlist 
+      url - /api/v1/wishlist/[object%20Object] 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-05-09T05:05:09.386Z"}
+error: 
+      status - 500
+      message - Failed to add product to wishlist 
+      url - /api/v1/wishlist/[object%20Object] 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-05-09T05:05:10.226Z"}
+error: 
+      status - 500
+      message - Failed to add product to wishlist 
+      url - /api/v1/wishlist/[object%20Object] 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-05-09T05:07:00.967Z"}
+error: 
+      status - 500
+      message - Failed to add product to wishlist 
+      url - /api/v1/wishlist/[object%20Object] 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-05-09T05:08:48.197Z"}
+error: 
+      status - 500
+      message - Failed to add product to wishlist 
+      url - /api/v1/wishlist/[object%20Object] 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-05-09T05:10:17.138Z"}
+error: 
+      status - 500
+      message - Failed to add product to wishlist 
+      url - /api/v1/wishlist/[object%20Object] 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-05-09T05:10:19.302Z"}
+error: 
+      status - 500
+      message - Failed to add product to wishlist 
+      url - /api/v1/wishlist/[object%20Object] 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-05-09T17:37:07.419Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/cart/645a849f501a4249fc713c0e 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-09T17:39:02.347Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/cart/645a849f501a4249fc713c0e 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-09T17:39:02.353Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/cart/645a849f501a4249fc713c0e 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-09T17:39:02.398Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/cart/645a849f501a4249fc713c0e 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-09T17:39:02.403Z"}
