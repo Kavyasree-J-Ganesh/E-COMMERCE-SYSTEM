@@ -3,7 +3,7 @@ import Product from '../models/product.model';
 // Get all products
 export const getAllProducts = async (category) => {
     let filter = {};
-    if(category && category != ""){
+    if (category && category != "") {
         filter.category = category
     }
     try {
