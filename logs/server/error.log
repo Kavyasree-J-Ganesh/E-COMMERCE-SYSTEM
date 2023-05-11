@@ -14405,3 +14405,2035 @@ error:
     method - POST 
     IP - ::1
    {"timestamp":"2023-05-09T17:39:02.403Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (E:\E-KART-Backend\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (E:\E-KART-Backend\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (E:\E-KART-Backend\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\E-KART-Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:284:15
+    at param (E:\E-KART-Backend\node_modules\express\lib\router\index.js:365:14)
+    at param (E:\E-KART-Backend\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:421:3)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\E-KART-Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\E-KART-Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\E-KART-Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\E-KART-Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\E-KART-Backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (E:\E-KART-Backend\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (E:\E-KART-Backend\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9 
+    url - /api/v1/product/645073827aa4b2aa649d5acc 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-05-11T03:33:51.563Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (E:\E-KART-Backend\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (E:\E-KART-Backend\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (E:\E-KART-Backend\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\E-KART-Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:284:15
+    at param (E:\E-KART-Backend\node_modules\express\lib\router\index.js:365:14)
+    at param (E:\E-KART-Backend\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:421:3)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\E-KART-Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\E-KART-Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\E-KART-Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\E-KART-Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\E-KART-Backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (E:\E-KART-Backend\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (E:\E-KART-Backend\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9 
+    url - /api/v1/product/645073827aa4b2aa649d5acc 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-05-11T03:33:51.589Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (E:\E-KART-Backend\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (E:\E-KART-Backend\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (E:\E-KART-Backend\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\E-KART-Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\E-KART-Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\E-KART-Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\E-KART-Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\E-KART-Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\E-KART-Backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (E:\E-KART-Backend\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (E:\E-KART-Backend\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10) 
+    url - /api/v1/cart 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-05-11T03:35:41.743Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (E:\E-KART-Backend\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (E:\E-KART-Backend\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (E:\E-KART-Backend\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\E-KART-Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\E-KART-Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\E-KART-Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\E-KART-Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\E-KART-Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\E-KART-Backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (E:\E-KART-Backend\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (E:\E-KART-Backend\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10) 
+    url - /api/v1/cart 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-05-11T03:35:41.761Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (E:\E-KART-Backend\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (E:\E-KART-Backend\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (E:\E-KART-Backend\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\E-KART-Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\E-KART-Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\E-KART-Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\E-KART-Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\E-KART-Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\E-KART-Backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (E:\E-KART-Backend\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (E:\E-KART-Backend\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10) 
+    url - /api/v1/cart 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-05-11T03:35:57.300Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (E:\E-KART-Backend\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (E:\E-KART-Backend\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (E:\E-KART-Backend\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\E-KART-Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\E-KART-Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\E-KART-Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\E-KART-Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\E-KART-Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\E-KART-Backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (E:\E-KART-Backend\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (E:\E-KART-Backend\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10) 
+    url - /api/v1/cart 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-05-11T03:35:57.316Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (E:\E-KART-Backend\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (E:\E-KART-Backend\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (E:\E-KART-Backend\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\E-KART-Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:284:15
+    at param (E:\E-KART-Backend\node_modules\express\lib\router\index.js:365:14)
+    at param (E:\E-KART-Backend\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:421:3)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\E-KART-Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\E-KART-Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\E-KART-Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\E-KART-Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\E-KART-Backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at E:\E-KART-Backend\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\E-KART-Backend\node_modules\raw-body\index.js:231:16)
+    at done (E:\E-KART-Backend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\E-KART-Backend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/cart/645073827aa4b2aa649d5acc 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-11T03:36:05.721Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (E:\E-KART-Backend\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (E:\E-KART-Backend\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (E:\E-KART-Backend\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\E-KART-Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\E-KART-Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\E-KART-Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\E-KART-Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\E-KART-Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\E-KART-Backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (E:\E-KART-Backend\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (E:\E-KART-Backend\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10) 
+    url - /api/v1/cart 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-05-11T03:38:07.915Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (E:\E-KART-Backend\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (E:\E-KART-Backend\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (E:\E-KART-Backend\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\E-KART-Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\E-KART-Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\E-KART-Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\E-KART-Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\E-KART-Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\E-KART-Backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (E:\E-KART-Backend\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (E:\E-KART-Backend\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10) 
+    url - /api/v1/cart 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-05-11T03:38:07.942Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (E:\E-KART-Backend\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (E:\E-KART-Backend\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (E:\E-KART-Backend\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\E-KART-Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:284:15
+    at param (E:\E-KART-Backend\node_modules\express\lib\router\index.js:365:14)
+    at param (E:\E-KART-Backend\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:421:3)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\E-KART-Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\E-KART-Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\E-KART-Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\E-KART-Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\E-KART-Backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at E:\E-KART-Backend\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\E-KART-Backend\node_modules\raw-body\index.js:231:16)
+    at done (E:\E-KART-Backend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\E-KART-Backend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/cart/645073827aa4b2aa649d5acc 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-11T03:38:13.699Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (E:\E-KART-Backend\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (E:\E-KART-Backend\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (E:\E-KART-Backend\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\E-KART-Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:284:15
+    at param (E:\E-KART-Backend\node_modules\express\lib\router\index.js:365:14)
+    at param (E:\E-KART-Backend\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:421:3)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\E-KART-Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\E-KART-Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\E-KART-Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\E-KART-Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\E-KART-Backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at E:\E-KART-Backend\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\E-KART-Backend\node_modules\raw-body\index.js:231:16)
+    at done (E:\E-KART-Backend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\E-KART-Backend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/cart/645073827aa4b2aa649d5acc 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-11T03:38:16.214Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (E:\E-KART-Backend\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (E:\E-KART-Backend\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (E:\E-KART-Backend\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\E-KART-Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:284:15
+    at param (E:\E-KART-Backend\node_modules\express\lib\router\index.js:365:14)
+    at param (E:\E-KART-Backend\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:421:3)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\E-KART-Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\E-KART-Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\E-KART-Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\E-KART-Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\E-KART-Backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at E:\E-KART-Backend\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\E-KART-Backend\node_modules\raw-body\index.js:231:16)
+    at done (E:\E-KART-Backend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\E-KART-Backend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/cart/645073827aa4b2aa649d5acc 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-11T03:38:17.973Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (E:\E-KART-Backend\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (E:\E-KART-Backend\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (E:\E-KART-Backend\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\E-KART-Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:284:15
+    at param (E:\E-KART-Backend\node_modules\express\lib\router\index.js:365:14)
+    at param (E:\E-KART-Backend\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:421:3)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\E-KART-Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\E-KART-Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\E-KART-Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\E-KART-Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\E-KART-Backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at E:\E-KART-Backend\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\E-KART-Backend\node_modules\raw-body\index.js:231:16)
+    at done (E:\E-KART-Backend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\E-KART-Backend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/cart/645073827aa4b2aa649d5acc 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-11T03:38:18.188Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (E:\E-KART-Backend\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (E:\E-KART-Backend\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (E:\E-KART-Backend\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\E-KART-Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:284:15
+    at param (E:\E-KART-Backend\node_modules\express\lib\router\index.js:365:14)
+    at param (E:\E-KART-Backend\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:421:3)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\E-KART-Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\E-KART-Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\E-KART-Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\E-KART-Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\E-KART-Backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at E:\E-KART-Backend\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\E-KART-Backend\node_modules\raw-body\index.js:231:16)
+    at done (E:\E-KART-Backend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\E-KART-Backend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/cart/645073827aa4b2aa649d5acc 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-11T03:38:19.063Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (E:\E-KART-Backend\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (E:\E-KART-Backend\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (E:\E-KART-Backend\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\E-KART-Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:284:15
+    at param (E:\E-KART-Backend\node_modules\express\lib\router\index.js:365:14)
+    at param (E:\E-KART-Backend\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:421:3)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\E-KART-Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\E-KART-Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\E-KART-Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\E-KART-Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\E-KART-Backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at E:\E-KART-Backend\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\E-KART-Backend\node_modules\raw-body\index.js:231:16)
+    at done (E:\E-KART-Backend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\E-KART-Backend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/cart/645073827aa4b2aa649d5acc 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-11T03:38:19.202Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (E:\E-KART-Backend\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (E:\E-KART-Backend\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (E:\E-KART-Backend\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\E-KART-Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:284:15
+    at param (E:\E-KART-Backend\node_modules\express\lib\router\index.js:365:14)
+    at param (E:\E-KART-Backend\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:421:3)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\E-KART-Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\E-KART-Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\E-KART-Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\E-KART-Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\E-KART-Backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at E:\E-KART-Backend\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\E-KART-Backend\node_modules\raw-body\index.js:231:16)
+    at done (E:\E-KART-Backend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\E-KART-Backend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/cart/645073827aa4b2aa649d5acc 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-11T03:38:19.427Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (E:\E-KART-Backend\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (E:\E-KART-Backend\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (E:\E-KART-Backend\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\E-KART-Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:284:15
+    at param (E:\E-KART-Backend\node_modules\express\lib\router\index.js:365:14)
+    at param (E:\E-KART-Backend\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:421:3)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\E-KART-Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\E-KART-Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\E-KART-Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\E-KART-Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\E-KART-Backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at E:\E-KART-Backend\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\E-KART-Backend\node_modules\raw-body\index.js:231:16)
+    at done (E:\E-KART-Backend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\E-KART-Backend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/cart/645073827aa4b2aa649d5ac3 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-11T03:44:33.854Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (E:\E-KART-Backend\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (E:\E-KART-Backend\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (E:\E-KART-Backend\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\E-KART-Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:284:15
+    at param (E:\E-KART-Backend\node_modules\express\lib\router\index.js:365:14)
+    at param (E:\E-KART-Backend\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:421:3)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\E-KART-Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\E-KART-Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\E-KART-Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\E-KART-Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\E-KART-Backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at E:\E-KART-Backend\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\E-KART-Backend\node_modules\raw-body\index.js:231:16)
+    at done (E:\E-KART-Backend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\E-KART-Backend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/cart/645073827aa4b2aa649d5ac3 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-11T03:44:35.706Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (E:\E-KART-Backend\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (E:\E-KART-Backend\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (E:\E-KART-Backend\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\E-KART-Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:284:15
+    at param (E:\E-KART-Backend\node_modules\express\lib\router\index.js:365:14)
+    at param (E:\E-KART-Backend\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:421:3)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\E-KART-Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\E-KART-Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\E-KART-Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\E-KART-Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\E-KART-Backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at E:\E-KART-Backend\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\E-KART-Backend\node_modules\raw-body\index.js:231:16)
+    at done (E:\E-KART-Backend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\E-KART-Backend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/cart/645073827aa4b2aa649d5ac3 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-11T03:44:37.593Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (E:\E-KART-Backend\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (E:\E-KART-Backend\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (E:\E-KART-Backend\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\E-KART-Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:284:15
+    at param (E:\E-KART-Backend\node_modules\express\lib\router\index.js:365:14)
+    at param (E:\E-KART-Backend\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:421:3)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\E-KART-Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\E-KART-Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\E-KART-Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\E-KART-Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\E-KART-Backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at E:\E-KART-Backend\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\E-KART-Backend\node_modules\raw-body\index.js:231:16)
+    at done (E:\E-KART-Backend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\E-KART-Backend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/cart/645073827aa4b2aa649d5ac3 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-11T03:44:38.184Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (E:\E-KART-Backend\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (E:\E-KART-Backend\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (E:\E-KART-Backend\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\E-KART-Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:284:15
+    at param (E:\E-KART-Backend\node_modules\express\lib\router\index.js:365:14)
+    at param (E:\E-KART-Backend\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:421:3)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\E-KART-Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\E-KART-Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\E-KART-Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\E-KART-Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\E-KART-Backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at E:\E-KART-Backend\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\E-KART-Backend\node_modules\raw-body\index.js:231:16)
+    at done (E:\E-KART-Backend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\E-KART-Backend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/cart/645073827aa4b2aa649d5ac3 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-11T03:44:38.399Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (E:\E-KART-Backend\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (E:\E-KART-Backend\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (E:\E-KART-Backend\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\E-KART-Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\E-KART-Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\E-KART-Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\E-KART-Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\E-KART-Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\E-KART-Backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (E:\E-KART-Backend\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (E:\E-KART-Backend\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10) 
+    url - /api/v1/cart 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-05-11T03:44:55.908Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (E:\E-KART-Backend\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (E:\E-KART-Backend\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (E:\E-KART-Backend\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\E-KART-Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\E-KART-Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\E-KART-Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\E-KART-Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\E-KART-Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\E-KART-Backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (E:\E-KART-Backend\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (E:\E-KART-Backend\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10) 
+    url - /api/v1/cart 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-05-11T03:44:55.929Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (E:\E-KART-Backend\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (E:\E-KART-Backend\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (E:\E-KART-Backend\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\E-KART-Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\E-KART-Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\E-KART-Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\E-KART-Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\E-KART-Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\E-KART-Backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (E:\E-KART-Backend\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (E:\E-KART-Backend\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10) 
+    url - /api/v1/cart 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-05-11T03:45:09.515Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (E:\E-KART-Backend\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (E:\E-KART-Backend\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (E:\E-KART-Backend\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\E-KART-Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\E-KART-Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\E-KART-Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\E-KART-Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\E-KART-Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\E-KART-Backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (E:\E-KART-Backend\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (E:\E-KART-Backend\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10) 
+    url - /api/v1/cart 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-05-11T03:45:09.597Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (E:\E-KART-Backend\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (E:\E-KART-Backend\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (E:\E-KART-Backend\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\E-KART-Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\E-KART-Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\E-KART-Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\E-KART-Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\E-KART-Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\E-KART-Backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (E:\E-KART-Backend\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (E:\E-KART-Backend\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10) 
+    url - /api/v1/cart 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-05-11T03:47:04.320Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (E:\E-KART-Backend\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (E:\E-KART-Backend\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (E:\E-KART-Backend\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\E-KART-Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\E-KART-Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\E-KART-Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\E-KART-Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\E-KART-Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\E-KART-Backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (E:\E-KART-Backend\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (E:\E-KART-Backend\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10) 
+    url - /api/v1/cart 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-05-11T03:47:04.333Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (E:\E-KART-Backend\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (E:\E-KART-Backend\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (E:\E-KART-Backend\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\E-KART-Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:284:15
+    at param (E:\E-KART-Backend\node_modules\express\lib\router\index.js:365:14)
+    at param (E:\E-KART-Backend\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:421:3)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\E-KART-Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\E-KART-Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\E-KART-Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\E-KART-Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\E-KART-Backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at E:\E-KART-Backend\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\E-KART-Backend\node_modules\raw-body\index.js:231:16)
+    at done (E:\E-KART-Backend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\E-KART-Backend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/cart/645073827aa4b2aa649d5b05 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-11T03:47:07.198Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (E:\E-KART-Backend\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (E:\E-KART-Backend\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (E:\E-KART-Backend\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\E-KART-Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:284:15
+    at param (E:\E-KART-Backend\node_modules\express\lib\router\index.js:365:14)
+    at param (E:\E-KART-Backend\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:421:3)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\E-KART-Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\E-KART-Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\E-KART-Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\E-KART-Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\E-KART-Backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at E:\E-KART-Backend\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\E-KART-Backend\node_modules\raw-body\index.js:231:16)
+    at done (E:\E-KART-Backend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\E-KART-Backend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/cart/645073827aa4b2aa649d5b05 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-11T03:47:09.023Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (E:\E-KART-Backend\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (E:\E-KART-Backend\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (E:\E-KART-Backend\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\E-KART-Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:284:15
+    at param (E:\E-KART-Backend\node_modules\express\lib\router\index.js:365:14)
+    at param (E:\E-KART-Backend\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:421:3)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\E-KART-Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\E-KART-Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\E-KART-Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\E-KART-Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\E-KART-Backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at E:\E-KART-Backend\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\E-KART-Backend\node_modules\raw-body\index.js:231:16)
+    at done (E:\E-KART-Backend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\E-KART-Backend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/cart/645073827aa4b2aa649d5b05 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-11T03:47:09.163Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (E:\E-KART-Backend\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (E:\E-KART-Backend\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (E:\E-KART-Backend\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\E-KART-Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:284:15
+    at param (E:\E-KART-Backend\node_modules\express\lib\router\index.js:365:14)
+    at param (E:\E-KART-Backend\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:421:3)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\E-KART-Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\E-KART-Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\E-KART-Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\E-KART-Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\E-KART-Backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at E:\E-KART-Backend\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\E-KART-Backend\node_modules\raw-body\index.js:231:16)
+    at done (E:\E-KART-Backend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\E-KART-Backend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/cart/645073827aa4b2aa649d5b05 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-11T03:47:09.379Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (E:\E-KART-Backend\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (E:\E-KART-Backend\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (E:\E-KART-Backend\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\E-KART-Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:284:15
+    at param (E:\E-KART-Backend\node_modules\express\lib\router\index.js:365:14)
+    at param (E:\E-KART-Backend\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:421:3)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\E-KART-Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\E-KART-Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\E-KART-Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\E-KART-Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\E-KART-Backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at E:\E-KART-Backend\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\E-KART-Backend\node_modules\raw-body\index.js:231:16)
+    at done (E:\E-KART-Backend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\E-KART-Backend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/wishlist/645073827aa4b2aa649d5b05 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-11T03:47:13.946Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (E:\E-KART-Backend\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (E:\E-KART-Backend\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (E:\E-KART-Backend\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\E-KART-Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:284:15
+    at param (E:\E-KART-Backend\node_modules\express\lib\router\index.js:365:14)
+    at param (E:\E-KART-Backend\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:421:3)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\E-KART-Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\E-KART-Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\E-KART-Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\E-KART-Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\E-KART-Backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at E:\E-KART-Backend\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\E-KART-Backend\node_modules\raw-body\index.js:231:16)
+    at done (E:\E-KART-Backend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\E-KART-Backend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/wishlist/645073827aa4b2aa649d5b05 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-11T03:51:04.231Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (E:\E-KART-Backend\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (E:\E-KART-Backend\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (E:\E-KART-Backend\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\E-KART-Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:284:15
+    at param (E:\E-KART-Backend\node_modules\express\lib\router\index.js:365:14)
+    at param (E:\E-KART-Backend\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:421:3)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\E-KART-Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\E-KART-Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\E-KART-Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\E-KART-Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\E-KART-Backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at E:\E-KART-Backend\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (E:\E-KART-Backend\node_modules\raw-body\index.js:231:16)
+    at done (E:\E-KART-Backend\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (E:\E-KART-Backend\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/wishlist/645073827aa4b2aa649d5b05 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-05-11T03:51:05.331Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (E:\E-KART-Backend\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (E:\E-KART-Backend\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (E:\E-KART-Backend\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\E-KART-Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\E-KART-Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\E-KART-Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\E-KART-Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\E-KART-Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\E-KART-Backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (E:\E-KART-Backend\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (E:\E-KART-Backend\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10) 
+    url - /api/v1/cart 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-05-11T03:59:57.942Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (E:\E-KART-Backend\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (E:\E-KART-Backend\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (E:\E-KART-Backend\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (E:\E-KART-Backend\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (E:\E-KART-Backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\E-KART-Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\E-KART-Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (E:\E-KART-Backend\node_modules\express\lib\router\index.js:175:3)
+    at router (E:\E-KART-Backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (E:\E-KART-Backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (E:\E-KART-Backend\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (E:\E-KART-Backend\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (E:\E-KART-Backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\E-KART-Backend\node_modules\express\lib\router\index.js:328:13)
+    at E:\E-KART-Backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (E:\E-KART-Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (E:\E-KART-Backend\node_modules\express\lib\router\index.js:280:10) 
+    url - /api/v1/cart 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-05-11T03:59:57.958Z"}
