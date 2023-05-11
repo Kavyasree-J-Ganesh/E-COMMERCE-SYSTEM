@@ -4,7 +4,7 @@ import HttpStatus from 'http-status-codes';
 
 export const getAllProducts = async (req, res, next) => {
     try {
-        const products = await productService.getAllProducts(req.query.category);
+        const products = await productService.getAllProducts(req.query.category, req.query.searchText);
         res.json(products);
     } catch (error) {
         next(error);
