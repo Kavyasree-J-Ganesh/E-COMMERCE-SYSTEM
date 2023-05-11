@@ -11,9 +11,9 @@ router.put('/:id', userAuth, productController.updateProduct);
 router.delete('/:id', userAuth, productController.deleteProduct);
 
 // Get product by id for User
-router.get('/', userAuth, productController.getAllProducts);
+router.get('/', productController.getAllProducts);
 // Get product for User
-router.get('/:_id', userAuth, productController.getProductsbyID);
+router.get('/:_id', productController.getProductsbyID);
 
 // sort product High to Low
 router.get('/hightolow', userAuth, productController.sortHighToLow);
