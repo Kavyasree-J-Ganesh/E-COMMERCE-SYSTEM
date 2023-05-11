@@ -22,7 +22,7 @@ router.get('/hightolow', userAuth, productController.sortHighToLow);
 router.get('/lowtohigh', userAuth, productController.sortLowToHigh);
 
 // sort product by searching
-router.get('/search/:searchText', userAuth, productController.searchByText);
+router.get('/search/:searchText', productController.searchByText);
 
 // sort product by New Arrival
 router.get('/newarrival', userAuth, productController.newArrival);
