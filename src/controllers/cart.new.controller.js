@@ -133,7 +133,7 @@ export const removeProductFromCart = async (req, res) => {
 // Remove Product From Cart
 export const deleteProductFromCart = async (req, res) => {
     try {
-        const data = await cartService.removeproductFromCart(
+        const data = await cartService.deleteProductFromCart(
             req.body.userId,
             req.params._id
         );
