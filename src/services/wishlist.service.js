@@ -19,6 +19,7 @@ export const addToWishlist = async (userId, productId) => {
                 Image: product.image,
                 manufacturer: product.manufacturer,
                 discountedPrice: product.discountedPrice,
+                realPrice: product.realPrice
             });
             const updatedWishlist = await wishlist.save();
             return updatedWishlist;
@@ -34,6 +35,7 @@ export const addToWishlist = async (userId, productId) => {
                     Image: product.image,
                     manufacturer: product.manufacturer,
                     discountedPrice: product.discountedPrice,
+                    realPrice: product.realPrice
                 },
             ],
         });
