@@ -1,4 +1,3 @@
-import { log } from 'winston';
 import Address from '../models/address.model';
 
 export const createAddress = async (
@@ -9,7 +8,7 @@ export const createAddress = async (
   state,
   userId
 ) => {
-  console.log('kiodnjsnl', userId);
+
   const newAddress = new Address({
     fullName,
     mobile,
@@ -23,8 +22,6 @@ export const createAddress = async (
 
 export const getAddressesById = async (userId) => {
   let addressDetails = await Address.findOne({ userId: userId });
-  // return await Address.findOne({ userId: userId }, 'fullName mobile address town state userId');
-  console.log('asdasdasdasdadasdasda9sfgasufg9', addressDetails);
   if (!addressDetails) {
     return {
       userId: userId,
@@ -51,7 +48,6 @@ export const updateAddress = async (
 };
 
 export const deleteAddress = async (userId, addressId) => {
-  // return await Address.findOneAndDelete({ _id: addressId, userId });
 
   const checkCart = await Address.findOneAndDelete({ userId: userId });
   if (checkCart) {
