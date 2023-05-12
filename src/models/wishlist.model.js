@@ -23,6 +23,9 @@ const wishlistSchema = new Schema(
             },
             discountedPrice: {
                 type: Number
+            },
+            realPrice: {
+                type: Number,
             }
         }],
     }

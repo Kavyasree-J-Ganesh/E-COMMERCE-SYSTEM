@@ -19,6 +19,7 @@ export const addToWishlist = async (userId, productId) => {
                 Image: product.image,
                 manufacturer: product.manufacturer,
                 discountedPrice: product.discountedPrice,
+                realPrice: product.realPrice
             });
             const updatedWishlist = await wishlist.save();
             return updatedWishlist;
@@ -34,6 +35,7 @@ export const addToWishlist = async (userId, productId) => {
                     Image: product.image,
                     manufacturer: product.manufacturer,
                     discountedPrice: product.discountedPrice,
+                    realPrice: product.realPrice
                 },
             ],
         });
@@ -45,46 +47,34 @@ export const addToWishlist = async (userId, productId) => {
 
 //remove product from wishlist
 export const removeProduct = async (userId, productId) => {
-    const checkCart = await Wishlist.findOne({ userId });
-    if (checkCart) {
-        console.log('If User Exists');
-        let productFound = false;
-        let totalPrice = 0;
-        let productquantity = 0;
-        checkCart.products.forEach((element) => {
-            if (element.productId == productId) {
-                element.quantity -= 1;
-                productquantity = element.quantity;
-                totalPrice -= element.price * element.quantity;
-                let indexofelement = checkCart.products.indexOf(element);
-                console.log('If product found');
-                checkCart.products.splice(indexofelement, 1);
-                productFound = true;
-            }
-        });
-        console.log('After deleting the product', checkCart.products);
-        if (!productFound) {
-            console.log('If product not found');
-            throw new Error('product not in the cart');
-        }
-
-        const updatedCart = await Wishlist.findOneAndUpdate(
-            { userId: userId },
-            { products: checkCart.products, cart_total: totalPrice },
-            { new: true }
-        );
-        return updatedCart;
-    } else {
-        throw new Error("User cart doesn't exist");
+    const checkWishlist = await Wishlist.findOne({ userId });
+    if (!checkWishlist) {
+        throw new Error("User wishlist doesn't exist");
     }
+
+    const product = checkWishlist.products.find(p => p.productId === productId);
+    if (!product) {
+        throw new Error('product not in the wishlist');
+    }
+
+    const newProducts = checkWishlist.products.filter(p => p.productId !== productId);
+
+    const updatedCart = await Wishlist.findOneAndUpdate(
+        { userId: userId },
+        { products: newProducts },
+        { new: true }
+    );
+
+    return updatedCart;
 };
+
 
 
 //Get all from wishlist
 export const getWishlist = async (userId) => {
-    const checkCart = await Wishlist.findOne({ userId });
-    if (checkCart) {
-        return checkCart;
+    const checkWishlist = await Wishlist.findOne({ userId });
+    if (checkWishlist) {
+        return checkWishlist;
     } else {
         throw new Error('Error getting Wishlist');
     }
