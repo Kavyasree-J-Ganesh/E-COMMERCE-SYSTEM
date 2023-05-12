@@ -42,13 +42,13 @@ export const createPaymentIntend = async (amount, token, demoProduct, userId) =>
     const customer = await stripe.paymentIntents.create({
       currency: 'INR',
       amount: 1999,
-      description: 'sdfsdfsdfsdfsdfsdfsdfsdfsdfsdf'
+      description: 'Payment'
     });
     let cart = await getCart(userId);
-    sendMail(
-      userId,
-      { cartTotal: cart.cart_total, productList: cart.product }
-    );
+    // sendMail(
+    //   userId,
+    //   { cartTotal: cart.cart_total, productList: cart.product }
+    // );
     return { clientSecret: customer.client_secret };
   } catch (error) {
     throw error;
