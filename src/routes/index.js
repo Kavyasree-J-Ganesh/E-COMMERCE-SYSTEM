@@ -9,6 +9,8 @@ import paymentRoute from './payment.route';
 import addressRoute from './address.route'
 
 import caregoryRoute from './categoryRoute'
+
+import orderRoute from './order.route'
 /**
  * Function contains Application routes
  *
@@ -31,6 +33,8 @@ const routes = () => {
   router.use('/payment', paymentRoute);
 
   router.use('/address', addressRoute);
+
+  router.use('/order', orderRoute );
 
   return router;
 };

@@ -191,11 +191,10 @@ export const removeproductFromCart = async (userId, params_product_id) => {
 };
 
 // Purchase By Id from cart
-export const purchaseById = async (cartId) => {
-    const updatedCart = await cart.findByIdAndUpdate(
-        { _id: cartId },
-        { isPurchased: true },
-        { new: true }
+export const purchaseById = async (userId) => {
+    const updatedCart = await cart.updateMany(
+        { userId: userId },
+        {isPurchased: true}
     );
     return updatedCart;
 };
