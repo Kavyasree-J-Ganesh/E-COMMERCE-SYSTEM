@@ -154,7 +154,7 @@ export const deleteProductFromCart = async (req, res) => {
 // purchase Product by id
 export const purchaseById = async (req, res) => {
     try {
-        const data = await cartService.purchaseById(req.params._id);
+        const data = await cartService.purchaseById(req.body.userId);
         res.status(HttpStatus.CREATED).json({
             code: HttpStatus.CREATED,
             data: data,
