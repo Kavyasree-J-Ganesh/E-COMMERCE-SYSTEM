@@ -8,7 +8,6 @@ export const createAddress = async (
   state,
   userId
 ) => {
-
   const newAddress = new Address({
     fullName,
     mobile,
@@ -48,12 +47,11 @@ export const updateAddress = async (
 };
 
 export const deleteAddress = async (userId, addressId) => {
-
-  const checkCart = await Address.findOneAndDelete({ userId: userId });
+  const checkCart = await Address.findByIdAndDelete({ _id: userId });
   if (checkCart) {
     return checkCart;
   } else {
-    throw new Error('Error getting Wishlist');
+    throw new Error('Error Deleting Address');
   }
 };
 
