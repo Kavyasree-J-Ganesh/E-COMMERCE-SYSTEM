@@ -16083,6 +16083,7 @@ info: ::1 - - [11/May/2023:03:33:56 +0000] "GET /api/v1/product?category=Electro
 
 info: ::1 - - [11/May/2023:03:33:56 +0000] "GET /api/v1/product?category=Electronics HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
 
+<<<<<<< HEAD
 info: ::1 - - [12/May/2023:12:16:20 +0000] "GET /api/v1/category HTTP/1.1" 202 1065 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
 
 info: ::1 - - [12/May/2023:12:16:20 +0000] "GET /api/v1/category HTTP/1.1" 202 1065 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
@@ -16451,3 +16452,77 @@ info: ::1 - - [12/May/2023:12:51:46 +0000] "GET /api/v1/product/645073827aa4b2aa
 error: uncaughtException: connect ETIMEDOUT 74.125.130.109:465
 Error: connect ETIMEDOUT 74.125.130.109:465
     at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {"date":"Fri May 12 2023 18:21:47 GMT+0530 (India Standard Time)","error":{"address":"74.125.130.109","code":"ESOCKET","command":"CONN","errno":-4039,"port":465,"syscall":"connect"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":79495.312},"process":{"argv":["node","D:\\Backend new\\E-COMMERCE-SYSTEM\\src\\index.js"],"cwd":"D:\\Backend new\\E-COMMERCE-SYSTEM","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18485710,"external":21339507,"heapTotal":103055360,"heapUsed":96976248,"rss":150908928},"pid":17464,"uid":null,"version":"v18.15.0"},"stack":"Error: connect ETIMEDOUT 74.125.130.109:465\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16)","trace":[{"column":16,"file":"node:net","function":"TCPConnectWrap.afterConnect [as oncomplete]","line":1494,"method":"afterConnect [as oncomplete]","native":false}]}
+=======
+error: uncaughtException: Router.use() requires a middleware function
+TypeError: Router.use() requires a middleware function
+    at Function.use (E:\E-KART-Backend\node_modules\express\lib\router\index.js:462:11)
+    at routes (E:\E-KART-Backend\src\routes\/index.js:37:10)
+    at Object.<anonymous> (E:\E-KART-Backend\src\/index.js:32:38)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._compile (E:\E-KART-Backend\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.newLoader [as .js] (E:\E-KART-Backend\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.runMain (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (E:\E-KART-Backend\node_modules\@babel\node\src\_babel-node.ts:223:12)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47 {"date":"Sat May 13 2023 01:02:33 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":912480.703},"process":{"argv":["node","E:\\E-KART-Backend\\src\\index.js"],"cwd":"E:\\E-KART-Backend","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18681323,"external":20380581,"heapTotal":131108864,"heapUsed":98212448,"rss":171737088},"pid":8620,"uid":null,"version":"v18.16.0"},"stack":"TypeError: Router.use() requires a middleware function\n    at Function.use (E:\\E-KART-Backend\\node_modules\\express\\lib\\router\\index.js:462:11)\n    at routes (E:\\E-KART-Backend\\src\\routes\\/index.js:37:10)\n    at Object.<anonymous> (E:\\E-KART-Backend\\src\\/index.js:32:38)\n    at Module._compile (node:internal/modules/cjs/loader:1254:14)\n    at Module._compile (E:\\E-KART-Backend\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)\n    at Object.newLoader [as .js] (E:\\E-KART-Backend\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1117:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:958:12)\n    at Function.runMain (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (E:\\E-KART-Backend\\node_modules\\@babel\\node\\src\\_babel-node.ts:223:12)\n    at Module._compile (node:internal/modules/cjs/loader:1254:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1308:10)\n    at Module.load (node:internal/modules/cjs/loader:1117:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:958:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:23:47","trace":[{"column":11,"file":"E:\\E-KART-Backend\\node_modules\\express\\lib\\router\\index.js","function":"Function.use","line":462,"method":"use","native":false},{"column":10,"file":"E:\\E-KART-Backend\\src\\routes\\/index.js","function":"routes","line":37,"method":null,"native":false},{"column":38,"file":"E:\\E-KART-Backend\\src\\/index.js","function":null,"line":32,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1254,"method":"_compile","native":false},{"column":24,"file":"E:\\E-KART-Backend\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1308,"method":".js","native":false},{"column":7,"file":"E:\\E-KART-Backend\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1117,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":958,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":81,"method":"runMain","native":false},{"column":12,"file":"E:\\E-KART-Backend\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":223,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1254,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1308,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1117,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":958,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":23,"method":null,"native":false}]}
+error: uncaughtException: Router.use() requires a middleware function
+TypeError: Router.use() requires a middleware function
+    at Function.use (E:\E-KART-Backend\node_modules\express\lib\router\index.js:462:11)
+    at routes (E:\E-KART-Backend\src\routes\/index.js:37:10)
+    at Object.<anonymous> (E:\E-KART-Backend\src\/index.js:32:38)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._compile (E:\E-KART-Backend\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.newLoader [as .js] (E:\E-KART-Backend\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.runMain (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (E:\E-KART-Backend\node_modules\@babel\node\src\_babel-node.ts:223:12)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47 {"date":"Sat May 13 2023 13:24:02 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":956970.156},"process":{"argv":["node","E:\\E-KART-Backend\\src\\index.js"],"cwd":"E:\\E-KART-Backend","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":20402657,"external":22101915,"heapTotal":127438848,"heapUsed":105410736,"rss":170438656},"pid":2784,"uid":null,"version":"v18.16.0"},"stack":"TypeError: Router.use() requires a middleware function\n    at Function.use (E:\\E-KART-Backend\\node_modules\\express\\lib\\router\\index.js:462:11)\n    at routes (E:\\E-KART-Backend\\src\\routes\\/index.js:37:10)\n    at Object.<anonymous> (E:\\E-KART-Backend\\src\\/index.js:32:38)\n    at Module._compile (node:internal/modules/cjs/loader:1254:14)\n    at Module._compile (E:\\E-KART-Backend\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)\n    at Object.newLoader [as .js] (E:\\E-KART-Backend\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1117:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:958:12)\n    at Function.runMain (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (E:\\E-KART-Backend\\node_modules\\@babel\\node\\src\\_babel-node.ts:223:12)\n    at Module._compile (node:internal/modules/cjs/loader:1254:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1308:10)\n    at Module.load (node:internal/modules/cjs/loader:1117:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:958:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:23:47","trace":[{"column":11,"file":"E:\\E-KART-Backend\\node_modules\\express\\lib\\router\\index.js","function":"Function.use","line":462,"method":"use","native":false},{"column":10,"file":"E:\\E-KART-Backend\\src\\routes\\/index.js","function":"routes","line":37,"method":null,"native":false},{"column":38,"file":"E:\\E-KART-Backend\\src\\/index.js","function":null,"line":32,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1254,"method":"_compile","native":false},{"column":24,"file":"E:\\E-KART-Backend\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1308,"method":".js","native":false},{"column":7,"file":"E:\\E-KART-Backend\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1117,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":958,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":81,"method":"runMain","native":false},{"column":12,"file":"E:\\E-KART-Backend\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":223,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1254,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1308,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1117,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":958,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":23,"method":null,"native":false}]}
+info: ::1 - - [13/May/2023:08:35:45 +0000] "GET /api/v1/category HTTP/1.1" 202 1065 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [13/May/2023:08:35:45 +0000] "GET /api/v1/cart HTTP/1.1" 201 1331 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [13/May/2023:08:35:45 +0000] "GET /api/v1/product?category=&searchText= HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [13/May/2023:08:35:45 +0000] "GET /api/v1/category HTTP/1.1" 202 1065 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [13/May/2023:08:35:45 +0000] "GET /api/v1/cart HTTP/1.1" 201 1331 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [13/May/2023:08:35:45 +0000] "GET /api/v1/product?category=&searchText= HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [13/May/2023:08:35:45 +0000] "GET /api/v1/product?category=&searchText= HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [13/May/2023:08:35:45 +0000] "GET /api/v1/product?category=&searchText= HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [13/May/2023:08:36:41 +0000] "GET /api/v1/cart HTTP/1.1" 201 1331 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [13/May/2023:08:36:41 +0000] "GET /api/v1/cart HTTP/1.1" 201 1331 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [13/May/2023:08:36:42 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [13/May/2023:08:36:42 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [13/May/2023:08:36:45 +0000] "POST /api/v1/payment/createPaymentIntent HTTP/1.1" 200 121 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [13/May/2023:08:36:45 +0000] "POST /api/v1/payment/createPaymentIntent HTTP/1.1" 200 121 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+
+info: ::1 - - [13/May/2023:09:00:32 +0000] "POST /api/v1/order HTTP/1.1" 500 155 "http://localhost:3000/" "Mozilla/5.0 (Linux; Android) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.109 Safari/537.36 CrKey/1.54.248666"
+
+info: ::1 - - [13/May/2023:09:00:32 +0000] "POST /api/v1/order HTTP/1.1" 500 155 "http://localhost:3000/" "Mozilla/5.0 (Linux; Android) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.109 Safari/537.36 CrKey/1.54.248666"
+
+info: ::1 - - [13/May/2023:09:08:33 +0000] "POST /api/v1/order HTTP/1.1" 201 1356 "http://localhost:3000/" "Mozilla/5.0 (Linux; Android) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.109 Safari/537.36 CrKey/1.54.248666"
+
+>>>>>>> 89d1dffad0c2507f6590ccc8daad04fdc16b994d

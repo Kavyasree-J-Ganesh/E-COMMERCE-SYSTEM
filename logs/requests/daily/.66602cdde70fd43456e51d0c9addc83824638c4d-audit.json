@@ -51,9 +51,20 @@
             "hash": "8589ecf0811f45637e325090d8f737d18e5e1f47972887aebe87b81898759685"
         },
         {
+<<<<<<< HEAD
             "date": 1683893717649,
             "name": "logs\\requests\\daily\\2023-05-12.log",
             "hash": "fd1ea89d3bdaacd594be9637bef2c27b61d35a7d379a4046819f41cf088e0953"
+=======
+            "date": 1683916196276,
+            "name": "logs\\requests\\daily\\2023-05-12.log",
+            "hash": "9b20ddc83ee7983f62dd9e2da796bb001597bba2f97d02257daaaff4547bd9d3"
+        },
+        {
+            "date": 1683916247554,
+            "name": "logs\\requests\\daily\\2023-05-13.log",
+            "hash": "9a321bc7ba90f6cd0c6a94ab09ca9095a9b53b5a8a715ae356e460edd52bcefb"
+>>>>>>> 89d1dffad0c2507f6590ccc8daad04fdc16b994d
         }
     ],
     "hashType": "sha256"
