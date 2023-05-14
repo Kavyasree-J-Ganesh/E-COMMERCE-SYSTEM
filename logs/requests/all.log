@@ -16083,6 +16083,376 @@ info: ::1 - - [11/May/2023:03:33:56 +0000] "GET /api/v1/product?category=Electro
 
 info: ::1 - - [11/May/2023:03:33:56 +0000] "GET /api/v1/product?category=Electronics HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
 
+<<<<<<< HEAD
+info: ::1 - - [12/May/2023:12:16:20 +0000] "GET /api/v1/category HTTP/1.1" 202 1065 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:16:20 +0000] "GET /api/v1/category HTTP/1.1" 202 1065 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:16:30 +0000] "POST /api/v1/users/login HTTP/1.1" 202 274 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:16:30 +0000] "GET /api/v1/product?category=&searchText= HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:16:30 +0000] "GET /api/v1/category HTTP/1.1" 202 1065 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:16:30 +0000] "GET /api/v1/cart HTTP/1.1" 201 737 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:16:30 +0000] "GET /api/v1/product?category=&searchText= HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:16:30 +0000] "GET /api/v1/category HTTP/1.1" 202 1065 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:16:30 +0000] "GET /api/v1/cart HTTP/1.1" 201 737 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:16:31 +0000] "GET /api/v1/product?category=&searchText= HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:16:31 +0000] "GET /api/v1/product?category=&searchText= HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:16:37 +0000] "GET /api/v1/cart HTTP/1.1" 201 737 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:16:37 +0000] "GET /api/v1/cart HTTP/1.1" 201 737 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:16:39 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:16:39 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:16:41 +0000] "POST /api/v1/payment/createPaymentIntent HTTP/1.1" 200 121 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:16:41 +0000] "POST /api/v1/payment/createPaymentIntent HTTP/1.1" 200 121 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:16:58 +0000] "GET /api/v1/category HTTP/1.1" 202 1065 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:16:58 +0000] "GET /api/v1/product?category=&searchText= HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:16:58 +0000] "GET /api/v1/cart HTTP/1.1" 201 737 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:16:58 +0000] "GET /api/v1/category HTTP/1.1" 202 1065 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:16:58 +0000] "GET /api/v1/product?category=&searchText= HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:16:58 +0000] "GET /api/v1/cart HTTP/1.1" 201 737 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:16:58 +0000] "GET /api/v1/product?category=&searchText= HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:16:58 +0000] "GET /api/v1/product?category=&searchText= HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:17:02 +0000] "GET /api/v1/product/645073827aa4b2aa649d5ac3 HTTP/1.1" 202 529 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:17:02 +0000] "GET /api/v1/product/645073827aa4b2aa649d5ac3 HTTP/1.1" 202 529 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+error: uncaughtException: connect ETIMEDOUT 74.125.130.109:465
+Error: connect ETIMEDOUT 74.125.130.109:465
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {"date":"Fri May 12 2023 17:47:03 GMT+0530 (India Standard Time)","error":{"address":"74.125.130.109","code":"ESOCKET","command":"CONN","errno":-4039,"port":465,"syscall":"connect"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":77410.828},"process":{"argv":["node","D:\\Backend new\\E-COMMERCE-SYSTEM\\src\\index.js"],"cwd":"D:\\Backend new\\E-COMMERCE-SYSTEM","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18628823,"external":21482620,"heapTotal":102793216,"heapUsed":98690264,"rss":150974464},"pid":16924,"uid":null,"version":"v18.15.0"},"stack":"Error: connect ETIMEDOUT 74.125.130.109:465\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16)","trace":[{"column":16,"file":"node:net","function":"TCPConnectWrap.afterConnect [as oncomplete]","line":1494,"method":"afterConnect [as oncomplete]","native":false}]}
+error: uncaughtException: connect ETIMEDOUT 74.125.130.109:465
+Error: connect ETIMEDOUT 74.125.130.109:465
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {"date":"Fri May 12 2023 17:47:03 GMT+0530 (India Standard Time)","error":{"address":"74.125.130.109","code":"ESOCKET","command":"CONN","errno":-4039,"port":465,"syscall":"connect"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":77410.828},"process":{"argv":["node","D:\\Backend new\\E-COMMERCE-SYSTEM\\src\\index.js"],"cwd":"D:\\Backend new\\E-COMMERCE-SYSTEM","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18637015,"external":21490812,"heapTotal":102793216,"heapUsed":98773504,"rss":151068672},"pid":16924,"uid":null,"version":"v18.15.0"},"stack":"Error: connect ETIMEDOUT 74.125.130.109:465\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16)","trace":[{"column":16,"file":"node:net","function":"TCPConnectWrap.afterConnect [as oncomplete]","line":1494,"method":"afterConnect [as oncomplete]","native":false}]}
+info: ::1 - - [12/May/2023:12:18:30 +0000] "GET /api/v1/cart HTTP/1.1" 201 737 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:18:30 +0000] "GET /api/v1/cart HTTP/1.1" 201 737 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:18:32 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:18:32 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:18:34 +0000] "POST /api/v1/payment/createPaymentIntent HTTP/1.1" 200 121 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:18:34 +0000] "POST /api/v1/payment/createPaymentIntent HTTP/1.1" 200 121 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:18:50 +0000] "GET /api/v1/category HTTP/1.1" 202 1065 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:18:50 +0000] "GET /api/v1/product?category=&searchText= HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:18:50 +0000] "GET /api/v1/cart HTTP/1.1" 201 737 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:18:51 +0000] "GET /api/v1/category HTTP/1.1" 202 1065 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:18:51 +0000] "GET /api/v1/product?category=&searchText= HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:18:51 +0000] "GET /api/v1/cart HTTP/1.1" 201 737 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:18:51 +0000] "GET /api/v1/product?category=&searchText= HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:18:51 +0000] "GET /api/v1/product?category=&searchText= HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+error: uncaughtException: connect ETIMEDOUT 74.125.130.109:465
+Error: connect ETIMEDOUT 74.125.130.109:465
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {"date":"Fri May 12 2023 17:48:55 GMT+0530 (India Standard Time)","error":{"address":"74.125.130.109","code":"ESOCKET","command":"CONN","errno":-4039,"port":465,"syscall":"connect"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":77522.906},"process":{"argv":["node","D:\\Backend new\\E-COMMERCE-SYSTEM\\src\\index.js"],"cwd":"D:\\Backend new\\E-COMMERCE-SYSTEM","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18471057,"external":21323437,"heapTotal":99123200,"heapUsed":90763672,"rss":144437248},"pid":18288,"uid":null,"version":"v18.15.0"},"stack":"Error: connect ETIMEDOUT 74.125.130.109:465\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16)","trace":[{"column":16,"file":"node:net","function":"TCPConnectWrap.afterConnect [as oncomplete]","line":1494,"method":"afterConnect [as oncomplete]","native":false}]}
+info: ::1 - - [12/May/2023:12:33:36 +0000] "GET /api/v1/cart HTTP/1.1" 201 737 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:33:36 +0000] "GET /api/v1/cart HTTP/1.1" 201 737 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:33:38 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:33:38 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:33:40 +0000] "POST /api/v1/payment/createPaymentIntent HTTP/1.1" 200 121 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:33:40 +0000] "POST /api/v1/payment/createPaymentIntent HTTP/1.1" 200 121 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:33:57 +0000] "GET /api/v1/category HTTP/1.1" 202 1065 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:33:57 +0000] "GET /api/v1/product?category=&searchText= HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:33:57 +0000] "GET /api/v1/cart HTTP/1.1" 201 737 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:33:57 +0000] "GET /api/v1/category HTTP/1.1" 202 1065 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:33:57 +0000] "GET /api/v1/product?category=&searchText= HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:33:57 +0000] "GET /api/v1/cart HTTP/1.1" 201 737 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:33:57 +0000] "GET /api/v1/product?category=&searchText= HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:33:57 +0000] "GET /api/v1/product?category=&searchText= HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+error: uncaughtException: connect ETIMEDOUT 74.125.130.109:465
+Error: connect ETIMEDOUT 74.125.130.109:465
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {"date":"Fri May 12 2023 18:04:02 GMT+0530 (India Standard Time)","error":{"address":"74.125.130.109","code":"ESOCKET","command":"CONN","errno":-4039,"port":465,"syscall":"connect"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":78429.437},"process":{"argv":["node","D:\\Backend new\\E-COMMERCE-SYSTEM\\src\\index.js"],"cwd":"D:\\Backend new\\E-COMMERCE-SYSTEM","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18471056,"external":21323436,"heapTotal":102793216,"heapUsed":94050152,"rss":149925888},"pid":18184,"uid":null,"version":"v18.15.0"},"stack":"Error: connect ETIMEDOUT 74.125.130.109:465\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16)","trace":[{"column":16,"file":"node:net","function":"TCPConnectWrap.afterConnect [as oncomplete]","line":1494,"method":"afterConnect [as oncomplete]","native":false}]}
+info: ::1 - - [12/May/2023:12:35:33 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:35:33 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:35:34 +0000] "POST /api/v1/payment/createPaymentIntent HTTP/1.1" 200 121 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:35:35 +0000] "POST /api/v1/payment/createPaymentIntent HTTP/1.1" 200 121 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:35:52 +0000] "GET /api/v1/cart HTTP/1.1" 201 737 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:35:52 +0000] "GET /api/v1/category HTTP/1.1" 202 1065 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:35:52 +0000] "GET /api/v1/product?category=&searchText= HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:35:52 +0000] "GET /api/v1/cart HTTP/1.1" 201 737 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:35:52 +0000] "GET /api/v1/category HTTP/1.1" 202 1065 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:35:52 +0000] "GET /api/v1/product?category=&searchText= HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:35:52 +0000] "GET /api/v1/product?category=&searchText= HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:35:52 +0000] "GET /api/v1/product?category=&searchText= HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+error: uncaughtException: connect ETIMEDOUT 74.125.130.108:465
+Error: connect ETIMEDOUT 74.125.130.108:465
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {"date":"Fri May 12 2023 18:05:56 GMT+0530 (India Standard Time)","error":{"address":"74.125.130.108","code":"ESOCKET","command":"CONN","errno":-4039,"port":465,"syscall":"connect"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":78543.75},"process":{"argv":["node","D:\\Backend new\\E-COMMERCE-SYSTEM\\src\\index.js"],"cwd":"D:\\Backend new\\E-COMMERCE-SYSTEM","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18443713,"external":21296093,"heapTotal":98336768,"heapUsed":92292624,"rss":145858560},"pid":2240,"uid":null,"version":"v18.15.0"},"stack":"Error: connect ETIMEDOUT 74.125.130.108:465\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16)","trace":[{"column":16,"file":"node:net","function":"TCPConnectWrap.afterConnect [as oncomplete]","line":1494,"method":"afterConnect [as oncomplete]","native":false}]}
+info: ::1 - - [12/May/2023:12:40:27 +0000] "GET /api/v1/cart HTTP/1.1" 201 737 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:40:27 +0000] "GET /api/v1/cart HTTP/1.1" 201 737 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:40:28 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:40:28 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:40:29 +0000] "POST /api/v1/payment/createPaymentIntent HTTP/1.1" 200 121 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:40:29 +0000] "POST /api/v1/payment/createPaymentIntent HTTP/1.1" 200 121 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:40:45 +0000] "GET /api/v1/category HTTP/1.1" 202 1065 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:40:45 +0000] "GET /api/v1/product?category=&searchText= HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:40:45 +0000] "GET /api/v1/cart HTTP/1.1" 201 737 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:40:45 +0000] "GET /api/v1/category HTTP/1.1" 202 1065 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:40:45 +0000] "GET /api/v1/product?category=&searchText= HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:40:45 +0000] "GET /api/v1/cart HTTP/1.1" 201 737 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:40:45 +0000] "GET /api/v1/product?category=&searchText= HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:40:45 +0000] "GET /api/v1/product?category=&searchText= HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:44:24 +0000] "GET /api/v1/cart HTTP/1.1" 201 737 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:44:24 +0000] "GET /api/v1/cart HTTP/1.1" 201 737 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:44:25 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:44:25 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:44:26 +0000] "POST /api/v1/payment/createPaymentIntent HTTP/1.1" 200 121 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:44:26 +0000] "POST /api/v1/payment/createPaymentIntent HTTP/1.1" 200 121 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:44:47 +0000] "GET /api/v1/category HTTP/1.1" 202 1065 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:44:47 +0000] "GET /api/v1/product?category=&searchText= HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:44:47 +0000] "GET /api/v1/cart HTTP/1.1" 201 737 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:44:47 +0000] "GET /api/v1/category HTTP/1.1" 202 1065 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:44:47 +0000] "GET /api/v1/product?category=&searchText= HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:44:47 +0000] "GET /api/v1/cart HTTP/1.1" 201 737 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:44:47 +0000] "GET /api/v1/product?category=&searchText= HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:44:47 +0000] "GET /api/v1/product?category=&searchText= HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:45:00 +0000] "GET /api/v1/product/645073827aa4b2aa649d5ac3 HTTP/1.1" 202 529 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:45:00 +0000] "GET /api/v1/product/645073827aa4b2aa649d5ac3 HTTP/1.1" 202 529 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:45:19 +0000] "GET /api/v1/category HTTP/1.1" 202 1065 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:45:19 +0000] "GET /api/v1/category HTTP/1.1" 202 1065 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:45:26 +0000] "POST /api/v1/users/login HTTP/1.1" 202 274 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:45:26 +0000] "GET /api/v1/category HTTP/1.1" 202 1065 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:45:26 +0000] "GET /api/v1/product?category=&searchText= HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:45:26 +0000] "GET /api/v1/cart HTTP/1.1" 201 737 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:45:26 +0000] "GET /api/v1/category HTTP/1.1" 202 1065 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:45:26 +0000] "GET /api/v1/product?category=&searchText= HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:45:26 +0000] "GET /api/v1/cart HTTP/1.1" 201 737 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:45:26 +0000] "GET /api/v1/product?category=&searchText= HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:45:26 +0000] "GET /api/v1/product?category=&searchText= HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:45:33 +0000] "GET /api/v1/cart HTTP/1.1" 201 737 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:45:33 +0000] "GET /api/v1/cart HTTP/1.1" 201 737 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:45:34 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:45:34 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:45:35 +0000] "POST /api/v1/payment/createPaymentIntent HTTP/1.1" 200 121 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:45:35 +0000] "POST /api/v1/payment/createPaymentIntent HTTP/1.1" 200 121 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:45:49 +0000] "GET /api/v1/category HTTP/1.1" 202 1065 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:45:49 +0000] "GET /api/v1/product?category=&searchText= HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:45:49 +0000] "GET /api/v1/cart HTTP/1.1" 201 737 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:45:49 +0000] "GET /api/v1/category HTTP/1.1" 202 1065 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:45:49 +0000] "GET /api/v1/product?category=&searchText= HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:45:49 +0000] "GET /api/v1/cart HTTP/1.1" 201 737 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:45:49 +0000] "GET /api/v1/product?category=&searchText= HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:45:49 +0000] "GET /api/v1/product?category=&searchText= HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:46:21 +0000] "GET /api/v1/wishlist/ HTTP/1.1" 201 1064 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:46:21 +0000] "GET /api/v1/wishlist/ HTTP/1.1" 201 1064 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:46:32 +0000] "GET /api/v1/cart HTTP/1.1" 201 737 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:46:32 +0000] "GET /api/v1/cart HTTP/1.1" 201 737 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:46:33 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:46:33 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:46:34 +0000] "POST /api/v1/payment/createPaymentIntent HTTP/1.1" 200 121 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:46:34 +0000] "POST /api/v1/payment/createPaymentIntent HTTP/1.1" 200 121 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:47:33 +0000] "GET /api/v1/category HTTP/1.1" 202 1065 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:47:33 +0000] "GET /api/v1/product?category=&searchText= HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:47:33 +0000] "GET /api/v1/cart HTTP/1.1" 201 737 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:47:33 +0000] "GET /api/v1/category HTTP/1.1" 202 1065 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:47:33 +0000] "GET /api/v1/product?category=&searchText= HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:47:33 +0000] "GET /api/v1/cart HTTP/1.1" 201 737 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:47:33 +0000] "GET /api/v1/product?category=&searchText= HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:47:33 +0000] "GET /api/v1/product?category=&searchText= HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:51:02 +0000] "GET /api/v1/category HTTP/1.1" 202 1065 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:51:02 +0000] "GET /api/v1/category HTTP/1.1" 202 1065 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:51:03 +0000] "GET /api/v1/category HTTP/1.1" 202 1065 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:51:03 +0000] "GET /api/v1/cart HTTP/1.1" 500 48 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:51:03 +0000] "GET /api/v1/cart HTTP/1.1" 500 48 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:51:03 +0000] "GET /api/v1/product?category=Electronics&searchText= HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:51:03 +0000] "GET /api/v1/category HTTP/1.1" 202 1065 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:51:03 +0000] "GET /api/v1/product?category=Electronics&searchText= HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:51:03 +0000] "GET /api/v1/product?category=Electronics&searchText= HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:51:03 +0000] "GET /api/v1/product?category=Electronics&searchText= HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:51:07 +0000] "GET /api/v1/product/645073827aa4b2aa649d5ac5 HTTP/1.1" 202 609 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:51:07 +0000] "GET /api/v1/product/645073827aa4b2aa649d5ac5 HTTP/1.1" 202 609 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:51:18 +0000] "POST /api/v1/users/login HTTP/1.1" 202 274 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:51:18 +0000] "GET /api/v1/category HTTP/1.1" 202 1065 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:51:18 +0000] "GET /api/v1/cart HTTP/1.1" 201 737 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:51:18 +0000] "GET /api/v1/product?category=Electronics&searchText= HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:51:18 +0000] "GET /api/v1/category HTTP/1.1" 202 1065 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:51:18 +0000] "GET /api/v1/cart HTTP/1.1" 201 737 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:51:18 +0000] "GET /api/v1/product?category=Electronics&searchText= HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:51:18 +0000] "GET /api/v1/product?category=Electronics&searchText= HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:51:18 +0000] "GET /api/v1/product?category=Electronics&searchText= HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:51:23 +0000] "GET /api/v1/cart HTTP/1.1" 201 737 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:51:23 +0000] "GET /api/v1/cart HTTP/1.1" 201 737 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:51:25 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:51:25 +0000] "GET /api/v1/address HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:51:26 +0000] "POST /api/v1/payment/createPaymentIntent HTTP/1.1" 200 121 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:51:26 +0000] "POST /api/v1/payment/createPaymentIntent HTTP/1.1" 200 121 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:51:41 +0000] "GET /api/v1/category HTTP/1.1" 202 1065 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:51:41 +0000] "GET /api/v1/product?category=&searchText= HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:51:41 +0000] "GET /api/v1/cart HTTP/1.1" 201 737 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:51:41 +0000] "GET /api/v1/category HTTP/1.1" 202 1065 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:51:41 +0000] "GET /api/v1/product?category=&searchText= HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:51:41 +0000] "GET /api/v1/cart HTTP/1.1" 201 737 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:51:41 +0000] "GET /api/v1/product?category=&searchText= HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:51:41 +0000] "GET /api/v1/product?category=&searchText= HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:51:46 +0000] "GET /api/v1/product/645073827aa4b2aa649d5ac5 HTTP/1.1" 202 609 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+info: ::1 - - [12/May/2023:12:51:46 +0000] "GET /api/v1/product/645073827aa4b2aa649d5ac5 HTTP/1.1" 202 609 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
+
+error: uncaughtException: connect ETIMEDOUT 74.125.130.109:465
+Error: connect ETIMEDOUT 74.125.130.109:465
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {"date":"Fri May 12 2023 18:21:47 GMT+0530 (India Standard Time)","error":{"address":"74.125.130.109","code":"ESOCKET","command":"CONN","errno":-4039,"port":465,"syscall":"connect"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":79495.312},"process":{"argv":["node","D:\\Backend new\\E-COMMERCE-SYSTEM\\src\\index.js"],"cwd":"D:\\Backend new\\E-COMMERCE-SYSTEM","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18485710,"external":21339507,"heapTotal":103055360,"heapUsed":96976248,"rss":150908928},"pid":17464,"uid":null,"version":"v18.15.0"},"stack":"Error: connect ETIMEDOUT 74.125.130.109:465\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16)","trace":[{"column":16,"file":"node:net","function":"TCPConnectWrap.afterConnect [as oncomplete]","line":1494,"method":"afterConnect [as oncomplete]","native":false}]}
+=======
 error: uncaughtException: Router.use() requires a middleware function
 TypeError: Router.use() requires a middleware function
     at Function.use (E:\E-KART-Backend\node_modules\express\lib\router\index.js:462:11)
@@ -16155,3 +16525,4 @@ info: ::1 - - [13/May/2023:09:00:32 +0000] "POST /api/v1/order HTTP/1.1" 500 155
 
 info: ::1 - - [13/May/2023:09:08:33 +0000] "POST /api/v1/order HTTP/1.1" 201 1356 "http://localhost:3000/" "Mozilla/5.0 (Linux; Android) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.109 Safari/537.36 CrKey/1.54.248666"
 
+>>>>>>> 89d1dffad0c2507f6590ccc8daad04fdc16b994d

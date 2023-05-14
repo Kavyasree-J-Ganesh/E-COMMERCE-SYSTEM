@@ -44,11 +44,11 @@ export const createPaymentIntend = async (amount, token, demoProduct, userId) =>
       amount: 1999,
       description: 'Payment'
     });
-    let cart = await getCart(userId);
-    // sendMail(
-    //   userId,
-    //   { cartTotal: cart.cart_total, productList: cart.product }
-    // );
+    var cart = await getCart(userId);
+    sendMail(
+      userId,
+      { cartTotal: cart.cart_total, productList: cart.product }
+    );
     return { clientSecret: customer.client_secret };
   } catch (error) {
     throw error;

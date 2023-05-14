@@ -16437,6 +16437,140 @@ error:
     method - GET 
     IP - ::1
    {"timestamp":"2023-05-11T03:59:57.958Z"}
+<<<<<<< HEAD
+error: uncaughtException: connect ETIMEDOUT 74.125.130.109:465
+Error: connect ETIMEDOUT 74.125.130.109:465
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {"date":"Fri May 12 2023 17:47:03 GMT+0530 (India Standard Time)","error":{"address":"74.125.130.109","code":"ESOCKET","command":"CONN","errno":-4039,"port":465,"syscall":"connect"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":77410.828},"process":{"argv":["node","D:\\Backend new\\E-COMMERCE-SYSTEM\\src\\index.js"],"cwd":"D:\\Backend new\\E-COMMERCE-SYSTEM","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18628799,"external":21482556,"heapTotal":102793216,"heapUsed":98643480,"rss":150904832},"pid":16924,"uid":null,"version":"v18.15.0"},"stack":"Error: connect ETIMEDOUT 74.125.130.109:465\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16)","timestamp":"2023-05-12T12:17:03.473Z","trace":[{"column":16,"file":"node:net","function":"TCPConnectWrap.afterConnect [as oncomplete]","line":1494,"method":"afterConnect [as oncomplete]","native":false}]}
+error: uncaughtException: connect ETIMEDOUT 74.125.130.109:465
+Error: connect ETIMEDOUT 74.125.130.109:465
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {"date":"Fri May 12 2023 17:47:03 GMT+0530 (India Standard Time)","error":{"address":"74.125.130.109","code":"ESOCKET","command":"CONN","errno":-4039,"port":465,"syscall":"connect"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":77410.828},"process":{"argv":["node","D:\\Backend new\\E-COMMERCE-SYSTEM\\src\\index.js"],"cwd":"D:\\Backend new\\E-COMMERCE-SYSTEM","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18637015,"external":21490812,"heapTotal":102793216,"heapUsed":98740728,"rss":151040000},"pid":16924,"uid":null,"version":"v18.15.0"},"stack":"Error: connect ETIMEDOUT 74.125.130.109:465\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16)","timestamp":"2023-05-12T12:17:03.480Z","trace":[{"column":16,"file":"node:net","function":"TCPConnectWrap.afterConnect [as oncomplete]","line":1494,"method":"afterConnect [as oncomplete]","native":false}]}
+error: uncaughtException: connect ETIMEDOUT 74.125.130.109:465
+Error: connect ETIMEDOUT 74.125.130.109:465
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {"date":"Fri May 12 2023 17:48:55 GMT+0530 (India Standard Time)","error":{"address":"74.125.130.109","code":"ESOCKET","command":"CONN","errno":-4039,"port":465,"syscall":"connect"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":77522.89},"process":{"argv":["node","D:\\Backend new\\E-COMMERCE-SYSTEM\\src\\index.js"],"cwd":"D:\\Backend new\\E-COMMERCE-SYSTEM","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18471033,"external":21323373,"heapTotal":99123200,"heapUsed":90492264,"rss":144412672},"pid":18288,"uid":null,"version":"v18.15.0"},"stack":"Error: connect ETIMEDOUT 74.125.130.109:465\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16)","timestamp":"2023-05-12T12:18:55.547Z","trace":[{"column":16,"file":"node:net","function":"TCPConnectWrap.afterConnect [as oncomplete]","line":1494,"method":"afterConnect [as oncomplete]","native":false}]}
+error: uncaughtException: connect ETIMEDOUT 74.125.130.109:465
+Error: connect ETIMEDOUT 74.125.130.109:465
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {"date":"Fri May 12 2023 18:04:02 GMT+0530 (India Standard Time)","error":{"address":"74.125.130.109","code":"ESOCKET","command":"CONN","errno":-4039,"port":465,"syscall":"connect"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":78429.437},"process":{"argv":["node","D:\\Backend new\\E-COMMERCE-SYSTEM\\src\\index.js"],"cwd":"D:\\Backend new\\E-COMMERCE-SYSTEM","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18471032,"external":21323372,"heapTotal":102793216,"heapUsed":94003656,"rss":149901312},"pid":18184,"uid":null,"version":"v18.15.0"},"stack":"Error: connect ETIMEDOUT 74.125.130.109:465\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16)","timestamp":"2023-05-12T12:34:02.086Z","trace":[{"column":16,"file":"node:net","function":"TCPConnectWrap.afterConnect [as oncomplete]","line":1494,"method":"afterConnect [as oncomplete]","native":false}]}
+error: uncaughtException: connect ETIMEDOUT 74.125.130.108:465
+Error: connect ETIMEDOUT 74.125.130.108:465
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {"date":"Fri May 12 2023 18:05:56 GMT+0530 (India Standard Time)","error":{"address":"74.125.130.108","code":"ESOCKET","command":"CONN","errno":-4039,"port":465,"syscall":"connect"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":78543.75},"process":{"argv":["node","D:\\Backend new\\E-COMMERCE-SYSTEM\\src\\index.js"],"cwd":"D:\\Backend new\\E-COMMERCE-SYSTEM","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18443689,"external":21296029,"heapTotal":98336768,"heapUsed":92246640,"rss":145817600},"pid":2240,"uid":null,"version":"v18.15.0"},"stack":"Error: connect ETIMEDOUT 74.125.130.108:465\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16)","timestamp":"2023-05-12T12:35:56.399Z","trace":[{"column":16,"file":"node:net","function":"TCPConnectWrap.afterConnect [as oncomplete]","line":1494,"method":"afterConnect [as oncomplete]","native":false}]}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (D:\Backend new\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\Backend new\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10) 
+    url - /api/v1/cart 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-05-12T12:51:03.699Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (D:\Backend new\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:14:28)
+    at tryCatch (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\Backend new\E-COMMERCE-SYSTEM\src\middlewares\/auth.middleware.js:4:22)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:328:13)
+    at D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Backend new\E-COMMERCE-SYSTEM\node_modules\express\lib\router\index.js:280:10) 
+    url - /api/v1/cart 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-05-12T12:51:03.714Z"}
+error: uncaughtException: connect ETIMEDOUT 74.125.130.109:465
+Error: connect ETIMEDOUT 74.125.130.109:465
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {"date":"Fri May 12 2023 18:21:47 GMT+0530 (India Standard Time)","error":{"address":"74.125.130.109","code":"ESOCKET","command":"CONN","errno":-4039,"port":465,"syscall":"connect"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":79495.312},"process":{"argv":["node","D:\\Backend new\\E-COMMERCE-SYSTEM\\src\\index.js"],"cwd":"D:\\Backend new\\E-COMMERCE-SYSTEM","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18485686,"external":21339443,"heapTotal":103055360,"heapUsed":96926272,"rss":150794240},"pid":17464,"uid":null,"version":"v18.15.0"},"stack":"Error: connect ETIMEDOUT 74.125.130.109:465\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16)","timestamp":"2023-05-12T12:51:47.954Z","trace":[{"column":16,"file":"node:net","function":"TCPConnectWrap.afterConnect [as oncomplete]","line":1494,"method":"afterConnect [as oncomplete]","native":false}]}
+=======
 error: uncaughtException: Router.use() requires a middleware function
 TypeError: Router.use() requires a middleware function
     at Function.use (E:\E-KART-Backend\node_modules\express\lib\router\index.js:462:11)
@@ -16495,3 +16629,4 @@ error:
     method - POST 
     IP - ::1
    {"timestamp":"2023-05-13T09:00:32.915Z"}
+>>>>>>> 89d1dffad0c2507f6590ccc8daad04fdc16b994d
