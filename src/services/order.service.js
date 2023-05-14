@@ -8,3 +8,8 @@ export const createOrder= async (body)=>{
     let order = await orderModel.create(body)
     return order;
 }
+
+export const getOrders = async(userId)=>{
+    const result = await orderModel.find({userId})
+    return result;
+}

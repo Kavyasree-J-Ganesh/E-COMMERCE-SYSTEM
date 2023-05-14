@@ -14,3 +14,18 @@ export const createOrder = async (req, res, next) => {
         next(error);
     }
 };
+
+export const getOrders = async (req, res, next) => {
+    try {
+        const order = await orderService.getOrders(req.body.userId);
+        res.status(HttpStatus.OK).json({
+            code: HttpStatus.OK,
+            data: order,
+            message: 'Orders Fetched successfully'
+          })
+    } catch (error) {
+        next(error);
+    }
+};
+
+
