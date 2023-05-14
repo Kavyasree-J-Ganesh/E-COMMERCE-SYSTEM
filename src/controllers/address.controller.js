@@ -76,7 +76,7 @@ export const deleteAddress = async (req, res, next) => {
   //     }
   // };
   try {
-    const data = await addressService.deleteAddress(req.body.EmailId);
+    const data = await addressService.deleteAddress(req.params._id);
     res.status(HttpStatus.CREATED).json({
       code: HttpStatus.CREATED,
       data: data,
