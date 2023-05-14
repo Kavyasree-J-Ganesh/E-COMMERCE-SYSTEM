@@ -4,7 +4,7 @@ import { userAuth } from '../middlewares/auth.middleware';
 
 const router = express.Router();
 
-// delete product from cart
+router.get('/', userAuth, orderController.getOrders)
 router.post('/', userAuth, orderController.createOrder)
 
 
