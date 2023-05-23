@@ -11,8 +11,7 @@ const addressSchema = new Schema({
     },
     address: {
         type: String,
-        required: true,
-        unique: true
+        required: true
     },
     town: {
         type: String,
